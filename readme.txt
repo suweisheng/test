@@ -20,3 +20,5 @@ branch2_change1
 
 branch2_change2
 branch2_change3
+
+master_change2
