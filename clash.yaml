@@ -5,391 +5,75 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: sws-740|广港BGP|Netflix_16, server: ahq9.cdn.node.a.tddns-ounk.com, port: 13290, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /80080f42e36c6478a808050e.v1.live.m3u8, ws-headers: {Host: ahq9.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-919|广港BGP|Netflix_195, server: aawdsc.cdn.node.a.tddns-ounk.com, port: 13575, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8, ws-headers: {Host: aawdsc.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-913|广港BGP|Netflix_189, server: tata12.cdn.node.a.tddns-ounk.com, port: 13546, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8, ws-headers: {Host: tata12.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-864|广港BGP|Netflix_140, server: xrbsy1.cdn.node.a.tddns-ounk.com, port: 13713, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8, ws-headers: {Host: xrbsy1.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-950|广港BGP|Netflix_226, server: xrbsy1.cdn.node.a.tddns-ounk.com, port: 13698, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8, ws-headers: {Host: xrbsy1.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-964|广港BGP|Netflix_240, server: xrbsy1.cdn.node.a.tddns-ounk.com, port: 13270, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8, ws-headers: {Host: xrbsy1.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-993|广港BGP|Netflix_269, server: ssyj.cdn.node.a.tddns-ounk.com, port: 13475, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8, ws-headers: {Host: ssyj.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-759|广港BGP|Netflix_35, server: vvs1.cdn.node.a.tddns-ounk.com, port: 13454, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /80080f42e36c6478a808050e.v1.live.m3u8, ws-headers: {Host: vvs1.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-944|广港BGP|Netflix_220, server: bb29cs.cdn.node.a.tddns-ounk.com, port: 13662, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8, ws-headers: {Host: bb29cs.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-806|广港BGP|Netflix_82, server: bbq886.cdn.node.a.tddns-ounk.com, port: 13268, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8, ws-headers: {Host: bbq886.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-778|广港BGP|Netflix_54, server: hfa1.cdn.node.a.tddns-ounk.com, port: 13647, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /9974f731e8cb457b17143895.v1.live.m3u8, ws-headers: {Host: hfa1.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-972|广港BGP|Netflix_248, server: mjk6.cdn.node.a.tddns-ounk.com, port: 13310, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8, ws-headers: {Host: mjk6.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-832|广港BGP|Netflix_108, server: dr64.cdn.node.a.tddns-ounk.com, port: 13527, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8, ws-headers: {Host: dr64.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-992|广港BGP|Netflix_268, server: ssyj.cdn.node.a.tddns-ounk.com, port: 13474, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8, ws-headers: {Host: ssyj.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-51|加拿大11|直连, server: shopify.com, port: 443, type: vmess, uuid: c2f0e79f-7e81-4f87-a2da-25f8d6263ff9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/sbga?ed=2048", ws-headers: {Host: vc-eu1.misakano.ml}, udp: true}
-  - {name: sws-974|广港BGP|Netflix_250, server: mjk6.cdn.node.a.tddns-ounk.com, port: 13313, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8, ws-headers: {Host: mjk6.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-745|广港BGP|Netflix_21, server: fpxs9.cdn.node.a.tddns-ounk.com, port: 13338, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /9974f731e8cb457b17143895.v1.live.m3u8, ws-headers: {Host: fpxs9.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-1000|广港BGP|Netflix_276, server: ssyj.cdn.node.a.tddns-ounk.com, port: 13502, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8, ws-headers: {Host: ssyj.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-1002|广港BGP|Netflix_278, server: xrbsy1.cdn.node.a.tddns-ounk.com, port: 13508, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8, ws-headers: {Host: xrbsy1.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-943|广港BGP|Netflix_219, server: bb29cs.cdn.node.a.tddns-ounk.com, port: 13660, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8, ws-headers: {Host: bb29cs.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-766|广港BGP|Netflix_42, server: aaf8.cdn.node.a.tddns-ounk.com, port: 13524, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8, ws-headers: {Host: aaf8.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-894|广港BGP|Netflix_170, server: lld9k6.cdn.node.a.tddns-ounk.com, port: 13320, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8, ws-headers: {Host: lld9k6.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-746|广港BGP|Netflix_22, server: fpxs9.cdn.node.a.tddns-ounk.com, port: 13339, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /9974f731e8cb457b17143895.v1.live.m3u8, ws-headers: {Host: fpxs9.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-904|广港BGP|Netflix_180, server: qgd6.cdn.node.a.tddns-ounk.com, port: 13376, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8, ws-headers: {Host: qgd6.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-952|广港BGP|Netflix_228, server: xrbsy1.cdn.node.a.tddns-ounk.com, port: 13700, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8, ws-headers: {Host: xrbsy1.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-786|广港BGP|Netflix_62, server: xrbsy1.cdn.node.a.tddns-ounk.com, port: 13702, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8, ws-headers: {Host: xrbsy1.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-863|广港BGP|Netflix_139, server: xrbsy1.cdn.node.a.tddns-ounk.com, port: 13704, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8, ws-headers: {Host: xrbsy1.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-893|广港BGP|Netflix_169, server: lld9k6.cdn.node.a.tddns-ounk.com, port: 13319, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8, ws-headers: {Host: lld9k6.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-849|广港BGP|Netflix_125, server: bb29cs.cdn.node.a.tddns-ounk.com, port: 13654, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8, ws-headers: {Host: bb29cs.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-895|广港BGP|Netflix_171, server: lld9k6.cdn.node.a.tddns-ounk.com, port: 13321, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8, ws-headers: {Host: lld9k6.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-960|广港BGP|Netflix_236, server: q8eq.cdn.node.a.tddns-ounk.com, port: 13093, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8, ws-headers: {Host: q8eq.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-68|加拿大23|直连, server: shopify.com, port: 443, type: vmess, uuid: c2f0e79f-7e81-4f87-a2da-25f8d6263ff9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/sbga?ed=2048", ws-headers: {Host: woi-eu5.misakano.ml}, udp: true}
-  - {name: sws-785|广港BGP|Netflix_61, server: xrbsy1.cdn.node.a.tddns-ounk.com, port: 13695, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8, ws-headers: {Host: xrbsy1.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-861|广港BGP|Netflix_137, server: xrbsy1.cdn.node.a.tddns-ounk.com, port: 13692, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8, ws-headers: {Host: xrbsy1.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-752|广港BGP|Netflix_28, server: vvs1.cdn.node.a.tddns-ounk.com, port: 13427, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /80080f42e36c6478a808050e.v1.live.m3u8, ws-headers: {Host: vvs1.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-947|广港BGP|Netflix_223, server: cd69.cdn.node.a.tddns-ounk.com, port: 13671, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8, ws-headers: {Host: cd69.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-807|广港BGP|Netflix_83, server: bbq886.cdn.node.a.tddns-ounk.com, port: 13269, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8, ws-headers: {Host: bbq886.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-478|杭港BGP|Netflix_76, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 3855b736-bf24-461f-b5b9-1d3f04484b37, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/yfjc/us1?ed=2048", ws-headers: {Host: us1.yfjc.sbs}, udp: true}
-  - {name: sws-948|广港BGP|Netflix_224, server: xrbsy1.cdn.node.a.tddns-ounk.com, port: 13696, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8, ws-headers: {Host: xrbsy1.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: 「sws-0」加拿大-01, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: ca-nnc.ilovescp.com}, udp: true}
-  - {name: sws-983|广港BGP|Netflix_259, server: r97q.cdn.node.a.tddns-ounk.com, port: 13361, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8, ws-headers: {Host: r97q.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-860|广港BGP|Netflix_136, server: xrbsy1.cdn.node.a.tddns-ounk.com, port: 13691, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8, ws-headers: {Host: xrbsy1.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-779|广港BGP|Netflix_55, server: hfa1.cdn.node.a.tddns-ounk.com, port: 13648, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /80080f42e36c6478a808050e.v1.live.m3u8, ws-headers: {Host: hfa1.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-57|加拿大16|直连, server: shopify.com, port: 443, type: vmess, uuid: c2f0e79f-7e81-4f87-a2da-25f8d6263ff9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/sbga?ed=2048", ws-headers: {Host: woi-eu2.misakano.ml}, udp: true}
-  - {name: sws-994|广港BGP|Netflix_270, server: xrbsy1.cdn.node.a.tddns-ounk.com, port: 13477, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8, ws-headers: {Host: xrbsy1.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-829|广港BGP|Netflix_105, server: x321.cdn.node.a.tddns-ounk.com, port: 13513, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8, ws-headers: {Host: x321.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-611|低速节点_39, server: twweb.dashedu.net, port: 50516, type: vmess, uuid: dd28265e-cda9-4638-8072-93170203f71a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: sws-784|广港BGP|Netflix_60, server: xrbsy1.cdn.node.a.tddns-ounk.com, port: 13694, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8, ws-headers: {Host: xrbsy1.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-949|广港BGP|Netflix_225, server: xrbsy1.cdn.node.a.tddns-ounk.com, port: 13697, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8, ws-headers: {Host: xrbsy1.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-971|广港BGP|Netflix_247, server: mjk6.cdn.node.a.tddns-ounk.com, port: 13309, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8, ws-headers: {Host: mjk6.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-67|加拿大22|直连, server: shopify.com, port: 443, type: vmess, uuid: c2f0e79f-7e81-4f87-a2da-25f8d6263ff9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/sbga?ed=2048", ws-headers: {Host: woi-eu3.misakano.ml}, udp: true}
-  - {name: sws-911|广港BGP|Netflix_187, server: cd69.cdn.node.a.tddns-ounk.com, port: 13504, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8, ws-headers: {Host: cd69.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-905|广港BGP|Netflix_181, server: qgd6.cdn.node.a.tddns-ounk.com, port: 13377, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8, ws-headers: {Host: qgd6.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-850|广港BGP|Netflix_126, server: bb29cs.cdn.node.a.tddns-ounk.com, port: 13655, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8, ws-headers: {Host: bb29cs.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-857|广港BGP|Netflix_133, server: z5sa6is.cdn.node.a.tddns-ounk.com, port: 13684, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8, ws-headers: {Host: z5sa6is.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-909|广港BGP|Netflix_185, server: cd69.cdn.node.a.tddns-ounk.com, port: 13476, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8, ws-headers: {Host: cd69.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-777|广港BGP|Netflix_53, server: hfa1.cdn.node.a.tddns-ounk.com, port: 13646, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /9974f731e8cb457b17143895.v1.live.m3u8, ws-headers: {Host: hfa1.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-970|广港BGP|Netflix_246, server: mjk6.cdn.node.a.tddns-ounk.com, port: 13307, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8, ws-headers: {Host: mjk6.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-771|广港BGP|Netflix_47, server: q8eq.cdn.node.a.tddns-ounk.com, port: 13602, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8, ws-headers: {Host: q8eq.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-828|广港BGP|Netflix_104, server: x321.cdn.node.a.tddns-ounk.com, port: 13509, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8, ws-headers: {Host: x321.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-45|加拿大08|直连, server: shopify.com, port: 443, type: vmess, uuid: c2f0e79f-7e81-4f87-a2da-25f8d6263ff9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/sbga?ed=2048", ws-headers: {Host: hax-usovz.misakano.ml}, udp: true}
-  - {name: sws-903|广港BGP|Netflix_179, server: qgd6.cdn.node.a.tddns-ounk.com, port: 13375, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8, ws-headers: {Host: qgd6.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-946|广港BGP|Netflix_222, server: bb29cs.cdn.node.a.tddns-ounk.com, port: 13664, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8, ws-headers: {Host: bb29cs.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-1003|广港BGP|Netflix_279, server: xrbsy1.cdn.node.a.tddns-ounk.com, port: 13511, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8, ws-headers: {Host: xrbsy1.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-956|广港BGP|Netflix_232, server: xrbsy1.cdn.node.a.tddns-ounk.com, port: 13023, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8, ws-headers: {Host: xrbsy1.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-790|广港BGP|Netflix_66, server: q8eq.cdn.node.a.tddns-ounk.com, port: 13001, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8, ws-headers: {Host: q8eq.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-907|广港BGP|Netflix_183, server: qgd6.cdn.node.a.tddns-ounk.com, port: 13379, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8, ws-headers: {Host: qgd6.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-915|广港BGP|Netflix_191, server: qgd6.cdn.node.a.tddns-ounk.com, port: 13571, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8, ws-headers: {Host: qgd6.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-953|广港BGP|Netflix_229, server: xrbsy1.cdn.node.a.tddns-ounk.com, port: 13701, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8, ws-headers: {Host: xrbsy1.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-853|广港BGP|Netflix_129, server: dr64.cdn.node.a.tddns-ounk.com, port: 13658, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8, ws-headers: {Host: dr64.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-945|广港BGP|Netflix_221, server: bb29cs.cdn.node.a.tddns-ounk.com, port: 13663, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8, ws-headers: {Host: bb29cs.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-851|广港BGP|Netflix_127, server: bb29cs.cdn.node.a.tddns-ounk.com, port: 13656, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8, ws-headers: {Host: bb29cs.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-72|加拿大27|直连, server: shopify.com, port: 443, type: vmess, uuid: c2f0e79f-7e81-4f87-a2da-25f8d6263ff9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/sbga?ed=2048", ws-headers: {Host: hax-eu4.misakano.ml}, udp: true}
-  - {name: sws-808|广港BGP|Netflix_84, server: aaf8.cdn.node.a.tddns-ounk.com, port: 13271, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8, ws-headers: {Host: aaf8.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-862|广港BGP|Netflix_138, server: xrbsy1.cdn.node.a.tddns-ounk.com, port: 13703, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8, ws-headers: {Host: xrbsy1.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-48|加拿大10|直连, server: shopify.com, port: 443, type: vmess, uuid: c2f0e79f-7e81-4f87-a2da-25f8d6263ff9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/sbga?ed=2048", ws-headers: {Host: woi-eubest.misakano.ml}, udp: true}
-  - {name: sws-897|广港BGP|Netflix_173, server: cd69.cdn.node.a.tddns-ounk.com, port: 13343, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8, ws-headers: {Host: cd69.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-1001|广港BGP|Netflix_277, server: cd69.cdn.node.a.tddns-ounk.com, port: 13503, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8, ws-headers: {Host: cd69.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-810|广港BGP|Netflix_86, server: dr64.cdn.node.a.tddns-ounk.com, port: 13393, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8, ws-headers: {Host: dr64.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-982|广港BGP|Netflix_258, server: r97q.cdn.node.a.tddns-ounk.com, port: 13360, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8, ws-headers: {Host: r97q.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-984|广港BGP|Netflix_260, server: r97q.cdn.node.a.tddns-ounk.com, port: 13362, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8, ws-headers: {Host: r97q.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-788|广港BGP|Netflix_64, server: ahq9.cdn.node.a.tddns-ounk.com, port: 10942, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /80080f42e36c6478a808050e.v1.live.m3u8, ws-headers: {Host: ahq9.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-841|广港BGP|Netflix_117, server: q8eq.cdn.node.a.tddns-ounk.com, port: 13603, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8, ws-headers: {Host: q8eq.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-934|广港BGP|Netflix_210, server: q8eq.cdn.node.a.tddns-ounk.com, port: 13604, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8, ws-headers: {Host: q8eq.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-64|加拿大20|直连, server: shopify.com, port: 443, type: vmess, uuid: c2f0e79f-7e81-4f87-a2da-25f8d6263ff9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/sbga?ed=2048", ws-headers: {Host: hax-eu5.misakano.ml}, udp: true}
-  - {name: sws-985|广港BGP|Netflix_261, server: r97q.cdn.node.a.tddns-ounk.com, port: 13364, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8, ws-headers: {Host: r97q.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-951|广港BGP|Netflix_227, server: xrbsy1.cdn.node.a.tddns-ounk.com, port: 13699, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8, ws-headers: {Host: xrbsy1.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-852|广港BGP|Netflix_128, server: dr64.cdn.node.a.tddns-ounk.com, port: 13657, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8, ws-headers: {Host: dr64.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-906|广港BGP|Netflix_182, server: qgd6.cdn.node.a.tddns-ounk.com, port: 13378, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8, ws-headers: {Host: qgd6.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-70|加拿大25|直连, server: shopify.com, port: 443, type: vmess, uuid: c2f0e79f-7e81-4f87-a2da-25f8d6263ff9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/sbga?ed=2048", ws-headers: {Host: woi-eu6.misakano.ml}, udp: true}
-  - {name: sws-1004|广港BGP|Netflix_280, server: xrbsy1.cdn.node.a.tddns-ounk.com, port: 13512, type: vmess, uuid: 793070f9-cad7-3c50-9d0b-2beba59513ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8, ws-headers: {Host: xrbsy1.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: sws-444|杭港BGP|Netflix_39, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 3855b736-bf24-461f-b5b9-1d3f04484b37, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/yfjc/us3?ed=2048", ws-headers: {Host: us3.yfjc.sbs}, udp: true}
+  - {name: sws-994|京港BGP_27, server: v02.gutingting.com, port: 30015, type: vmess, uuid: 4b332949-d15a-4b00-a8e0-ce5023c4ffce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /aceamedv, ws-headers: {Host: gz.fastcloud.club}, udp: true}
+  - {name: sws-984|京港BGP_17, server: v01.gutingting.com, port: 30048, type: vmess, uuid: 15510cc2-4df5-40c7-a995-d8a07ec6d3b9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /aceamedv, ws-headers: {Host: sh02.fastcloud.club}, udp: true}
+  - {name: sws-980|京港BGP_10, server: in04.my1188.org, port: 63086, type: vmess, uuid: ecea3377-066e-32e8-888a-ba4e3aeb0e29, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: jp-balancer.myn1des.com}, udp: true}
+  - {name: sws-982|京港BGP_13, server: ns01.gutingting.com, port: 30044, type: vmess, uuid: 15510cc2-4df5-40c7-a995-d8a07ec6d3b9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /aceamedv, ws-headers: {Host: sh01.fastcloud.club}, udp: true}
+  - {name: sws-988|京港BGP_21, server: v01.gutingting.com, port: 30035, type: vmess, uuid: 4b7f2577-e69d-420a-a7ce-1063728dd896, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /aceamedv, ws-headers: {Host: v01.gutingting.com}, udp: true}
+  - {name: sws-902|京港BGP_1, server: m.lwvzmdu.cn, port: 16620, type: vmess, uuid: c768719d-aa34-4962-a84d-096456c37a6f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: awkj}, udp: true}
+  - {name: sws-996|京港BGP_32, server: v01.gutingting.com, port: 30016, type: vmess, uuid: 4b332949-d15a-4b00-a8e0-ce5023c4ffce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /aceamedv, ws-headers: {Host: sh01.fastcloud.club}, udp: true}
+  - {name: sws-993|京港BGP_26, server: v02.gutingting.com, port: 30028, type: vmess, uuid: 15510cc2-4df5-40c7-a995-d8a07ec6d3b9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /aceamedv, ws-headers: {Host: sh01.fastcloud.club}, udp: true}
+  - {name: sws-987|京港BGP_20, server: v01.gutingting.com, port: 30027, type: vmess, uuid: 4b7f2577-e69d-420a-a7ce-1063728dd896, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /aceamedv, ws-headers: {Host: sh01.fastcloud.club}, udp: true}
+  - {name: sws-976|京港BGP_1, server: v02.gutingting.com, port: 30007, type: vmess, uuid: 4927c2a4-d851-436a-9891-29c1021a986e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /aceamedv, ws-headers: {Host: sh02.fastcloud.club}, udp: true}
+  - {name: sws-986|京港BGP_19, server: in03.my1188.org, port: 63086, type: vmess, uuid: ecea3377-066e-32e8-888a-ba4e3aeb0e29, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: jp-balancer.myn1des.com}, udp: true}
+  - {name: sws-992|京港BGP_25, server: in02.my1188.org, port: 63086, type: vmess, uuid: ecea3377-066e-32e8-888a-ba4e3aeb0e29, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: jp-balancer.myn1des.com}, udp: true}
+  - {name: sws-619|低速节点_29, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 3855b736-bf24-461f-b5b9-1d3f04484b37, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/yfjc/nl3?ed=2048", ws-headers: {Host: nl3.yfjc.sbs}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - sws-740|广港BGP|Netflix_16
-      - sws-919|广港BGP|Netflix_195
-      - sws-913|广港BGP|Netflix_189
-      - sws-864|广港BGP|Netflix_140
-      - sws-950|广港BGP|Netflix_226
-      - sws-964|广港BGP|Netflix_240
-      - sws-993|广港BGP|Netflix_269
-      - sws-759|广港BGP|Netflix_35
-      - sws-944|广港BGP|Netflix_220
-      - sws-806|广港BGP|Netflix_82
-      - sws-778|广港BGP|Netflix_54
-      - sws-972|广港BGP|Netflix_248
-      - sws-832|广港BGP|Netflix_108
-      - sws-992|广港BGP|Netflix_268
-      - sws-51|加拿大11|直连
-      - sws-974|广港BGP|Netflix_250
-      - sws-745|广港BGP|Netflix_21
-      - sws-1000|广港BGP|Netflix_276
-      - sws-1002|广港BGP|Netflix_278
-      - sws-943|广港BGP|Netflix_219
-      - sws-766|广港BGP|Netflix_42
-      - sws-894|广港BGP|Netflix_170
-      - sws-746|广港BGP|Netflix_22
-      - sws-904|广港BGP|Netflix_180
-      - sws-952|广港BGP|Netflix_228
-      - sws-786|广港BGP|Netflix_62
-      - sws-863|广港BGP|Netflix_139
-      - sws-893|广港BGP|Netflix_169
-      - sws-849|广港BGP|Netflix_125
-      - sws-895|广港BGP|Netflix_171
-      - sws-960|广港BGP|Netflix_236
-      - sws-68|加拿大23|直连
-      - sws-785|广港BGP|Netflix_61
-      - sws-861|广港BGP|Netflix_137
-      - sws-752|广港BGP|Netflix_28
-      - sws-947|广港BGP|Netflix_223
-      - sws-807|广港BGP|Netflix_83
-      - sws-478|杭港BGP|Netflix_76
-      - sws-948|广港BGP|Netflix_224
-      - 「sws-0」加拿大-01
-      - sws-983|广港BGP|Netflix_259
-      - sws-860|广港BGP|Netflix_136
-      - sws-779|广港BGP|Netflix_55
-      - sws-57|加拿大16|直连
-      - sws-994|广港BGP|Netflix_270
-      - sws-829|广港BGP|Netflix_105
-      - sws-611|低速节点_39
-      - sws-784|广港BGP|Netflix_60
-      - sws-949|广港BGP|Netflix_225
-      - sws-971|广港BGP|Netflix_247
-      - sws-67|加拿大22|直连
-      - sws-911|广港BGP|Netflix_187
-      - sws-905|广港BGP|Netflix_181
-      - sws-850|广港BGP|Netflix_126
-      - sws-857|广港BGP|Netflix_133
-      - sws-909|广港BGP|Netflix_185
-      - sws-777|广港BGP|Netflix_53
-      - sws-970|广港BGP|Netflix_246
-      - sws-771|广港BGP|Netflix_47
-      - sws-828|广港BGP|Netflix_104
-      - sws-45|加拿大08|直连
-      - sws-903|广港BGP|Netflix_179
-      - sws-946|广港BGP|Netflix_222
-      - sws-1003|广港BGP|Netflix_279
-      - sws-956|广港BGP|Netflix_232
-      - sws-790|广港BGP|Netflix_66
-      - sws-907|广港BGP|Netflix_183
-      - sws-915|广港BGP|Netflix_191
-      - sws-953|广港BGP|Netflix_229
-      - sws-853|广港BGP|Netflix_129
-      - sws-945|广港BGP|Netflix_221
-      - sws-851|广港BGP|Netflix_127
-      - sws-72|加拿大27|直连
-      - sws-808|广港BGP|Netflix_84
-      - sws-862|广港BGP|Netflix_138
-      - sws-48|加拿大10|直连
-      - sws-897|广港BGP|Netflix_173
-      - sws-1001|广港BGP|Netflix_277
-      - sws-810|广港BGP|Netflix_86
-      - sws-982|广港BGP|Netflix_258
-      - sws-984|广港BGP|Netflix_260
-      - sws-788|广港BGP|Netflix_64
-      - sws-841|广港BGP|Netflix_117
-      - sws-934|广港BGP|Netflix_210
-      - sws-64|加拿大20|直连
-      - sws-985|广港BGP|Netflix_261
-      - sws-951|广港BGP|Netflix_227
-      - sws-852|广港BGP|Netflix_128
-      - sws-906|广港BGP|Netflix_182
-      - sws-70|加拿大25|直连
-      - sws-1004|广港BGP|Netflix_280
-      - sws-444|杭港BGP|Netflix_39
+      - sws-994|京港BGP_27
+      - sws-984|京港BGP_17
+      - sws-980|京港BGP_10
+      - sws-982|京港BGP_13
+      - sws-988|京港BGP_21
+      - sws-902|京港BGP_1
+      - sws-996|京港BGP_32
+      - sws-993|京港BGP_26
+      - sws-987|京港BGP_20
+      - sws-976|京港BGP_1
+      - sws-986|京港BGP_19
+      - sws-992|京港BGP_25
+      - sws-619|低速节点_29
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - sws-740|广港BGP|Netflix_16
-      - sws-919|广港BGP|Netflix_195
-      - sws-913|广港BGP|Netflix_189
-      - sws-864|广港BGP|Netflix_140
-      - sws-950|广港BGP|Netflix_226
-      - sws-964|广港BGP|Netflix_240
-      - sws-993|广港BGP|Netflix_269
-      - sws-759|广港BGP|Netflix_35
-      - sws-944|广港BGP|Netflix_220
-      - sws-806|广港BGP|Netflix_82
-      - sws-778|广港BGP|Netflix_54
-      - sws-972|广港BGP|Netflix_248
-      - sws-832|广港BGP|Netflix_108
-      - sws-992|广港BGP|Netflix_268
-      - sws-51|加拿大11|直连
-      - sws-974|广港BGP|Netflix_250
-      - sws-745|广港BGP|Netflix_21
-      - sws-1000|广港BGP|Netflix_276
-      - sws-1002|广港BGP|Netflix_278
-      - sws-943|广港BGP|Netflix_219
-      - sws-766|广港BGP|Netflix_42
-      - sws-894|广港BGP|Netflix_170
-      - sws-746|广港BGP|Netflix_22
-      - sws-904|广港BGP|Netflix_180
-      - sws-952|广港BGP|Netflix_228
-      - sws-786|广港BGP|Netflix_62
-      - sws-863|广港BGP|Netflix_139
-      - sws-893|广港BGP|Netflix_169
-      - sws-849|广港BGP|Netflix_125
-      - sws-895|广港BGP|Netflix_171
-      - sws-960|广港BGP|Netflix_236
-      - sws-68|加拿大23|直连
-      - sws-785|广港BGP|Netflix_61
-      - sws-861|广港BGP|Netflix_137
-      - sws-752|广港BGP|Netflix_28
-      - sws-947|广港BGP|Netflix_223
-      - sws-807|广港BGP|Netflix_83
-      - sws-478|杭港BGP|Netflix_76
-      - sws-948|广港BGP|Netflix_224
-      - 「sws-0」加拿大-01
-      - sws-983|广港BGP|Netflix_259
-      - sws-860|广港BGP|Netflix_136
-      - sws-779|广港BGP|Netflix_55
-      - sws-57|加拿大16|直连
-      - sws-994|广港BGP|Netflix_270
-      - sws-829|广港BGP|Netflix_105
-      - sws-611|低速节点_39
-      - sws-784|广港BGP|Netflix_60
-      - sws-949|广港BGP|Netflix_225
-      - sws-971|广港BGP|Netflix_247
-      - sws-67|加拿大22|直连
-      - sws-911|广港BGP|Netflix_187
-      - sws-905|广港BGP|Netflix_181
-      - sws-850|广港BGP|Netflix_126
-      - sws-857|广港BGP|Netflix_133
-      - sws-909|广港BGP|Netflix_185
-      - sws-777|广港BGP|Netflix_53
-      - sws-970|广港BGP|Netflix_246
-      - sws-771|广港BGP|Netflix_47
-      - sws-828|广港BGP|Netflix_104
-      - sws-45|加拿大08|直连
-      - sws-903|广港BGP|Netflix_179
-      - sws-946|广港BGP|Netflix_222
-      - sws-1003|广港BGP|Netflix_279
-      - sws-956|广港BGP|Netflix_232
-      - sws-790|广港BGP|Netflix_66
-      - sws-907|广港BGP|Netflix_183
-      - sws-915|广港BGP|Netflix_191
-      - sws-953|广港BGP|Netflix_229
-      - sws-853|广港BGP|Netflix_129
-      - sws-945|广港BGP|Netflix_221
-      - sws-851|广港BGP|Netflix_127
-      - sws-72|加拿大27|直连
-      - sws-808|广港BGP|Netflix_84
-      - sws-862|广港BGP|Netflix_138
-      - sws-48|加拿大10|直连
-      - sws-897|广港BGP|Netflix_173
-      - sws-1001|广港BGP|Netflix_277
-      - sws-810|广港BGP|Netflix_86
-      - sws-982|广港BGP|Netflix_258
-      - sws-984|广港BGP|Netflix_260
-      - sws-788|广港BGP|Netflix_64
-      - sws-841|广港BGP|Netflix_117
-      - sws-934|广港BGP|Netflix_210
-      - sws-64|加拿大20|直连
-      - sws-985|广港BGP|Netflix_261
-      - sws-951|广港BGP|Netflix_227
-      - sws-852|广港BGP|Netflix_128
-      - sws-906|广港BGP|Netflix_182
-      - sws-70|加拿大25|直连
-      - sws-1004|广港BGP|Netflix_280
-      - sws-444|杭港BGP|Netflix_39
+      - sws-994|京港BGP_27
+      - sws-984|京港BGP_17
+      - sws-980|京港BGP_10
+      - sws-982|京港BGP_13
+      - sws-988|京港BGP_21
+      - sws-902|京港BGP_1
+      - sws-996|京港BGP_32
+      - sws-993|京港BGP_26
+      - sws-987|京港BGP_20
+      - sws-976|京港BGP_1
+      - sws-986|京港BGP_19
+      - sws-992|京港BGP_25
+      - sws-619|低速节点_29
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - sws-740|广港BGP|Netflix_16
-      - sws-919|广港BGP|Netflix_195
-      - sws-913|广港BGP|Netflix_189
-      - sws-864|广港BGP|Netflix_140
-      - sws-950|广港BGP|Netflix_226
-      - sws-964|广港BGP|Netflix_240
-      - sws-993|广港BGP|Netflix_269
-      - sws-759|广港BGP|Netflix_35
-      - sws-944|广港BGP|Netflix_220
-      - sws-806|广港BGP|Netflix_82
-      - sws-778|广港BGP|Netflix_54
-      - sws-972|广港BGP|Netflix_248
-      - sws-832|广港BGP|Netflix_108
-      - sws-992|广港BGP|Netflix_268
-      - sws-51|加拿大11|直连
-      - sws-974|广港BGP|Netflix_250
-      - sws-745|广港BGP|Netflix_21
-      - sws-1000|广港BGP|Netflix_276
-      - sws-1002|广港BGP|Netflix_278
-      - sws-943|广港BGP|Netflix_219
-      - sws-766|广港BGP|Netflix_42
-      - sws-894|广港BGP|Netflix_170
-      - sws-746|广港BGP|Netflix_22
-      - sws-904|广港BGP|Netflix_180
-      - sws-952|广港BGP|Netflix_228
-      - sws-786|广港BGP|Netflix_62
-      - sws-863|广港BGP|Netflix_139
-      - sws-893|广港BGP|Netflix_169
-      - sws-849|广港BGP|Netflix_125
-      - sws-895|广港BGP|Netflix_171
-      - sws-960|广港BGP|Netflix_236
-      - sws-68|加拿大23|直连
-      - sws-785|广港BGP|Netflix_61
-      - sws-861|广港BGP|Netflix_137
-      - sws-752|广港BGP|Netflix_28
-      - sws-947|广港BGP|Netflix_223
-      - sws-807|广港BGP|Netflix_83
-      - sws-478|杭港BGP|Netflix_76
-      - sws-948|广港BGP|Netflix_224
-      - 「sws-0」加拿大-01
-      - sws-983|广港BGP|Netflix_259
-      - sws-860|广港BGP|Netflix_136
-      - sws-779|广港BGP|Netflix_55
-      - sws-57|加拿大16|直连
-      - sws-994|广港BGP|Netflix_270
-      - sws-829|广港BGP|Netflix_105
-      - sws-611|低速节点_39
-      - sws-784|广港BGP|Netflix_60
-      - sws-949|广港BGP|Netflix_225
-      - sws-971|广港BGP|Netflix_247
-      - sws-67|加拿大22|直连
-      - sws-911|广港BGP|Netflix_187
-      - sws-905|广港BGP|Netflix_181
-      - sws-850|广港BGP|Netflix_126
-      - sws-857|广港BGP|Netflix_133
-      - sws-909|广港BGP|Netflix_185
-      - sws-777|广港BGP|Netflix_53
-      - sws-970|广港BGP|Netflix_246
-      - sws-771|广港BGP|Netflix_47
-      - sws-828|广港BGP|Netflix_104
-      - sws-45|加拿大08|直连
-      - sws-903|广港BGP|Netflix_179
-      - sws-946|广港BGP|Netflix_222
-      - sws-1003|广港BGP|Netflix_279
-      - sws-956|广港BGP|Netflix_232
-      - sws-790|广港BGP|Netflix_66
-      - sws-907|广港BGP|Netflix_183
-      - sws-915|广港BGP|Netflix_191
-      - sws-953|广港BGP|Netflix_229
-      - sws-853|广港BGP|Netflix_129
-      - sws-945|广港BGP|Netflix_221
-      - sws-851|广港BGP|Netflix_127
-      - sws-72|加拿大27|直连
-      - sws-808|广港BGP|Netflix_84
-      - sws-862|广港BGP|Netflix_138
-      - sws-48|加拿大10|直连
-      - sws-897|广港BGP|Netflix_173
-      - sws-1001|广港BGP|Netflix_277
-      - sws-810|广港BGP|Netflix_86
-      - sws-982|广港BGP|Netflix_258
-      - sws-984|广港BGP|Netflix_260
-      - sws-788|广港BGP|Netflix_64
-      - sws-841|广港BGP|Netflix_117
-      - sws-934|广港BGP|Netflix_210
-      - sws-64|加拿大20|直连
-      - sws-985|广港BGP|Netflix_261
-      - sws-951|广港BGP|Netflix_227
-      - sws-852|广港BGP|Netflix_128
-      - sws-906|广港BGP|Netflix_182
-      - sws-70|加拿大25|直连
-      - sws-1004|广港BGP|Netflix_280
-      - sws-444|杭港BGP|Netflix_39
+      - sws-994|京港BGP_27
+      - sws-984|京港BGP_17
+      - sws-980|京港BGP_10
+      - sws-982|京港BGP_13
+      - sws-988|京港BGP_21
+      - sws-902|京港BGP_1
+      - sws-996|京港BGP_32
+      - sws-993|京港BGP_26
+      - sws-987|京港BGP_20
+      - sws-976|京港BGP_1
+      - sws-986|京港BGP_19
+      - sws-992|京港BGP_25
+      - sws-619|低速节点_29
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -408,476 +92,91 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - sws-740|广港BGP|Netflix_16
-      - sws-919|广港BGP|Netflix_195
-      - sws-913|广港BGP|Netflix_189
-      - sws-864|广港BGP|Netflix_140
-      - sws-950|广港BGP|Netflix_226
-      - sws-964|广港BGP|Netflix_240
-      - sws-993|广港BGP|Netflix_269
-      - sws-759|广港BGP|Netflix_35
-      - sws-944|广港BGP|Netflix_220
-      - sws-806|广港BGP|Netflix_82
-      - sws-778|广港BGP|Netflix_54
-      - sws-972|广港BGP|Netflix_248
-      - sws-832|广港BGP|Netflix_108
-      - sws-992|广港BGP|Netflix_268
-      - sws-51|加拿大11|直连
-      - sws-974|广港BGP|Netflix_250
-      - sws-745|广港BGP|Netflix_21
-      - sws-1000|广港BGP|Netflix_276
-      - sws-1002|广港BGP|Netflix_278
-      - sws-943|广港BGP|Netflix_219
-      - sws-766|广港BGP|Netflix_42
-      - sws-894|广港BGP|Netflix_170
-      - sws-746|广港BGP|Netflix_22
-      - sws-904|广港BGP|Netflix_180
-      - sws-952|广港BGP|Netflix_228
-      - sws-786|广港BGP|Netflix_62
-      - sws-863|广港BGP|Netflix_139
-      - sws-893|广港BGP|Netflix_169
-      - sws-849|广港BGP|Netflix_125
-      - sws-895|广港BGP|Netflix_171
-      - sws-960|广港BGP|Netflix_236
-      - sws-68|加拿大23|直连
-      - sws-785|广港BGP|Netflix_61
-      - sws-861|广港BGP|Netflix_137
-      - sws-752|广港BGP|Netflix_28
-      - sws-947|广港BGP|Netflix_223
-      - sws-807|广港BGP|Netflix_83
-      - sws-478|杭港BGP|Netflix_76
-      - sws-948|广港BGP|Netflix_224
-      - 「sws-0」加拿大-01
-      - sws-983|广港BGP|Netflix_259
-      - sws-860|广港BGP|Netflix_136
-      - sws-779|广港BGP|Netflix_55
-      - sws-57|加拿大16|直连
-      - sws-994|广港BGP|Netflix_270
-      - sws-829|广港BGP|Netflix_105
-      - sws-611|低速节点_39
-      - sws-784|广港BGP|Netflix_60
-      - sws-949|广港BGP|Netflix_225
-      - sws-971|广港BGP|Netflix_247
-      - sws-67|加拿大22|直连
-      - sws-911|广港BGP|Netflix_187
-      - sws-905|广港BGP|Netflix_181
-      - sws-850|广港BGP|Netflix_126
-      - sws-857|广港BGP|Netflix_133
-      - sws-909|广港BGP|Netflix_185
-      - sws-777|广港BGP|Netflix_53
-      - sws-970|广港BGP|Netflix_246
-      - sws-771|广港BGP|Netflix_47
-      - sws-828|广港BGP|Netflix_104
-      - sws-45|加拿大08|直连
-      - sws-903|广港BGP|Netflix_179
-      - sws-946|广港BGP|Netflix_222
-      - sws-1003|广港BGP|Netflix_279
-      - sws-956|广港BGP|Netflix_232
-      - sws-790|广港BGP|Netflix_66
-      - sws-907|广港BGP|Netflix_183
-      - sws-915|广港BGP|Netflix_191
-      - sws-953|广港BGP|Netflix_229
-      - sws-853|广港BGP|Netflix_129
-      - sws-945|广港BGP|Netflix_221
-      - sws-851|广港BGP|Netflix_127
-      - sws-72|加拿大27|直连
-      - sws-808|广港BGP|Netflix_84
-      - sws-862|广港BGP|Netflix_138
-      - sws-48|加拿大10|直连
-      - sws-897|广港BGP|Netflix_173
-      - sws-1001|广港BGP|Netflix_277
-      - sws-810|广港BGP|Netflix_86
-      - sws-982|广港BGP|Netflix_258
-      - sws-984|广港BGP|Netflix_260
-      - sws-788|广港BGP|Netflix_64
-      - sws-841|广港BGP|Netflix_117
-      - sws-934|广港BGP|Netflix_210
-      - sws-64|加拿大20|直连
-      - sws-985|广港BGP|Netflix_261
-      - sws-951|广港BGP|Netflix_227
-      - sws-852|广港BGP|Netflix_128
-      - sws-906|广港BGP|Netflix_182
-      - sws-70|加拿大25|直连
-      - sws-1004|广港BGP|Netflix_280
-      - sws-444|杭港BGP|Netflix_39
+      - sws-994|京港BGP_27
+      - sws-984|京港BGP_17
+      - sws-980|京港BGP_10
+      - sws-982|京港BGP_13
+      - sws-988|京港BGP_21
+      - sws-902|京港BGP_1
+      - sws-996|京港BGP_32
+      - sws-993|京港BGP_26
+      - sws-987|京港BGP_20
+      - sws-976|京港BGP_1
+      - sws-986|京港BGP_19
+      - sws-992|京港BGP_25
+      - sws-619|低速节点_29
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - sws-740|广港BGP|Netflix_16
-      - sws-919|广港BGP|Netflix_195
-      - sws-913|广港BGP|Netflix_189
-      - sws-864|广港BGP|Netflix_140
-      - sws-950|广港BGP|Netflix_226
-      - sws-964|广港BGP|Netflix_240
-      - sws-993|广港BGP|Netflix_269
-      - sws-759|广港BGP|Netflix_35
-      - sws-944|广港BGP|Netflix_220
-      - sws-806|广港BGP|Netflix_82
-      - sws-778|广港BGP|Netflix_54
-      - sws-972|广港BGP|Netflix_248
-      - sws-832|广港BGP|Netflix_108
-      - sws-992|广港BGP|Netflix_268
-      - sws-974|广港BGP|Netflix_250
-      - sws-745|广港BGP|Netflix_21
-      - sws-1000|广港BGP|Netflix_276
-      - sws-1002|广港BGP|Netflix_278
-      - sws-943|广港BGP|Netflix_219
-      - sws-766|广港BGP|Netflix_42
-      - sws-894|广港BGP|Netflix_170
-      - sws-746|广港BGP|Netflix_22
-      - sws-904|广港BGP|Netflix_180
-      - sws-952|广港BGP|Netflix_228
-      - sws-786|广港BGP|Netflix_62
-      - sws-863|广港BGP|Netflix_139
-      - sws-893|广港BGP|Netflix_169
-      - sws-849|广港BGP|Netflix_125
-      - sws-895|广港BGP|Netflix_171
-      - sws-960|广港BGP|Netflix_236
-      - sws-785|广港BGP|Netflix_61
-      - sws-861|广港BGP|Netflix_137
-      - sws-752|广港BGP|Netflix_28
-      - sws-947|广港BGP|Netflix_223
-      - sws-807|广港BGP|Netflix_83
-      - sws-478|杭港BGP|Netflix_76
-      - sws-948|广港BGP|Netflix_224
-      - sws-983|广港BGP|Netflix_259
-      - sws-860|广港BGP|Netflix_136
-      - sws-779|广港BGP|Netflix_55
-      - sws-994|广港BGP|Netflix_270
-      - sws-829|广港BGP|Netflix_105
-      - sws-784|广港BGP|Netflix_60
-      - sws-949|广港BGP|Netflix_225
-      - sws-971|广港BGP|Netflix_247
-      - sws-911|广港BGP|Netflix_187
-      - sws-905|广港BGP|Netflix_181
-      - sws-850|广港BGP|Netflix_126
-      - sws-857|广港BGP|Netflix_133
-      - sws-909|广港BGP|Netflix_185
-      - sws-777|广港BGP|Netflix_53
-      - sws-970|广港BGP|Netflix_246
-      - sws-771|广港BGP|Netflix_47
-      - sws-828|广港BGP|Netflix_104
-      - sws-903|广港BGP|Netflix_179
-      - sws-946|广港BGP|Netflix_222
-      - sws-1003|广港BGP|Netflix_279
-      - sws-956|广港BGP|Netflix_232
-      - sws-790|广港BGP|Netflix_66
-      - sws-907|广港BGP|Netflix_183
-      - sws-915|广港BGP|Netflix_191
-      - sws-953|广港BGP|Netflix_229
-      - sws-853|广港BGP|Netflix_129
-      - sws-945|广港BGP|Netflix_221
-      - sws-851|广港BGP|Netflix_127
-      - sws-808|广港BGP|Netflix_84
-      - sws-862|广港BGP|Netflix_138
-      - sws-897|广港BGP|Netflix_173
-      - sws-1001|广港BGP|Netflix_277
-      - sws-810|广港BGP|Netflix_86
-      - sws-982|广港BGP|Netflix_258
-      - sws-984|广港BGP|Netflix_260
-      - sws-788|广港BGP|Netflix_64
-      - sws-841|广港BGP|Netflix_117
-      - sws-934|广港BGP|Netflix_210
-      - sws-985|广港BGP|Netflix_261
-      - sws-951|广港BGP|Netflix_227
-      - sws-852|广港BGP|Netflix_128
-      - sws-906|广港BGP|Netflix_182
-      - sws-1004|广港BGP|Netflix_280
-      - sws-444|杭港BGP|Netflix_39
+      - sws-994|京港BGP_27
+      - sws-984|京港BGP_17
+      - sws-980|京港BGP_10
+      - sws-982|京港BGP_13
+      - sws-988|京港BGP_21
+      - sws-902|京港BGP_1
+      - sws-996|京港BGP_32
+      - sws-993|京港BGP_26
+      - sws-987|京港BGP_20
+      - sws-976|京港BGP_1
+      - sws-986|京港BGP_19
+      - sws-992|京港BGP_25
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - sws-740|广港BGP|Netflix_16
-      - sws-919|广港BGP|Netflix_195
-      - sws-913|广港BGP|Netflix_189
-      - sws-864|广港BGP|Netflix_140
-      - sws-950|广港BGP|Netflix_226
-      - sws-964|广港BGP|Netflix_240
-      - sws-993|广港BGP|Netflix_269
-      - sws-759|广港BGP|Netflix_35
-      - sws-944|广港BGP|Netflix_220
-      - sws-806|广港BGP|Netflix_82
-      - sws-778|广港BGP|Netflix_54
-      - sws-972|广港BGP|Netflix_248
-      - sws-832|广港BGP|Netflix_108
-      - sws-992|广港BGP|Netflix_268
-      - sws-51|加拿大11|直连
-      - sws-974|广港BGP|Netflix_250
-      - sws-745|广港BGP|Netflix_21
-      - sws-1000|广港BGP|Netflix_276
-      - sws-1002|广港BGP|Netflix_278
-      - sws-943|广港BGP|Netflix_219
-      - sws-766|广港BGP|Netflix_42
-      - sws-894|广港BGP|Netflix_170
-      - sws-746|广港BGP|Netflix_22
-      - sws-904|广港BGP|Netflix_180
-      - sws-952|广港BGP|Netflix_228
-      - sws-786|广港BGP|Netflix_62
-      - sws-863|广港BGP|Netflix_139
-      - sws-893|广港BGP|Netflix_169
-      - sws-849|广港BGP|Netflix_125
-      - sws-895|广港BGP|Netflix_171
-      - sws-960|广港BGP|Netflix_236
-      - sws-68|加拿大23|直连
-      - sws-785|广港BGP|Netflix_61
-      - sws-861|广港BGP|Netflix_137
-      - sws-752|广港BGP|Netflix_28
-      - sws-947|广港BGP|Netflix_223
-      - sws-807|广港BGP|Netflix_83
-      - sws-478|杭港BGP|Netflix_76
-      - sws-948|广港BGP|Netflix_224
-      - 「sws-0」加拿大-01
-      - sws-983|广港BGP|Netflix_259
-      - sws-860|广港BGP|Netflix_136
-      - sws-779|广港BGP|Netflix_55
-      - sws-57|加拿大16|直连
-      - sws-994|广港BGP|Netflix_270
-      - sws-829|广港BGP|Netflix_105
-      - sws-611|低速节点_39
-      - sws-784|广港BGP|Netflix_60
-      - sws-949|广港BGP|Netflix_225
-      - sws-971|广港BGP|Netflix_247
-      - sws-67|加拿大22|直连
-      - sws-911|广港BGP|Netflix_187
-      - sws-905|广港BGP|Netflix_181
-      - sws-850|广港BGP|Netflix_126
-      - sws-857|广港BGP|Netflix_133
-      - sws-909|广港BGP|Netflix_185
-      - sws-777|广港BGP|Netflix_53
-      - sws-970|广港BGP|Netflix_246
-      - sws-771|广港BGP|Netflix_47
-      - sws-828|广港BGP|Netflix_104
-      - sws-45|加拿大08|直连
-      - sws-903|广港BGP|Netflix_179
-      - sws-946|广港BGP|Netflix_222
-      - sws-1003|广港BGP|Netflix_279
-      - sws-956|广港BGP|Netflix_232
-      - sws-790|广港BGP|Netflix_66
-      - sws-907|广港BGP|Netflix_183
-      - sws-915|广港BGP|Netflix_191
-      - sws-953|广港BGP|Netflix_229
-      - sws-853|广港BGP|Netflix_129
-      - sws-945|广港BGP|Netflix_221
-      - sws-851|广港BGP|Netflix_127
-      - sws-72|加拿大27|直连
-      - sws-808|广港BGP|Netflix_84
-      - sws-862|广港BGP|Netflix_138
-      - sws-48|加拿大10|直连
-      - sws-897|广港BGP|Netflix_173
-      - sws-1001|广港BGP|Netflix_277
-      - sws-810|广港BGP|Netflix_86
-      - sws-982|广港BGP|Netflix_258
-      - sws-984|广港BGP|Netflix_260
-      - sws-788|广港BGP|Netflix_64
-      - sws-841|广港BGP|Netflix_117
-      - sws-934|广港BGP|Netflix_210
-      - sws-64|加拿大20|直连
-      - sws-985|广港BGP|Netflix_261
-      - sws-951|广港BGP|Netflix_227
-      - sws-852|广港BGP|Netflix_128
-      - sws-906|广港BGP|Netflix_182
-      - sws-70|加拿大25|直连
-      - sws-1004|广港BGP|Netflix_280
-      - sws-444|杭港BGP|Netflix_39
+      - sws-994|京港BGP_27
+      - sws-984|京港BGP_17
+      - sws-980|京港BGP_10
+      - sws-982|京港BGP_13
+      - sws-988|京港BGP_21
+      - sws-902|京港BGP_1
+      - sws-996|京港BGP_32
+      - sws-993|京港BGP_26
+      - sws-987|京港BGP_20
+      - sws-976|京港BGP_1
+      - sws-986|京港BGP_19
+      - sws-992|京港BGP_25
+      - sws-619|低速节点_29
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - sws-740|广港BGP|Netflix_16
-      - sws-919|广港BGP|Netflix_195
-      - sws-913|广港BGP|Netflix_189
-      - sws-864|广港BGP|Netflix_140
-      - sws-950|广港BGP|Netflix_226
-      - sws-964|广港BGP|Netflix_240
-      - sws-993|广港BGP|Netflix_269
-      - sws-759|广港BGP|Netflix_35
-      - sws-944|广港BGP|Netflix_220
-      - sws-806|广港BGP|Netflix_82
-      - sws-778|广港BGP|Netflix_54
-      - sws-972|广港BGP|Netflix_248
-      - sws-832|广港BGP|Netflix_108
-      - sws-992|广港BGP|Netflix_268
-      - sws-51|加拿大11|直连
-      - sws-974|广港BGP|Netflix_250
-      - sws-745|广港BGP|Netflix_21
-      - sws-1000|广港BGP|Netflix_276
-      - sws-1002|广港BGP|Netflix_278
-      - sws-943|广港BGP|Netflix_219
-      - sws-766|广港BGP|Netflix_42
-      - sws-894|广港BGP|Netflix_170
-      - sws-746|广港BGP|Netflix_22
-      - sws-904|广港BGP|Netflix_180
-      - sws-952|广港BGP|Netflix_228
-      - sws-786|广港BGP|Netflix_62
-      - sws-863|广港BGP|Netflix_139
-      - sws-893|广港BGP|Netflix_169
-      - sws-849|广港BGP|Netflix_125
-      - sws-895|广港BGP|Netflix_171
-      - sws-960|广港BGP|Netflix_236
-      - sws-68|加拿大23|直连
-      - sws-785|广港BGP|Netflix_61
-      - sws-861|广港BGP|Netflix_137
-      - sws-752|广港BGP|Netflix_28
-      - sws-947|广港BGP|Netflix_223
-      - sws-807|广港BGP|Netflix_83
-      - sws-478|杭港BGP|Netflix_76
-      - sws-948|广港BGP|Netflix_224
-      - 「sws-0」加拿大-01
-      - sws-983|广港BGP|Netflix_259
-      - sws-860|广港BGP|Netflix_136
-      - sws-779|广港BGP|Netflix_55
-      - sws-57|加拿大16|直连
-      - sws-994|广港BGP|Netflix_270
-      - sws-829|广港BGP|Netflix_105
-      - sws-611|低速节点_39
-      - sws-784|广港BGP|Netflix_60
-      - sws-949|广港BGP|Netflix_225
-      - sws-971|广港BGP|Netflix_247
-      - sws-67|加拿大22|直连
-      - sws-911|广港BGP|Netflix_187
-      - sws-905|广港BGP|Netflix_181
-      - sws-850|广港BGP|Netflix_126
-      - sws-857|广港BGP|Netflix_133
-      - sws-909|广港BGP|Netflix_185
-      - sws-777|广港BGP|Netflix_53
-      - sws-970|广港BGP|Netflix_246
-      - sws-771|广港BGP|Netflix_47
-      - sws-828|广港BGP|Netflix_104
-      - sws-45|加拿大08|直连
-      - sws-903|广港BGP|Netflix_179
-      - sws-946|广港BGP|Netflix_222
-      - sws-1003|广港BGP|Netflix_279
-      - sws-956|广港BGP|Netflix_232
-      - sws-790|广港BGP|Netflix_66
-      - sws-907|广港BGP|Netflix_183
-      - sws-915|广港BGP|Netflix_191
-      - sws-953|广港BGP|Netflix_229
-      - sws-853|广港BGP|Netflix_129
-      - sws-945|广港BGP|Netflix_221
-      - sws-851|广港BGP|Netflix_127
-      - sws-72|加拿大27|直连
-      - sws-808|广港BGP|Netflix_84
-      - sws-862|广港BGP|Netflix_138
-      - sws-48|加拿大10|直连
-      - sws-897|广港BGP|Netflix_173
-      - sws-1001|广港BGP|Netflix_277
-      - sws-810|广港BGP|Netflix_86
-      - sws-982|广港BGP|Netflix_258
-      - sws-984|广港BGP|Netflix_260
-      - sws-788|广港BGP|Netflix_64
-      - sws-841|广港BGP|Netflix_117
-      - sws-934|广港BGP|Netflix_210
-      - sws-64|加拿大20|直连
-      - sws-985|广港BGP|Netflix_261
-      - sws-951|广港BGP|Netflix_227
-      - sws-852|广港BGP|Netflix_128
-      - sws-906|广港BGP|Netflix_182
-      - sws-70|加拿大25|直连
-      - sws-1004|广港BGP|Netflix_280
-      - sws-444|杭港BGP|Netflix_39
+      - sws-994|京港BGP_27
+      - sws-984|京港BGP_17
+      - sws-980|京港BGP_10
+      - sws-982|京港BGP_13
+      - sws-988|京港BGP_21
+      - sws-902|京港BGP_1
+      - sws-996|京港BGP_32
+      - sws-993|京港BGP_26
+      - sws-987|京港BGP_20
+      - sws-976|京港BGP_1
+      - sws-986|京港BGP_19
+      - sws-992|京港BGP_25
+      - sws-619|低速节点_29
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - sws-740|广港BGP|Netflix_16
-      - sws-919|广港BGP|Netflix_195
-      - sws-913|广港BGP|Netflix_189
-      - sws-864|广港BGP|Netflix_140
-      - sws-950|广港BGP|Netflix_226
-      - sws-964|广港BGP|Netflix_240
-      - sws-993|广港BGP|Netflix_269
-      - sws-759|广港BGP|Netflix_35
-      - sws-944|广港BGP|Netflix_220
-      - sws-806|广港BGP|Netflix_82
-      - sws-778|广港BGP|Netflix_54
-      - sws-972|广港BGP|Netflix_248
-      - sws-832|广港BGP|Netflix_108
-      - sws-992|广港BGP|Netflix_268
-      - sws-51|加拿大11|直连
-      - sws-974|广港BGP|Netflix_250
-      - sws-745|广港BGP|Netflix_21
-      - sws-1000|广港BGP|Netflix_276
-      - sws-1002|广港BGP|Netflix_278
-      - sws-943|广港BGP|Netflix_219
-      - sws-766|广港BGP|Netflix_42
-      - sws-894|广港BGP|Netflix_170
-      - sws-746|广港BGP|Netflix_22
-      - sws-904|广港BGP|Netflix_180
-      - sws-952|广港BGP|Netflix_228
-      - sws-786|广港BGP|Netflix_62
-      - sws-863|广港BGP|Netflix_139
-      - sws-893|广港BGP|Netflix_169
-      - sws-849|广港BGP|Netflix_125
-      - sws-895|广港BGP|Netflix_171
-      - sws-960|广港BGP|Netflix_236
-      - sws-68|加拿大23|直连
-      - sws-785|广港BGP|Netflix_61
-      - sws-861|广港BGP|Netflix_137
-      - sws-752|广港BGP|Netflix_28
-      - sws-947|广港BGP|Netflix_223
-      - sws-807|广港BGP|Netflix_83
-      - sws-478|杭港BGP|Netflix_76
-      - sws-948|广港BGP|Netflix_224
-      - 「sws-0」加拿大-01
-      - sws-983|广港BGP|Netflix_259
-      - sws-860|广港BGP|Netflix_136
-      - sws-779|广港BGP|Netflix_55
-      - sws-57|加拿大16|直连
-      - sws-994|广港BGP|Netflix_270
-      - sws-829|广港BGP|Netflix_105
-      - sws-611|低速节点_39
-      - sws-784|广港BGP|Netflix_60
-      - sws-949|广港BGP|Netflix_225
-      - sws-971|广港BGP|Netflix_247
-      - sws-67|加拿大22|直连
-      - sws-911|广港BGP|Netflix_187
-      - sws-905|广港BGP|Netflix_181
-      - sws-850|广港BGP|Netflix_126
-      - sws-857|广港BGP|Netflix_133
-      - sws-909|广港BGP|Netflix_185
-      - sws-777|广港BGP|Netflix_53
-      - sws-970|广港BGP|Netflix_246
-      - sws-771|广港BGP|Netflix_47
-      - sws-828|广港BGP|Netflix_104
-      - sws-45|加拿大08|直连
-      - sws-903|广港BGP|Netflix_179
-      - sws-946|广港BGP|Netflix_222
-      - sws-1003|广港BGP|Netflix_279
-      - sws-956|广港BGP|Netflix_232
-      - sws-790|广港BGP|Netflix_66
-      - sws-907|广港BGP|Netflix_183
-      - sws-915|广港BGP|Netflix_191
-      - sws-953|广港BGP|Netflix_229
-      - sws-853|广港BGP|Netflix_129
-      - sws-945|广港BGP|Netflix_221
-      - sws-851|广港BGP|Netflix_127
-      - sws-72|加拿大27|直连
-      - sws-808|广港BGP|Netflix_84
-      - sws-862|广港BGP|Netflix_138
-      - sws-48|加拿大10|直连
-      - sws-897|广港BGP|Netflix_173
-      - sws-1001|广港BGP|Netflix_277
-      - sws-810|广港BGP|Netflix_86
-      - sws-982|广港BGP|Netflix_258
-      - sws-984|广港BGP|Netflix_260
-      - sws-788|广港BGP|Netflix_64
-      - sws-841|广港BGP|Netflix_117
-      - sws-934|广港BGP|Netflix_210
-      - sws-64|加拿大20|直连
-      - sws-985|广港BGP|Netflix_261
-      - sws-951|广港BGP|Netflix_227
-      - sws-852|广港BGP|Netflix_128
-      - sws-906|广港BGP|Netflix_182
-      - sws-70|加拿大25|直连
-      - sws-1004|广港BGP|Netflix_280
-      - sws-444|杭港BGP|Netflix_39
+      - sws-994|京港BGP_27
+      - sws-984|京港BGP_17
+      - sws-980|京港BGP_10
+      - sws-982|京港BGP_13
+      - sws-988|京港BGP_21
+      - sws-902|京港BGP_1
+      - sws-996|京港BGP_32
+      - sws-993|京港BGP_26
+      - sws-987|京港BGP_20
+      - sws-976|京港BGP_1
+      - sws-986|京港BGP_19
+      - sws-992|京港BGP_25
+      - sws-619|低速节点_29
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -893,98 +192,19 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - sws-740|广港BGP|Netflix_16
-      - sws-919|广港BGP|Netflix_195
-      - sws-913|广港BGP|Netflix_189
-      - sws-864|广港BGP|Netflix_140
-      - sws-950|广港BGP|Netflix_226
-      - sws-964|广港BGP|Netflix_240
-      - sws-993|广港BGP|Netflix_269
-      - sws-759|广港BGP|Netflix_35
-      - sws-944|广港BGP|Netflix_220
-      - sws-806|广港BGP|Netflix_82
-      - sws-778|广港BGP|Netflix_54
-      - sws-972|广港BGP|Netflix_248
-      - sws-832|广港BGP|Netflix_108
-      - sws-992|广港BGP|Netflix_268
-      - sws-51|加拿大11|直连
-      - sws-974|广港BGP|Netflix_250
-      - sws-745|广港BGP|Netflix_21
-      - sws-1000|广港BGP|Netflix_276
-      - sws-1002|广港BGP|Netflix_278
-      - sws-943|广港BGP|Netflix_219
-      - sws-766|广港BGP|Netflix_42
-      - sws-894|广港BGP|Netflix_170
-      - sws-746|广港BGP|Netflix_22
-      - sws-904|广港BGP|Netflix_180
-      - sws-952|广港BGP|Netflix_228
-      - sws-786|广港BGP|Netflix_62
-      - sws-863|广港BGP|Netflix_139
-      - sws-893|广港BGP|Netflix_169
-      - sws-849|广港BGP|Netflix_125
-      - sws-895|广港BGP|Netflix_171
-      - sws-960|广港BGP|Netflix_236
-      - sws-68|加拿大23|直连
-      - sws-785|广港BGP|Netflix_61
-      - sws-861|广港BGP|Netflix_137
-      - sws-752|广港BGP|Netflix_28
-      - sws-947|广港BGP|Netflix_223
-      - sws-807|广港BGP|Netflix_83
-      - sws-478|杭港BGP|Netflix_76
-      - sws-948|广港BGP|Netflix_224
-      - 「sws-0」加拿大-01
-      - sws-983|广港BGP|Netflix_259
-      - sws-860|广港BGP|Netflix_136
-      - sws-779|广港BGP|Netflix_55
-      - sws-57|加拿大16|直连
-      - sws-994|广港BGP|Netflix_270
-      - sws-829|广港BGP|Netflix_105
-      - sws-611|低速节点_39
-      - sws-784|广港BGP|Netflix_60
-      - sws-949|广港BGP|Netflix_225
-      - sws-971|广港BGP|Netflix_247
-      - sws-67|加拿大22|直连
-      - sws-911|广港BGP|Netflix_187
-      - sws-905|广港BGP|Netflix_181
-      - sws-850|广港BGP|Netflix_126
-      - sws-857|广港BGP|Netflix_133
-      - sws-909|广港BGP|Netflix_185
-      - sws-777|广港BGP|Netflix_53
-      - sws-970|广港BGP|Netflix_246
-      - sws-771|广港BGP|Netflix_47
-      - sws-828|广港BGP|Netflix_104
-      - sws-45|加拿大08|直连
-      - sws-903|广港BGP|Netflix_179
-      - sws-946|广港BGP|Netflix_222
-      - sws-1003|广港BGP|Netflix_279
-      - sws-956|广港BGP|Netflix_232
-      - sws-790|广港BGP|Netflix_66
-      - sws-907|广港BGP|Netflix_183
-      - sws-915|广港BGP|Netflix_191
-      - sws-953|广港BGP|Netflix_229
-      - sws-853|广港BGP|Netflix_129
-      - sws-945|广港BGP|Netflix_221
-      - sws-851|广港BGP|Netflix_127
-      - sws-72|加拿大27|直连
-      - sws-808|广港BGP|Netflix_84
-      - sws-862|广港BGP|Netflix_138
-      - sws-48|加拿大10|直连
-      - sws-897|广港BGP|Netflix_173
-      - sws-1001|广港BGP|Netflix_277
-      - sws-810|广港BGP|Netflix_86
-      - sws-982|广港BGP|Netflix_258
-      - sws-984|广港BGP|Netflix_260
-      - sws-788|广港BGP|Netflix_64
-      - sws-841|广港BGP|Netflix_117
-      - sws-934|广港BGP|Netflix_210
-      - sws-64|加拿大20|直连
-      - sws-985|广港BGP|Netflix_261
-      - sws-951|广港BGP|Netflix_227
-      - sws-852|广港BGP|Netflix_128
-      - sws-906|广港BGP|Netflix_182
-      - sws-70|加拿大25|直连
-      - sws-1004|广港BGP|Netflix_280
-      - sws-444|杭港BGP|Netflix_39
+      - sws-994|京港BGP_27
+      - sws-984|京港BGP_17
+      - sws-980|京港BGP_10
+      - sws-982|京港BGP_13
+      - sws-988|京港BGP_21
+      - sws-902|京港BGP_1
+      - sws-996|京港BGP_32
+      - sws-993|京港BGP_26
+      - sws-987|京港BGP_20
+      - sws-976|京港BGP_1
+      - sws-986|京港BGP_19
+      - sws-992|京港BGP_25
+      - sws-619|低速节点_29
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
