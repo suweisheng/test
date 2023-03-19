@@ -5,411 +5,360 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: sws-0|美国 , server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 087bd9c9-2d6b-4e57-9442-e46e4b51f9d0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: "/guolicheng/us2?ed=2048", headers: {Host: us2.guolicheng.cyou}}, udp: true}
-  - {name: sws-1|泛播 Cloudflare, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-hytron.ilovescp.com}}, udp: true}
-  - {name: sws-2|江苏省盐城市 移动, server: lv3oiwdaxsaowhdnjkzxw.occwaszxjjhwx.cyou, port: 33336, type: vmess, uuid: 001a5927-bcf7-368a-8a4d-cb8c2fd6aab5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /tnt-awsxjp1, headers: {Host: sdx.vzwzasc.cn}}, udp: true}
-  - {name: sws-3|江苏省盐城市 移动, server: lv2iwahxwawhooiixzawx.occwaszxjjhwx.cyou, port: 33335, type: vmess, uuid: 001a5927-bcf7-368a-8a4d-cb8c2fd6aab5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /tnt-awsxjp5, headers: {Host: sxadx.vzwzasc.cn}}, udp: true}
-  - {name: sws-4|江苏省盐城市 移动, server: lv3oiwdaxsaowhdnjkzxw.occwaszxjjhwx.cyou, port: 43382, type: vmess, uuid: 001a5927-bcf7-368a-8a4d-cb8c2fd6aab5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /tnt-dbfw, headers: {Host: jpww.vzwzasc.cn}}, udp: true}
-  - {name: sws-5|江苏省盐城市 移动, server: lv2iwahxwawhooiixzawx.occwaszxjjhwx.cyou, port: 43381, type: vmess, uuid: 001a5927-bcf7-368a-8a4d-cb8c2fd6aab5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /tnt-dbfw, headers: {Host: jpww.vzwzasc.cn}}, udp: true}
-  - {name: sws-6|广东省深圳市 移动, server: in02.my1188.org, port: 63087, type: vmess, uuid: ecea3377-066e-32e8-888a-ba4e3aeb0e29, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /mugua, headers: {Host: sg-balancer.tencent.best}}, udp: true}
-  - {name: sws-7|上海市上海嘉定 联通, server: in01.my1188.org, port: 63078, type: vmess, uuid: ecea3377-066e-32e8-888a-ba4e3aeb0e29, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: hk-balancer.airport-v2.com}}, udp: true}
-  - {name: sws-8|上海市上海嘉定 联通, server: in03.my1188.org, port: 63078, type: vmess, uuid: ecea3377-066e-32e8-888a-ba4e3aeb0e29, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: hk-balancer.airport-v2.com}}, udp: true}
-  - {name: sws-9|上海市上海嘉定 联通, server: in03.my1188.org, port: 63086, type: vmess, uuid: ecea3377-066e-32e8-888a-ba4e3aeb0e29, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /mugua, headers: {Host: jp-balancer.myn1des.com}}, udp: true}
-  - {name: sws-10|上海市上海嘉定 联通, server: in03.my1188.org, port: 63087, type: vmess, uuid: ecea3377-066e-32e8-888a-ba4e3aeb0e29, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /mugua, headers: {Host: sg-balancer.tencent.best}}, udp: true}
-  - {name: sws-11|广东省深圳市 移动, server: in02.my1188.org, port: 63078, type: vmess, uuid: ecea3377-066e-32e8-888a-ba4e3aeb0e29, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: hk-balancer.airport-v2.com}}, udp: true}
-  - {name: sws-12|江苏省扬州市 移动, server: in04.my1188.org, port: 63088, type: vmess, uuid: ecea3377-066e-32e8-888a-ba4e3aeb0e29, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /mugua, headers: {Host: tw-load-balancer.myn1des.com}}, udp: true}
-  - {name: sws-13|广东省深圳市 移动, server: in02.my1188.org, port: 63088, type: vmess, uuid: ecea3377-066e-32e8-888a-ba4e3aeb0e29, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /mugua, headers: {Host: tw-load-balancer.myn1des.com}}, udp: true}
-  - {name: sws-14|上海市上海嘉定 联通, server: in03.my1188.org, port: 63088, type: vmess, uuid: ecea3377-066e-32e8-888a-ba4e3aeb0e29, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /mugua, headers: {Host: tw-load-balancer.myn1des.com}}, udp: true}
-  - {name: sws-15|泛播 Cloudflare, server: no.aries.ovh, port: 2052, type: vmess, uuid: babd8354-a625-4868-92d1-b50dba51aa5f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: fr.cloudflare.quest}}, udp: true}
-  - {name: sws-16|泛播 Cloudflare, server: lv1.sharecentrepro.org, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv1.sharecentrepro.org}}, udp: true}
-  - {name: sws-17|泛播 Cloudflare, server: dp2.scproxy.top, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp2.scproxy.top}}, udp: true}
-  - {name: sws-18|泛播 Cloudflare, server: uk1.scproxy.top, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: uk1.scproxy.top}}, udp: true}
-  - {name: sws-19|泛播 Cloudflare, server: new6.hucloud-dns.xyz, port: 443, type: vmess, uuid: 0a5dc877-0211-4352-f73a-8fbdae81d673, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: new6.hucloud-dns.xyz}}, udp: true}
-  - {name: sws-20|泛播 Cloudflare, server: lv2.sharecentrepro.org, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.sharecentrepro.org}}, udp: true}
-  - {name: sws-21|泛播 Cloudflare, server: ca-nnc.ilovescp.com, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca-nnc.ilovescp.com}}, udp: true}
-  - {name: sws-22|泛播 Cloudflare, server: 172.67.219.5, port: 443, type: vmess, uuid: 00BBF5B8-173E-6818-9927-5AD1AA073C7D, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.v2ray.online}}, udp: true}
-  - {name: sws-23|澳大利亚 , server: 203.30.191.20, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}, udp: true}
-  - {name: sws-24|澳大利亚 , server: 203.30.191.19, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}, udp: true}
-  - {name: sws-25|澳大利亚 , server: 203.30.191.1, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: clash1.ssr-free2.xyz}}, udp: true}
-  - {name: sws-26|美国 Cloudflare, server: 173.245.59.168, port: 8080, type: vmess, uuid: 27848739-7e62-4138-9fd3-938a63964b6b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /KTR, headers: {Host: 2.arvanktbr.store}}, udp: true}
-  - {name: sws-27|美国 Cloudflare, server: 173.245.49.0, port: 2095, type: vmess, uuid: d1baf2c8-4b0b-400d-8e08-b1a2ff149fa3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: lin.d.sg.wyhkaa0.gq}}, udp: true}
-  - {name: sws-28|泛播 Cloudflare, server: Kansas.v2ray.online, port: 443, type: vmess, uuid: 00BBF5B8-173E-6818-9927-5AD1AA073C7D, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.v2ray.online}}, udp: true}
-  - {name: sws-29|泛播 Cloudflare, server: usdo.tzccifq.ga, port: 443, type: vmess, uuid: 58eb724d-5a95-4b9c-851e-2cb3b408e85f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: usdo.tzccifq.ga}}, udp: true}
-  - {name: sws-30|泛播 Cloudflare, server: hk-hytron.ilovescp.com, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-hytron.ilovescp.com}}, udp: true}
-  - {name: sws-31|广东省深圳市 移动, server: in02.my1188.org, port: 63086, type: vmess, uuid: ecea3377-066e-32e8-888a-ba4e3aeb0e29, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /mugua, headers: {Host: jp-balancer.myn1des.com}}, udp: true}
-  - {name: sws-32|泛播 Cloudflare, server: 172.67.201.204, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv1.sharecentrepro.org}}, udp: true}
-  - {name: sws-33|上海市上海嘉定 联通, server: in01.my1188.org, port: 63087, type: vmess, uuid: ecea3377-066e-32e8-888a-ba4e3aeb0e29, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /mugua, headers: {Host: sg-balancer.tencent.best}}, udp: true}
-  - {name: sws-34|香港 电讯盈科, server: project.mytargoocloud.live, port: 443, type: vmess, uuid: d7c91c45-8f30-4175-b78b-c18ccf6a1fa5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sgm2.targoocloud.live}}, udp: true}
-  - {name: sws-35|泛播 BetConstruct, server: 185.162.228.1, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: 154.v2ray3.xyz}}, udp: true}
-  - {name: sws-36|泛播 Cloudflare, server: els200.jslist.tk, port: 8443, type: vmess, uuid: e30cfa80-bc2c-43df-e808-97876aee77e2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /wo.php, headers: {Host: els200.jslist.tk}}, udp: true}
-  - {name: sws-37|, server: lingzz.club, port: 80, type: vmess, uuid: dadeb9a5-1682-41be-bdeb-6c87a100fef4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /lingzz, headers: {Host: lingzz.club}}, udp: true}
-  - {name: sws-38|美国佐治亚亚特兰大 , server: 70.34.215.222, port: 11226, type: vmess, uuid: b268d0d8-e039-4c76-8ba9-da58c40e9c2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: sws-39|美国 , server: cdn.imnibaba.tk, port: 80, type: vmess, uuid: f0008281-4a36-4105-bc99-28ff506a9773, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /tg@sudoxin, headers: {Host: woiden-fr1.imnibaba.tk}}, udp: true}
-  - {name: sws-40|美国佐治亚亚特兰大 , server: vus5.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /chat, headers: {Host: vus5.0bad.com}}, udp: true}
-  - {name: sws-41|美国 , server: 192.203.230.12, port: 443, type: vmess, uuid: 0e01fd82-b5ae-4981-aa51-fdf36b02e7eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /qwerty, headers: {Host: hk01.kelecloud.xyz}}, udp: true}
-  - {name: sws-42|泛播 Cloudflare, server: 172.66.44.197, port: 443, type: vmess, uuid: fa4cb529-3ac9-4268-bb04-ed4253813508, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /mR17oBKzZ7, headers: {Host: d.pgypgykmoljklj.xyz}}, udp: true}
-  - {name: sws-43|美国 , server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 27509613-bbd5-403a-868c-8022d36aa565, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: "/pq/nl1?ed=2048", headers: {Host: nl1.pqjc.buzz}}, udp: true}
-  - {name: sws-44|美国 , server: cdn.imnibaba.tk, port: 80, type: vmess, uuid: 8d661e16-4361-4358-f891-2a91d261e3c3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /tg@sudoxin, headers: {Host: woiden-best.imnibaba.tk}}, udp: true}
-  - {name: sws-45|泛播 Cloudflare, server: de1.scproxy.top, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: de1.scproxy.top}}, udp: true}
-  - {name: sws-46|美国 , server: cdn.imnibaba.tk, port: 80, type: vmess, uuid: c5c52e57-584b-44e1-b0d6-7a8d0633e575, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /tg@sudoxin, headers: {Host: vc-us1.imnibaba.tk}}, udp: true}
-  - {name: sws-47|泛播 Cloudflare, server: 172.67.199.31, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /9JZFDTKE, headers: {Host: fr1.trump2023.org}}, udp: true}
-  - {name: sws-48|泛播 Cloudflare, server: 172.67.199.34, port: 443, type: vmess, uuid: 8b6dd709-4d4e-4b92-f542-54a676efbfe4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /shares, headers: {Host: la.awsbest.com}}, udp: true}
-  - {name: sws-49|泛播 Shopify, server: 23.227.38.11, port: 443, type: vmess, uuid: 9379fea0-006d-4fd3-8e35-d45a5af72aa2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /UMW36262, headers: {Host: frgt1.ssr-free2.xyz}}, udp: true}
-  - {name: sws-50|美国佐治亚亚特兰大 , server: love.devhrtz2.gq, port: 30590, type: vmess, uuid: e06eb0c8-785a-4117-b1b2-6309d6141804, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: sws-51|美国 , server: vus2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /chat, headers: {Host: vus2.0bad.com}}, udp: true}
-  - {name: sws-52|上海市上海嘉定 联通, server: in01.my1188.org, port: 63088, type: vmess, uuid: ecea3377-066e-32e8-888a-ba4e3aeb0e29, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /mugua, headers: {Host: tw-load-balancer.myn1des.com}}, udp: true}
-  - {name: sws-53|英国英格兰伦敦 , server: uk01.wxfz.ga, port: 443, type: vmess, uuid: 11113310-1e54-445c-c608-7850f47edd1e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /cctv13.m3u8, headers: {Host: uk01.wxfz.ga}}, udp: true}
-  - {name: sws-54|美国 , server: cdn.imnibaba.tk, port: 80, type: vmess, uuid: 473158d3-37f0-449e-9d5b-f1de366fea59, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /tg@sudoxin, headers: {Host: vc-fi1.imnibaba.tk}}, udp: true}
-  - {name: sws-55|美国 , server: 192.203.230.11, port: 443, type: vmess, uuid: 0e01fd82-b5ae-4981-aa51-fdf36b02e7eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /qwerty, headers: {Host: hk01.kelecloud.xyz}}, udp: true}
-  - {name: sws-56|上海市上海嘉定 联通, server: in03.my1188.org, port: 63028, type: vmess, uuid: ecea3377-066e-32e8-888a-ba4e3aeb0e29, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: mugua-tr01.covid19.rip}}, udp: true}
-  - {name: sws-57|泛播 Cloudflare, server: drive.sg, port: 2095, type: vmess, uuid: d1baf2c8-4b0b-400d-8e08-b1a2ff149fa3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: lin.d.sg.wyhkaa0.gq}}, udp: true}
-  - {name: sws-58|泛播 Cloudflare, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 88e5a793-3875-4c63-940c-bd6ea11075cb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v10.asuka.buzz}}, udp: true}
-  - {name: sws-59|泛播 Cloudflare, server: b.gguu.pp.ua, port: 443, type: vmess, uuid: e959bcfa-500d-419a-b71d-e7fa2bf63969, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /123, headers: {Host: b.gguu.pp.ua}}, udp: true}
-  - {name: sws-60|泛播 Cloudflare, server: sc.scyu.app, port: 80, type: vmess, uuid: 43930e8c-8347-4929-8e2c-9197e7c71423, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: hax.scyu.app}}, udp: true}
-  - {name: sws-61|泛播 Cloudflare, server: fr1.pqjc.buzz, port: 443, type: vmess, uuid: 27509613-bbd5-403a-868c-8022d36aa565, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: "/pq/fr1?ed=2048", headers: {Host: fr1.pqjc.buzz}}, udp: true}
-  - {name: sws-62|美国 Cloudflare, server: 173.245.49.8, port: 443, type: vmess, uuid: 9a18cbb1-81d2-4720-9f09-46ea276b6ddb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /huhublog, headers: {Host: zhuyong.hucloud-dns.xyz}}, udp: true}
-  - {name: sws-63|泛播 Cloudflare, server: no.aries.ovh, port: 80, type: vmess, uuid: 88e5a793-3875-4c63-940c-bd6ea11075cb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v10.asuka.buzz}}, udp: true}
-  - {name: sws-64|泛播 Cloudflare, server: dp1.scproxy.top, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp1.scproxy.top}}, udp: true}
-  - {name: sws-65|美国 Cloudflare, server: 173.245.49.50, port: 2052, type: vmess, uuid: e735abd4-9c96-488c-aec5-ad2ae82bc486, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: r.wyhkaa0.ga}}, udp: true}
-  - {name: sws-66|美国 , server: cdn.imnibaba.tk, port: 80, type: vmess, uuid: 5a822b26-4ae6-49d6-a48a-33f9c21e01a8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /tg@sudoxin, headers: {Host: vc-de1.imnibaba.tk}}, udp: true}
-  - {name: sws-67|美国 , server: cdn.imnibaba.tk, port: 80, type: vmess, uuid: 671c7d1e-9466-4302-a126-5357cf4761e1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /tg@sudoxin, headers: {Host: woiden-pl1.imnibaba.tk}}, udp: true}
-  - {name: sws-68|韩国首尔 xTom, server: 45.136.186.183, port: 59629, type: vmess, uuid: f9f73134-ebe8-4ccb-ca09-b5ee22be59d2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: sws-69|美国 , server: cdn.imnibaba.tk, port: 80, type: vmess, uuid: b74f21bf-ed98-43ee-b017-19988860c5a6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /tg@sudoxin, headers: {Host: hax-us1.imnibaba.tk}}, udp: true}
-  - {name: sws-70|泛播 Cloudflare, server: dallas.starsea.vip, port: 443, type: vmess, uuid: 49f4a096-4f25-4517-92e6-ff1fd9f8c4a1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: dallas.starsea.vip}}, udp: true}
-  - {name: sws-71|泛播 Cloudflare, server: Tokyo.v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /speedtest, headers: {Host: Tokyo.v2ray.online}}, udp: true}
-  - {name: sws-72|泛播 Cloudflare, server: 141.101.114.150, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}, udp: true}
-  - {name: sws-73|澳大利亚 , server: 203.30.188.1, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: 154.v2ray3.xyz}}, udp: true}
-  - {name: sws-74|美国 , server: vus3.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /chat, headers: {Host: vus3.0bad.com}}, udp: true}
-  - {name: sws-75|泛播 Cloudflare, server: 172.67.199.34, port: 80, type: vmess, uuid: 8b6dd709-4d4e-4b92-f542-54a676efbfe4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shares, headers: {Host: la.awsbest.com}}, udp: true}
-  - {name: sws-76|泛播 Cloudflare, server: movie3.fun1yearsfun.top, port: 443, type: vmess, uuid: 4eee4324-b746-11ed-afa1-0242ac120002, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /bypass123, headers: {Host: movie3.fun1yearsfun.top}}, udp: true}
-  - {name: sws-77|澳大利亚 , server: 203.30.188.189, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: clash1.ssr-free2.xyz}}, udp: true}
-  - {name: sws-78|泛播 Cloudflare, server: 172.67.199.34, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /9JZFDTKE, headers: {Host: fr1.trump2023.org}}, udp: true}
-  - {name: sws-79|美国 , server: vde2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /chat, headers: {Host: vde2.0bad.com}}, udp: true}
-  - {name: sws-80|广东省深圳市 移动, server: 12.achenxty.top, port: 11812, type: vmess, uuid: d49c4492-cb72-3279-b509-a28554b0563e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 12.achenxty.top}}, udp: true}
-  - {name: sws-81|澳大利亚 , server: 203.30.190.1, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: 154.v2ray3.xyz}}, udp: true}
-  - {name: sws-82|泛播 Cloudflare, server: 172.67.132.15, port: 443, type: vmess, uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: ming2.kiwireich.com}}, udp: true}
-  - {name: sws-83|澳大利亚新南威尔士悉尼 , server: 203.24.108.9, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: clash1.ssr-free2.xyz}}, udp: true}
-  - {name: sws-84|泛播 Cloudflare, server: ny1.sharecentrepro.org, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ny1.sharecentrepro.org}}, udp: true}
-  - {name: sws-85|泛播 Cloudflare, server: 141.101.121.139, port: 2095, type: vmess, uuid: dfe8fe9d-7f04-4664-eb44-708aa6e82446, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /tg:@hkaa0, headers: {Host: r.hkaa0.tk}}, udp: true}
-  - {name: sws-86|泛播 Cloudflare, server: 172.67.135.55, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
-  - {name: sws-87|美国 , server: cdn.imnibaba.tk, port: 80, type: vmess, uuid: e5ffd560-5f49-4704-a5ac-086bf774ed11, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /tg@sudoxin, headers: {Host: vc-ca1.imnibaba.tk}}, udp: true}
-  - {name: sws-88|泛播 Cloudflare, server: new3.hucloud-dns.xyz, port: 443, type: vmess, uuid: 1c8ad3f2-835c-4fda-b9b6-881d3cadfd8e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: new3.hucloud-dns.xyz}}, udp: true}
-  - {name: sws-89|澳大利亚 , server: 203.30.191.2, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
-  - {name: sws-90|香港 亚马逊云, server: hk80.af49c4e4c2ef.sanfen001.pics, port: 80, type: vmess, uuid: ac105d51-b8bf-48cb-af88-3f66de6920b6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /zh-cn/, headers: {Host: www.baidu.com}}, udp: true}
-  - {name: sws-91|广东省江门市 移动, server: zfhk.kxjd888.xyz, port: 42013, type: vmess, uuid: c8f00677-80e7-4e4e-8fe1-8d0c49dac5be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: sws-92|日本东京 亚马逊云, server: v34.jiedian.stream, port: 80, type: vmess, uuid: 942846d2-895b-4011-a372-e8b5d5c17f25, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
-  - {name: sws-93|江苏省扬州市 移动, server: in-jp-1.iivvppnn.info, port: 38301, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}, udp: true}
-  - {name: sws-94|日本东京 亚马逊云, server: v32.jiedian.stream, port: 80, type: vmess, uuid: 942846d2-895b-4011-a372-e8b5d5c17f25, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
-  - {name: sws-95|香港 亚马逊云, server: v21.jiedian.stream, port: 80, type: vmess, uuid: 942846d2-895b-4011-a372-e8b5d5c17f25, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
-  - {name: sws-96|美国加利福尼亚洛杉矶 , server: 172.93.47.4, port: 10512, type: vmess, uuid: 58781eee-baba-6666-baba-2ca0ada6568b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: sws-97|新加坡 亚马逊云, server: v42.jiedian.stream, port: 80, type: vmess, uuid: 942846d2-895b-4011-a372-e8b5d5c17f25, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
-  - {name: sws-98|香港 和记黄埔, server: v25.jiedian.stream, port: 80, type: vmess, uuid: 942846d2-895b-4011-a372-e8b5d5c17f25, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
-  - {name: sws-99|德国黑森法兰克福 亚马逊云, server: v56.jiedian.stream, port: 80, type: vmess, uuid: 942846d2-895b-4011-a372-e8b5d5c17f25, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
-  - {name: sws-100|香港 亚马逊云, server: v22.jiedian.stream, port: 80, type: vmess, uuid: 942846d2-895b-4011-a372-e8b5d5c17f25, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
-  - {name: sws-101|泛播 Cloudflare, server: zhuyong.hucloud-dns.xyz, port: 443, type: vmess, uuid: 9a18cbb1-81d2-4720-9f09-46ea276b6ddb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /huhublog, headers: {Host: zhuyong.hucloud-dns.xyz}}, udp: true}
-  - {name: sws-102|新加坡 亚马逊云, server: v41.jiedian.stream, port: 80, type: vmess, uuid: 942846d2-895b-4011-a372-e8b5d5c17f25, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
-  - {name: sws-103|香港 微软云, server: v23.jiedian.stream, port: 80, type: vmess, uuid: 942846d2-895b-4011-a372-e8b5d5c17f25, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
-  - {name: sws-104|美国加利福尼亚费利蒙 , server: 170.187.170.126, port: 80, type: vmess, uuid: 3b2d60c6-a731-4908-be84-5baa4ec09aa7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: shoutingtoutiao3.10010.com}}, udp: true}
-  - {name: sws-105|泛播 Cloudflare, server: 172.67.136.81, port: 443, type: vmess, uuid: 5eba5b30-7c4a-419c-c1b8-cafd0b4d4eee, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /123, headers: {Host: eu4.isi.lol}}, udp: true}
-  - {name: sws-106|美国伊利诺伊芝加哥 , server: v54.jiedian.stream, port: 80, type: vmess, uuid: 942846d2-895b-4011-a372-e8b5d5c17f25, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
-  - {name: sws-107|美国 , server: 192.203.230.11, port: 443, type: vmess, uuid: a5f0b87e-4264-4ab5-b262-91ab61d32667, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /qwerty, headers: {Host: hk01.kelecloud.xyz}}, udp: true}
-  - {name: sws-108|日本东京 亚马逊云, server: v31.jiedian.stream, port: 80, type: vmess, uuid: 942846d2-895b-4011-a372-e8b5d5c17f25, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
-  - {name: sws-109|泛播 Cloudflare, server: cf.fovi.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxfra.fovi.tk}}, udp: true}
-  - {name: sws-110|德国黑森法兰克福 , server: v59.jiedian.stream, port: 80, type: vmess, uuid: 942846d2-895b-4011-a372-e8b5d5c17f25, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
-  - {name: sws-111|德国黑森法兰克福 , server: v58.jiedian.stream, port: 80, type: vmess, uuid: 942846d2-895b-4011-a372-e8b5d5c17f25, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
-  - {name: sws-112|泛播 Cloudflare, server: 172.67.136.81, port: 443, type: vmess, uuid: 24f9ed57-8ff8-4c7d-fee8-f465d3333ebc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /123, headers: {Host: eu2.isi.lol}}, udp: true}
-  - {name: sws-113|广东省汕头市 电信, server: v40.jiedian.stream, port: 11111, type: vmess, uuid: 942846d2-895b-4011-a372-e8b5d5c17f25, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
-  - {name: sws-114|香港 腾讯云, server: 43.154.190.26, port: 50744, type: vmess, uuid: ce387c33-6d75-4722-95dd-b265657f2802, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /hk8/getData, headers: {Host: hk8.linkeden.co}}, udp: true}
-  - {name: sws-115|澳大利亚 , server: 203.30.190.2, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: 77.v2ray1.xyz}}, udp: true}
-  - {name: sws-116|新加坡 , server: 170.187.229.90, port: 80, type: vmess, uuid: 3b2d60c6-a731-4908-be84-5baa4ec09aa7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: shoutingtoutiao3.10010.com}}, udp: true}
-  - {name: sws-117|泛播 Cloudflare, server: 172.67.164.123, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
-  - {name: sws-118|泛播 Cloudflare, server: finland2.yj2022.ga, port: 443, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /yWJGGBHoVpr3DbNuVycP, headers: {Host: finland2.yj2022.ga}}, udp: true}
-  - {name: sws-119|澳大利亚 , server: 203.30.189.2, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: 77.v2ray1.xyz}}, udp: true}
-  - {name: sws-120|泛播 Cloudflare, server: hohm.microsoft.com, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /9JZFDTKE, headers: {Host: fr1.trump2023.org}}, udp: true}
-  - {name: sws-121|澳大利亚 , server: 203.30.188.2, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: 77.v2ray1.xyz}}, udp: true}
-  - {name: sws-122|泛播 Shopify, server: 23.227.38.38, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
-  - {name: sws-123|德国巴伐利亚纽伦堡 , server: v57.jiedian.stream, port: 80, type: vmess, uuid: 942846d2-895b-4011-a372-e8b5d5c17f25, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
-  - {name: sws-124|泛播 Cloudflare, server: 77.v2ray1.xyz, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: 77.v2ray1.xyz}}, udp: true}
-  - {name: sws-125|泛播 Shopify, server: 23.227.38.21, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
-  - {name: sws-126|泛播 Cloudflare, server: 154.v2ray3.xyz, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: 154.v2ray3.xyz}}, udp: true}
-  - {name: sws-127|美国 Cloudflare, server: 173.245.49.165, port: 2095, type: vmess, uuid: d1baf2c8-4b0b-400d-8e08-b1a2ff149fa3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: lin.d.sg.wyhkaa0.gq}}, udp: true}
-  - {name: sws-128|澳大利亚 , server: 203.30.189.1, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: 154.v2ray3.xyz}}, udp: true}
-  - {name: sws-129|泛播 Cloudflare, server: 172.67.72.53, port: 2095, type: vmess, uuid: d1baf2c8-4b0b-400d-8e08-b1a2ff149fa3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: lin.d.sg.wyhkaa0.gq}}, udp: true}
-  - {name: sws-130|泛播 Cloudflare, server: 172.67.135.57, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
+  - {name: sws-0|韩国 , server: kgcwafbvf.76898102.xyz, port: 15241, type: vmess, uuid: 5481eae4-43fb-35e3-a3a3-b9b9961ca1bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: sws-1|日本东京 亚马逊云, server: jp.qianduoduo.icu, port: 10000, type: vmess, uuid: bd3a3db6-117f-427f-9147-ddf5ed432720, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: jp.qianduoduo.icu}}, udp: true}
+  - {name: sws-2|香港 阿里云, server: no.arno.buzz, port: 443, type: vmess, uuid: b4182622-6e86-4d83-8364-f9ea5288901b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cc.ainuo.xyz}}, udp: true}
+  - {name: sws-3|韩国首尔 , server: aiuwgfvuiauegfiu.76898102.xyz, port: 12471, type: vmess, uuid: 5481eae4-43fb-35e3-a3a3-b9b9961ca1bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: sws-4|香港 阿里云, server: no.arno.buzz, port: 443, type: vmess, uuid: 1f1ec0ef-3546-4137-9fc8-72b057679c89, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /123, headers: {Host: jp.jaywsn.top}}, udp: true}
+  - {name: sws-5|韩国首尔 微软云, server: 20.41.114.189, port: 80, type: vmess, uuid: 6771a846-de59-405a-823d-a41b0fcaa5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /fastcloud5g.com, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
+  - {name: sws-6|韩国首尔 腾讯云, server: auvwfuyse.76898102.xyz, port: 15332, type: vmess, uuid: 5481eae4-43fb-35e3-a3a3-b9b9961ca1bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: sws-7|韩国 , server: kgcwafbvf.76898102.xyz, port: 15325, type: vmess, uuid: 5481eae4-43fb-35e3-a3a3-b9b9961ca1bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: sws-8|韩国首尔 腾讯云, server: auvwfuyse.76898102.xyz, port: 15632, type: vmess, uuid: 5481eae4-43fb-35e3-a3a3-b9b9961ca1bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: sws-9|泛播 Cloudflare, server: 172.64.150.150, port: 443, type: vmess, uuid: 128a73ee-a5a3-4dce-a832-5c3f60841032, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /cctv13.m3u8, headers: {Host: jp03.cctvvip.ml}}, udp: true}
+  - {name: sws-10|泛播 Cloudflare, server: baxamdyfa.76898102.xyz, port: 2052, type: vmess, uuid: 5481eae4-43fb-35e3-a3a3-b9b9961ca1bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /bxzmiao, headers: {Host: baxamdyfa.76898102.xyz}}, udp: true}
+  - {name: sws-11|德国下萨克森萨尔茨吉特 Telekom, server: hkt.52147.top, port: 80, type: vmess, uuid: afc968ee-b28f-4c84-b5d3-541a278672cb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /yfjc/jp1, headers: {Host: tlu.dl.delivery.mp.microsoft.com}}, udp: true}
+  - {name: sws-12|泛播 Cloudflare, server: PVR7.v9966.shop, port: 443, type: vmess, uuid: 06bf7630-c1b9-11ed-b136-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: PVR7.v9966.shop, headers: {Host: PVR7.v9966.shop}}, udp: true}
+  - {name: sws-13|泛播 Cloudflare, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: kh1.scproxy.top}}, udp: true}
+  - {name: sws-14|韩国首尔 , server: isuedfvfuisf.76898102.xyz, port: 15271, type: vmess, uuid: 5481eae4-43fb-35e3-a3a3-b9b9961ca1bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: sws-15|新加坡 亚马逊云, server: sg.3399780.xyz, port: 443, type: vmess, uuid: 0e6d85f8-4ea5-4098-87c8-c47a7ba760f5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /202202030565, headers: {Host: sg.3399780.xyz}}, udp: true}
+  - {name: sws-16|泛播 Cloudflare, server: xnarmb.76898102.xyz, port: 2052, type: vmess, uuid: 5481eae4-43fb-35e3-a3a3-b9b9961ca1bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /nfdguiw, headers: {Host: xnarmb.76898102.xyz}}, udp: true}
+  - {name: sws-17|美国 , server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: afc968ee-b28f-4c84-b5d3-541a278672cb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: "/yfjc/nl2?ed=2048", headers: {Host: nl2.yfjc.sbs}}, udp: true}
+  - {name: sws-18|泛播 Cloudflare, server: dbamwvb.76898102.xyz, port: 2082, type: vmess, uuid: 5481eae4-43fb-35e3-a3a3-b9b9961ca1bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /tadabfw, headers: {Host: dbamwvb.76898102.xyz}}, udp: true}
+  - {name: sws-19|泛播 Cloudflare, server: jpnewacs.114514782.xyz, port: 2052, type: vmess, uuid: 5481eae4-43fb-35e3-a3a3-b9b9961ca1bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vvfdgtrh, headers: {Host: jpnewacs.114514782.xyz}}, udp: true}
+  - {name: sws-20|泛播 Cloudflare, server: dubawtgfnewi.76898102.xyz, port: 2052, type: vmess, uuid: 5481eae4-43fb-35e3-a3a3-b9b9961ca1bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /flkfhzz, headers: {Host: dubawtgfnewi.76898102.xyz}}, udp: true}
+  - {name: sws-21|泛播 Cloudflare, server: jpwarpdwnidb.76898102.xyz, port: 2052, type: vmess, uuid: 5481eae4-43fb-35e3-a3a3-b9b9961ca1bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vuesshtgk, headers: {Host: jpwarpdwnidb.76898102.xyz}}, udp: true}
+  - {name: sws-22|韩国首尔 腾讯云, server: auvwfuyse.76898102.xyz, port: 15247, type: vmess, uuid: 5481eae4-43fb-35e3-a3a3-b9b9961ca1bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: sws-23|俄罗斯莫斯科 , server: 46.17.44.189, port: 57920, type: vmess, uuid: 5c0156ab-576b-424b-9bb5-34a2b368540b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: sws-24|泛播 Cloudflare, server: teamdf.76898102.xyz, port: 2052, type: vmess, uuid: 5481eae4-43fb-35e3-a3a3-b9b9961ca1bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /miao, headers: {Host: teamdf.76898102.xyz}}, udp: true}
+  - {name: sws-25|泛播 Cloudflare, server: bxptyarm.76898102.xyz, port: 2052, type: vmess, uuid: 5481eae4-43fb-35e3-a3a3-b9b9961ca1bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /bxpty, headers: {Host: bxptyarm.76898102.xyz}}, udp: true}
+  - {name: sws-26|泛播 Cloudflare, server: basblamd.76898102.xyz, port: 2052, type: vmess, uuid: 5481eae4-43fb-35e3-a3a3-b9b9961ca1bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /bxsmiao, headers: {Host: basblamd.76898102.xyz}}, udp: true}
+  - {name: sws-27|泛播 Cloudflare, server: asbawufh.114514782.xyz, port: 2052, type: vmess, uuid: 5481eae4-43fb-35e3-a3a3-b9b9961ca1bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /auvbwbs, headers: {Host: asbawufh.114514782.xyz}}, udp: true}
+  - {name: sws-28|泛播 Cloudflare, server: 104.19.170.36, port: 80, type: vmess, uuid: c0942f3d-58cd-43a9-8282-1bcc3b9f291e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /uitsrt, headers: {Host: freedelxc.argotus.live}}, udp: true}
+  - {name: sws-29|泛播 Cloudflare, server: asbbaakn.114514782.xyz, port: 2052, type: vmess, uuid: 5481eae4-43fb-35e3-a3a3-b9b9961ca1bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /auvbwbs, headers: {Host: asbbaakn.114514782.xyz}}, udp: true}
+  - {name: sws-30|泛播 Cloudflare, server: usblog.114514782.xyz, port: 2052, type: vmess, uuid: 5481eae4-43fb-35e3-a3a3-b9b9961ca1bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /mtryjhiaogrs, headers: {Host: usblog.114514782.xyz}}, udp: true}
+  - {name: sws-31|泛播 Cloudflare, server: 172.67.136.150, port: 443, type: vmess, uuid: 44bab30b-d1da-40b4-b65d-e0a3a98c0de6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vmessws, headers: {Host: ss.239000.xyz}}, udp: true}
+  - {name: sws-32|日本 , server: 45.85.118.1, port: 2096, type: vmess, uuid: 234d02ce-d588-49a5-b328-6d2514cd57a0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: h8.drlaban.ir}}, udp: true}
+  - {name: sws-33|泛播 Cloudflare, server: ny1.sharecentrepro.org, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ny1.sharecentrepro.org}}, udp: true}
+  - {name: sws-34|泛播 Cloudflare, server: 1b22.v9966.shop, port: 80, type: vmess, uuid: 139399b0-c1b9-11ed-b235-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /mx4tovw8, headers: {Host: 1b22.v9966.shop}}, udp: true}
+  - {name: sws-35|美国 , server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: e1340e0b-3a70-4f10-9318-69b2107d748a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /kbjc/us1, headers: {Host: us1.hnokkdf.top}}, udp: true}
+  - {name: sws-36|泛播 Cloudflare, server: nlawggbvfgerhtg.76898102.xyz, port: 2082, type: vmess, uuid: 5481eae4-43fb-35e3-a3a3-b9b9961ca1bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /fwadfbbg, headers: {Host: nlawggbvfgerhtg.76898102.xyz}}, udp: true}
+  - {name: sws-37|泛播 Cloudflare, server: jpadwinfs.114514782.xyz, port: 2052, type: vmess, uuid: 5481eae4-43fb-35e3-a3a3-b9b9961ca1bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /jwafgfdt, headers: {Host: jpadwinfs.114514782.xyz}}, udp: true}
+  - {name: sws-38|美国 Cloudflare, server: 173.245.49.7, port: 443, type: vmess, uuid: 847a92a6-f7f1-42ef-8277-02cf6e379797, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: lsb.jiegebuyao.top}}, udp: true}
+  - {name: sws-39|泛播 Cloudflare, server: us1.ghostnet.shop, port: 8443, type: vmess, uuid: 89c41d51-1fda-4a71-d993-fdfa9f94e995, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: us1.ghostnet.shop}}, udp: true}
+  - {name: sws-40|泛播 Cloudflare, server: jpwadnca.114514782.xyz, port: 2052, type: vmess, uuid: 5481eae4-43fb-35e3-a3a3-b9b9961ca1bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /miaoshen, headers: {Host: jpwadnca.114514782.xyz}}, udp: true}
+  - {name: sws-41|泛播 Cloudflare, server: 162.159.152.5, port: 443, type: vmess, uuid: afc968ee-b28f-4c84-b5d3-541a278672cb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: "/yfjc/jp1?ed=2048", headers: {Host: jp1.yfjc.sbs}}, udp: true}
+  - {name: sws-42|泛播 Cloudflare, server: 3564.p9966.shop, port: 443, type: vmess, uuid: f4af4443-ad9b-4335-b965-d94a07ffa115, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /racevpn, headers: {Host: 3564.p9966.shop}}, udp: true}
+  - {name: sws-43|泛播 Cloudflare, server: 6bf5.v9966.shop, port: 80, type: vmess, uuid: e6877db0-c1b8-11ed-b839-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 6bf5.v9966.shop}}, udp: true}
+  - {name: sws-44|泛播 Cloudflare, server: dbamwv.76898102.xyz, port: 2082, type: vmess, uuid: 5481eae4-43fb-35e3-a3a3-b9b9961ca1bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /tadvchk, headers: {Host: dbamwv.76898102.xyz}}, udp: true}
+  - {name: sws-45|泛播 Cloudflare, server: main.millionaireaisle.com, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /9JZFDTKE, headers: {Host: fr1.trump2023.org}}, udp: true}
+  - {name: sws-46|泛播 Cloudflare, server: 162.159.153.13, port: 443, type: vmess, uuid: afc968ee-b28f-4c84-b5d3-541a278672cb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: "/yfjc/jp2?ed=2048", headers: {Host: jp2.yfjc.sbs}}, udp: true}
+  - {name: sws-47|泛播 Cloudflare, server: dp2.scproxy.top, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp2.scproxy.top}}, udp: true}
+  - {name: sws-48|俄罗斯莫斯科 , server: 46.29.166.164, port: 57920, type: vmess, uuid: 5c0156ab-576b-424b-9bb5-34a2b368540b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: sws-49|美国 , server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 27509613-bbd5-403a-868c-8022d36aa565, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: "/pq/fr1?ed=2048", headers: {Host: fr1.pqjc.buzz}}, udp: true}
+  - {name: sws-50|泛播 Cloudflare, server: 8b7a.v9966.shop, port: 443, type: vmess, uuid: a04b2620-c1ba-11ed-b639-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /7wa1bgin, headers: {Host: 8b7a.v9966.shop}}, udp: true}
+  - {name: sws-51|泛播 Cloudflare, server: finland2.yj2022.ga, port: 443, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /yWJGGBHoVpr3DbNuVycP, headers: {Host: finland2.yj2022.ga}}, udp: true}
+  - {name: sws-52|泛播 Cloudflare, server: armus.114514782.xyz, port: 2052, type: vmess, uuid: 5481eae4-43fb-35e3-a3a3-b9b9961ca1bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /miao, headers: {Host: armus.114514782.xyz}}, udp: true}
+  - {name: sws-53|泛播 Cloudflare, server: ukarm.76898102.xyz, port: 2052, type: vmess, uuid: 5481eae4-43fb-35e3-a3a3-b9b9961ca1bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /miao, headers: {Host: ukarm.76898102.xyz}}, udp: true}
+  - {name: sws-54|澳大利亚 , server: 203.30.191.1, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: clash1.ssr-free2.xyz}}, udp: true}
+  - {name: sws-55|泛播 Cloudflare, server: greencloudkss.114514782.xyz, port: 8880, type: vmess, uuid: 5481eae4-43fb-35e3-a3a3-b9b9961ca1bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /usdbfaiuws, headers: {Host: greencloudkss.114514782.xyz}}, udp: true}
+  - {name: sws-56|泛播 Cloudflare, server: 9733.v9966.shop, port: 80, type: vmess, uuid: 38554260-c1b9-11ed-b536-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 9733.v9966.shop}}, udp: true}
+  - {name: sws-57|泛播 Cloudflare, server: cf-lt.sharecentre.online, port: 2095, type: vmess, uuid: 2a1ab09f-818f-4155-cd38-da403c20adbd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /live, headers: {Host: arm.juhaohuo.tk}}, udp: true}
+  - {name: sws-58|泛播 Cloudflare, server: baawftvbh.76898102.xyz, port: 2052, type: vmess, uuid: 5481eae4-43fb-35e3-a3a3-b9b9961ca1bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /bxqmiao, headers: {Host: baawftvbh.76898102.xyz}}, udp: true}
+  - {name: sws-59|泛播 Cloudflare, server: fnwaubdu.76898102.xyz, port: 2095, type: vmess, uuid: 5481eae4-43fb-35e3-a3a3-b9b9961ca1bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /funsdfrh, headers: {Host: fnwaubdu.76898102.xyz}}, udp: true}
+  - {name: sws-60|泛播 Cloudflare, server: xnarma.76898102.xyz, port: 2052, type: vmess, uuid: 5481eae4-43fb-35e3-a3a3-b9b9961ca1bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /xneausfb, headers: {Host: xnarma.76898102.xyz}}, udp: true}
+  - {name: sws-61|泛播 Cloudflare, server: 172.67.199.34, port: 443, type: vmess, uuid: 8b6dd709-4d4e-4b92-f542-54a676efbfe4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /shares, headers: {Host: la.awsbest.com}}, udp: true}
+  - {name: sws-62|泛播 Cloudflare, server: usshsaba.114514782.xyz, port: 2095, type: vmess, uuid: 5481eae4-43fb-35e3-a3a3-b9b9961ca1bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /usshsa, headers: {Host: usshsaba.114514782.xyz}}, udp: true}
+  - {name: sws-63|泛播 Cloudflare, server: baxwarfrey.76898102.xyz, port: 2052, type: vmess, uuid: 5481eae4-43fb-35e3-a3a3-b9b9961ca1bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /bxtkmiao, headers: {Host: baxwarfrey.76898102.xyz}}, udp: true}
+  - {name: sws-64|泛播 Cloudflare, server: jprtttlcs.76898102.xyz, port: 2052, type: vmess, uuid: 5481eae4-43fb-35e3-a3a3-b9b9961ca1bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /miao, headers: {Host: jprtttlcs.76898102.xyz}}, udp: true}
+  - {name: sws-65|澳大利亚 , server: 203.30.189.1, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: 154.v2ray3.xyz}}, udp: true}
+  - {name: sws-66|泛播 Cloudflare, server: newfgawduvdb.76898102.xyz, port: 2052, type: vmess, uuid: 5481eae4-43fb-35e3-a3a3-b9b9961ca1bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /flkwdfads, headers: {Host: newfgawduvdb.76898102.xyz}}, udp: true}
+  - {name: sws-67|泛播 Cloudflare, server: 172.67.137.72, port: 443, type: vmess, uuid: db39ef95-4245-418a-84c0-14c202f29bc6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /videnset, headers: {Host: khvwycch.cymlr.xyz}}, udp: true}
+  - {name: sws-68|泛播 Cloudflare, server: bxawdbwdtyhjsgd.76898102.xyz, port: 2052, type: vmess, uuid: 5481eae4-43fb-35e3-a3a3-b9b9961ca1bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /seifbibgef, headers: {Host: bxawdbwdtyhjsgd.76898102.xyz}}, udp: true}
+  - {name: sws-69|泛播 Cloudflare, server: 172.67.199.34, port: 80, type: vmess, uuid: 8b6dd709-4d4e-4b92-f542-54a676efbfe4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shares, headers: {Host: la.awsbest.com}}, udp: true}
+  - {name: sws-70|美国 , server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 4147fa45-fb6a-4982-870c-5814277bb0a2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /nbjc/us1, headers: {Host: us1.hnkkt.top}}, udp: true}
+  - {name: sws-71|泛播 Shopify, server: 23.227.38.24, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
+  - {name: sws-72|泛播 Cloudflare, server: hdlbydawifbn.114514782.xyz, port: 2095, type: vmess, uuid: 5481eae4-43fb-35e3-a3a3-b9b9961ca1bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vburgf, headers: {Host: hdlbydawifbn.114514782.xyz}}, udp: true}
+  - {name: sws-73|泛播 Cloudflare, server: gbawbc.76898102.xyz, port: 2052, type: vmess, uuid: 5481eae4-43fb-35e3-a3a3-b9b9961ca1bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /miao, headers: {Host: gbawbc.76898102.xyz}}, udp: true}
+  - {name: sws-74|泛播 Cloudflare, server: mebudsv.114514782.xyz, port: 2052, type: vmess, uuid: 5481eae4-43fb-35e3-a3a3-b9b9961ca1bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /miao, headers: {Host: mebudsv.114514782.xyz}}, udp: true}
+  - {name: sws-75|泛播 Cloudflare, server: 114c.p9966.shop, port: 443, type: vmess, uuid: 14bc30c2-763f-4b06-9378-15d6d32d4500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /racevpn, headers: {Host: 114c.p9966.shop}}, udp: true}
+  - {name: sws-76|泛播 Cloudflare, server: fldsubgigtujuy.76898102.xyz, port: 2095, type: vmess, uuid: 5481eae4-43fb-35e3-a3a3-b9b9961ca1bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /miaoGK, headers: {Host: fldsubgigtujuy.76898102.xyz}}, udp: true}
+  - {name: sws-77|泛播 Cloudflare, server: lv2.sharecentrepro.org, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.sharecentrepro.org}}, udp: true}
+  - {name: sws-78|泛播 Cloudflare, server: ldauvycer.76898102.xyz, port: 2086, type: vmess, uuid: 5481eae4-43fb-35e3-a3a3-b9b9961ca1bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /opengtc, headers: {Host: ldauvycer.76898102.xyz}}, udp: true}
+  - {name: sws-79|泛播 Cloudflare, server: amstdtre.76898102.xyz, port: 2095, type: vmess, uuid: 5481eae4-43fb-35e3-a3a3-b9b9961ca1bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /adwrfeyiyuisfesf, headers: {Host: amstdtre.76898102.xyz}}, udp: true}
+  - {name: sws-80|泛播 Cloudflare, server: baxwabe.76898102.xyz, port: 2052, type: vmess, uuid: 5481eae4-43fb-35e3-a3a3-b9b9961ca1bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /aubverfsg, headers: {Host: baxwabe.76898102.xyz}}, udp: true}
+  - {name: sws-81|泛播 BetConstruct, server: 185.162.228.2, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: 77.v2ray1.xyz}}, udp: true}
+  - {name: sws-82|泛播 Cloudflare, server: dearma.76898102.xyz, port: 2052, type: vmess, uuid: 5481eae4-43fb-35e3-a3a3-b9b9961ca1bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /abuciwyg, headers: {Host: dearma.76898102.xyz}}, udp: true}
+  - {name: sws-83|泛播 Cloudflare, server: 172.66.41.99, port: 443, type: vmess, uuid: 44bab30b-d1da-40b4-b65d-e0a3a98c0de6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vmessws, headers: {Host: ss.239000.xyz}}, udp: true}
+  - {name: sws-84|泛播 Cloudflare, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /speedtest, headers: {Host: Seattle.v2ray.online}}, udp: true}
+  - {name: sws-85|泛播 Cloudflare, server: apkwvctghw.114514782.xyz, port: 2052, type: vmess, uuid: 5481eae4-43fb-35e3-a3a3-b9b9961ca1bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /miaosafh, headers: {Host: apkwvctghw.114514782.xyz}}, udp: true}
+  - {name: sws-86|泛播 Cloudflare, server: jpntgrwq.114514782.xyz, port: 2052, type: vmess, uuid: 5481eae4-43fb-35e3-a3a3-b9b9961ca1bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /miaoshenzbck, headers: {Host: jpntgrwq.114514782.xyz}}, udp: true}
+  - {name: sws-87|泛播 Cloudflare, server: quiz.vidio.com, port: 8080, type: vmess, uuid: 397489e0-a0b4-11ed-b443-1577c1651679, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sg-ovh2.1server.co}}, udp: true}
+  - {name: sws-88|泛播 Cloudflare, server: Tokyo.v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /speedtest, headers: {Host: Tokyo.v2ray.online}}, udp: true}
+  - {name: sws-89|泛播 Cloudflare, server: no.aries.ovh, port: 2052, type: vmess, uuid: ba1b14e5-33ad-46df-8116-a2935e712a2f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: ee.cloudflare.quest}}, udp: true}
+  - {name: sws-90|泛播 Cloudflare, server: 98b5.v9966.shop, port: 443, type: vmess, uuid: 6aacb8f0-c1b9-11ed-b035-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 98b5.v9966.shop}}, udp: true}
+  - {name: sws-91|泛播 Cloudflare, server: ca-nnc.ilovescp.com, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca-nnc.ilovescp.com}}, udp: true}
+  - {name: sws-92|泛播 Cloudflare, server: us12.cachexy.ga, port: 443, type: vmess, uuid: 68fe8d27-cbc8-4e72-90b7-70d3bb69dfd3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /api, headers: {Host: us12.cachexy.ga}}, udp: true}
+  - {name: sws-93|美国 , server: vus3.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /chat, headers: {Host: vus3.0bad.com}}, udp: true}
+  - {name: sws-94|泛播 Cloudflare, server: lv1.sharecentrepro.org, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv1.sharecentrepro.org}}, udp: true}
+  - {name: sws-95|泛播 Cloudflare, server: no.aries.ovh, port: 8080, type: vmess, uuid: f18ae581-c597-4644-a1d9-b248a899b3bd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v10.asuka.buzz}}, udp: true}
+  - {name: sws-96|泛播 Cloudflare, server: nl1.pqjc.buzz, port: 443, type: vmess, uuid: 27509613-bbd5-403a-868c-8022d36aa565, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: "/pq/nl1?ed=2048", headers: {Host: nl1.pqjc.buzz}}, udp: true}
+  - {name: sws-97|泛播 Cloudflare, server: 172.67.136.81, port: 443, type: vmess, uuid: 5eba5b30-7c4a-419c-c1b8-cafd0b4d4eee, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /123, headers: {Host: eu4.isi.lol}}, udp: true}
+  - {name: sws-98|泛播 Cloudflare, server: new3.hucloud-dns.xyz, port: 443, type: vmess, uuid: 1c8ad3f2-835c-4fda-b9b6-881d3cadfd8e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: new3.hucloud-dns.xyz}}, udp: true}
+  - {name: sws-99|泛播 Cloudflare, server: fdf7.v9966.shop, port: 443, type: vmess, uuid: 2aeb26e0-c1c0-11ed-b331-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: fdf7.v9966.shop}}, udp: true}
+  - {name: sws-100|泛播 Cloudflare, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.kotick.site}}, udp: true}
+  - {name: sws-101|泛播 Cloudflare, server: 172.67.199.31, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /9JZFDTKE, headers: {Host: fr1.trump2023.org}}, udp: true}
+  - {name: sws-102|摩尔多瓦 , server: 185.193.30.158, port: 443, type: vmess, uuid: A59E320C-BAC6-45E3-8A27-1518610708D0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.v2ray.online}}, udp: true}
+  - {name: sws-103|泛播 Cloudflare, server: hohm.microsoft.com, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /9JZFDTKE, headers: {Host: fr1.trump2023.org}}, udp: true}
+  - {name: sws-104|泛播 Cloudflare, server: Amsterdam.v2ray.online, port: 443, type: vmess, uuid: A59E320C-BAC6-45E3-8A27-1518610708D0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.v2ray.online}}, udp: true}
+  - {name: sws-105|泛播 Cloudflare, server: 162.159.133.98, port: 443, type: vmess, uuid: 27509613-bbd5-403a-868c-8022d36aa565, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: "/pq/nl1?ed=2048", headers: {Host: nl1.pqjc.buzz}}, udp: true}
+  - {name: sws-106|泛播 Cloudflare, server: 172.67.199.34, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /9JZFDTKE, headers: {Host: fr1.trump2023.org}}, udp: true}
+  - {name: sws-107|泛播 Cloudflare, server: 172.66.44.197, port: 443, type: vmess, uuid: fa4cb529-3ac9-4268-bb04-ed4253813508, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /mR17oBKzZ7, headers: {Host: d.pgypgykmoljklj.xyz}}, udp: true}
+  - {name: sws-108|泛播 Cloudflare, server: 172.67.219.5, port: 443, type: vmess, uuid: 00BBF5B8-173E-6818-9927-5AD1AA073C7D, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.v2ray.online}}, udp: true}
+  - {name: sws-109|泛播 Cloudflare, server: khvwycch.cymlr.xyz, port: 443, type: vmess, uuid: db39ef95-4245-418a-84c0-14c202f29bc6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /videnset, headers: {Host: khvwycch.cymlr.xyz}}, udp: true}
+  - {name: sws-110|澳大利亚 , server: 203.30.191.6, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
+  - {name: sws-111|泛播 Cloudflare, server: df7e.v9966.shop, port: 443, type: vmess, uuid: a27983a0-c1b9-11ed-b333-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: df7e.v9966.shop}}, udp: true}
+  - {name: sws-112|泛播 Cloudflare, server: 154.v2ray3.xyz, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: 154.v2ray3.xyz}}, udp: true}
+  - {name: sws-113|泛播 Cloudflare, server: cbb8.v9966.shop, port: 80, type: vmess, uuid: 28c985b0-c1b9-11ed-b530-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cbb8.v9966.shop}}, udp: true}
 
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
-      - sws-0|美国 
-      - sws-1|泛播 Cloudflare
-      - sws-2|江苏省盐城市 移动
-      - sws-3|江苏省盐城市 移动
-      - sws-4|江苏省盐城市 移动
-      - sws-5|江苏省盐城市 移动
-      - sws-6|广东省深圳市 移动
-      - sws-7|上海市上海嘉定 联通
-      - sws-8|上海市上海嘉定 联通
-      - sws-9|上海市上海嘉定 联通
-      - sws-10|上海市上海嘉定 联通
-      - sws-11|广东省深圳市 移动
-      - sws-12|江苏省扬州市 移动
-      - sws-13|广东省深圳市 移动
-      - sws-14|上海市上海嘉定 联通
-      - sws-15|泛播 Cloudflare
+      - sws-0|韩国 
+      - sws-1|日本东京 亚马逊云
+      - sws-2|香港 阿里云
+      - sws-3|韩国首尔 
+      - sws-4|香港 阿里云
+      - sws-5|韩国首尔 微软云
+      - sws-6|韩国首尔 腾讯云
+      - sws-7|韩国 
+      - sws-8|韩国首尔 腾讯云
+      - sws-9|泛播 Cloudflare
+      - sws-10|泛播 Cloudflare
+      - sws-11|德国下萨克森萨尔茨吉特 Telekom
+      - sws-12|泛播 Cloudflare
+      - sws-13|泛播 Cloudflare
+      - sws-14|韩国首尔 
+      - sws-15|新加坡 亚马逊云
       - sws-16|泛播 Cloudflare
-      - sws-17|泛播 Cloudflare
+      - sws-17|美国 
       - sws-18|泛播 Cloudflare
       - sws-19|泛播 Cloudflare
       - sws-20|泛播 Cloudflare
       - sws-21|泛播 Cloudflare
-      - sws-22|泛播 Cloudflare
-      - sws-23|澳大利亚 
-      - sws-24|澳大利亚 
-      - sws-25|澳大利亚 
-      - sws-26|美国 Cloudflare
-      - sws-27|美国 Cloudflare
+      - sws-22|韩国首尔 腾讯云
+      - sws-23|俄罗斯莫斯科 
+      - sws-24|泛播 Cloudflare
+      - sws-25|泛播 Cloudflare
+      - sws-26|泛播 Cloudflare
+      - sws-27|泛播 Cloudflare
       - sws-28|泛播 Cloudflare
       - sws-29|泛播 Cloudflare
       - sws-30|泛播 Cloudflare
-      - sws-31|广东省深圳市 移动
-      - sws-32|泛播 Cloudflare
-      - sws-33|上海市上海嘉定 联通
-      - sws-34|香港 电讯盈科
-      - sws-35|泛播 BetConstruct
+      - sws-31|泛播 Cloudflare
+      - sws-32|日本 
+      - sws-33|泛播 Cloudflare
+      - sws-34|泛播 Cloudflare
+      - sws-35|美国 
       - sws-36|泛播 Cloudflare
-      - sws-37|
-      - sws-38|美国佐治亚亚特兰大 
-      - sws-39|美国 
-      - sws-40|美国佐治亚亚特兰大 
-      - sws-41|美国 
+      - sws-37|泛播 Cloudflare
+      - sws-38|美国 Cloudflare
+      - sws-39|泛播 Cloudflare
+      - sws-40|泛播 Cloudflare
+      - sws-41|泛播 Cloudflare
       - sws-42|泛播 Cloudflare
-      - sws-43|美国 
-      - sws-44|美国 
+      - sws-43|泛播 Cloudflare
+      - sws-44|泛播 Cloudflare
       - sws-45|泛播 Cloudflare
-      - sws-46|美国 
+      - sws-46|泛播 Cloudflare
       - sws-47|泛播 Cloudflare
-      - sws-48|泛播 Cloudflare
-      - sws-49|泛播 Shopify
-      - sws-50|美国佐治亚亚特兰大 
-      - sws-51|美国 
-      - sws-52|上海市上海嘉定 联通
-      - sws-53|英国英格兰伦敦 
-      - sws-54|美国 
-      - sws-55|美国 
-      - sws-56|上海市上海嘉定 联通
+      - sws-48|俄罗斯莫斯科 
+      - sws-49|美国 
+      - sws-50|泛播 Cloudflare
+      - sws-51|泛播 Cloudflare
+      - sws-52|泛播 Cloudflare
+      - sws-53|泛播 Cloudflare
+      - sws-54|澳大利亚 
+      - sws-55|泛播 Cloudflare
+      - sws-56|泛播 Cloudflare
       - sws-57|泛播 Cloudflare
       - sws-58|泛播 Cloudflare
       - sws-59|泛播 Cloudflare
       - sws-60|泛播 Cloudflare
       - sws-61|泛播 Cloudflare
-      - sws-62|美国 Cloudflare
+      - sws-62|泛播 Cloudflare
       - sws-63|泛播 Cloudflare
       - sws-64|泛播 Cloudflare
-      - sws-65|美国 Cloudflare
-      - sws-66|美国 
-      - sws-67|美国 
-      - sws-68|韩国首尔 xTom
-      - sws-69|美国 
-      - sws-70|泛播 Cloudflare
-      - sws-71|泛播 Cloudflare
+      - sws-65|澳大利亚 
+      - sws-66|泛播 Cloudflare
+      - sws-67|泛播 Cloudflare
+      - sws-68|泛播 Cloudflare
+      - sws-69|泛播 Cloudflare
+      - sws-70|美国 
+      - sws-71|泛播 Shopify
       - sws-72|泛播 Cloudflare
-      - sws-73|澳大利亚 
-      - sws-74|美国 
+      - sws-73|泛播 Cloudflare
+      - sws-74|泛播 Cloudflare
       - sws-75|泛播 Cloudflare
       - sws-76|泛播 Cloudflare
-      - sws-77|澳大利亚 
+      - sws-77|泛播 Cloudflare
       - sws-78|泛播 Cloudflare
-      - sws-79|美国 
-      - sws-80|广东省深圳市 移动
-      - sws-81|澳大利亚 
+      - sws-79|泛播 Cloudflare
+      - sws-80|泛播 Cloudflare
+      - sws-81|泛播 BetConstruct
       - sws-82|泛播 Cloudflare
-      - sws-83|澳大利亚新南威尔士悉尼 
+      - sws-83|泛播 Cloudflare
       - sws-84|泛播 Cloudflare
       - sws-85|泛播 Cloudflare
       - sws-86|泛播 Cloudflare
-      - sws-87|美国 
+      - sws-87|泛播 Cloudflare
       - sws-88|泛播 Cloudflare
-      - sws-89|澳大利亚 
-      - sws-90|香港 亚马逊云
-      - sws-91|广东省江门市 移动
-      - sws-92|日本东京 亚马逊云
-      - sws-93|江苏省扬州市 移动
-      - sws-94|日本东京 亚马逊云
-      - sws-95|香港 亚马逊云
-      - sws-96|美国加利福尼亚洛杉矶 
-      - sws-97|新加坡 亚马逊云
-      - sws-98|香港 和记黄埔
-      - sws-99|德国黑森法兰克福 亚马逊云
-      - sws-100|香港 亚马逊云
+      - sws-89|泛播 Cloudflare
+      - sws-90|泛播 Cloudflare
+      - sws-91|泛播 Cloudflare
+      - sws-92|泛播 Cloudflare
+      - sws-93|美国 
+      - sws-94|泛播 Cloudflare
+      - sws-95|泛播 Cloudflare
+      - sws-96|泛播 Cloudflare
+      - sws-97|泛播 Cloudflare
+      - sws-98|泛播 Cloudflare
+      - sws-99|泛播 Cloudflare
+      - sws-100|泛播 Cloudflare
       - sws-101|泛播 Cloudflare
-      - sws-102|新加坡 亚马逊云
-      - sws-103|香港 微软云
-      - sws-104|美国加利福尼亚费利蒙 
+      - sws-102|摩尔多瓦 
+      - sws-103|泛播 Cloudflare
+      - sws-104|泛播 Cloudflare
       - sws-105|泛播 Cloudflare
-      - sws-106|美国伊利诺伊芝加哥 
-      - sws-107|美国 
-      - sws-108|日本东京 亚马逊云
+      - sws-106|泛播 Cloudflare
+      - sws-107|泛播 Cloudflare
+      - sws-108|泛播 Cloudflare
       - sws-109|泛播 Cloudflare
-      - sws-110|德国黑森法兰克福 
-      - sws-111|德国黑森法兰克福 
+      - sws-110|澳大利亚 
+      - sws-111|泛播 Cloudflare
       - sws-112|泛播 Cloudflare
-      - sws-113|广东省汕头市 电信
-      - sws-114|香港 腾讯云
-      - sws-115|澳大利亚 
-      - sws-116|新加坡 
-      - sws-117|泛播 Cloudflare
-      - sws-118|泛播 Cloudflare
-      - sws-119|澳大利亚 
-      - sws-120|泛播 Cloudflare
-      - sws-121|澳大利亚 
-      - sws-122|泛播 Shopify
-      - sws-123|德国巴伐利亚纽伦堡 
-      - sws-124|泛播 Cloudflare
-      - sws-125|泛播 Shopify
-      - sws-126|泛播 Cloudflare
-      - sws-127|美国 Cloudflare
-      - sws-128|澳大利亚 
-      - sws-129|泛播 Cloudflare
-      - sws-130|泛播 Cloudflare
+      - sws-113|泛播 Cloudflare
 
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 200
     proxies:
-      - sws-0|美国 
-      - sws-1|泛播 Cloudflare
-      - sws-2|江苏省盐城市 移动
-      - sws-3|江苏省盐城市 移动
-      - sws-4|江苏省盐城市 移动
-      - sws-5|江苏省盐城市 移动
-      - sws-6|广东省深圳市 移动
-      - sws-7|上海市上海嘉定 联通
-      - sws-8|上海市上海嘉定 联通
-      - sws-9|上海市上海嘉定 联通
-      - sws-10|上海市上海嘉定 联通
-      - sws-11|广东省深圳市 移动
-      - sws-12|江苏省扬州市 移动
-      - sws-13|广东省深圳市 移动
-      - sws-14|上海市上海嘉定 联通
-      - sws-15|泛播 Cloudflare
+      - sws-0|韩国 
+      - sws-1|日本东京 亚马逊云
+      - sws-2|香港 阿里云
+      - sws-3|韩国首尔 
+      - sws-4|香港 阿里云
+      - sws-5|韩国首尔 微软云
+      - sws-6|韩国首尔 腾讯云
+      - sws-7|韩国 
+      - sws-8|韩国首尔 腾讯云
+      - sws-9|泛播 Cloudflare
+      - sws-10|泛播 Cloudflare
+      - sws-11|德国下萨克森萨尔茨吉特 Telekom
+      - sws-12|泛播 Cloudflare
+      - sws-13|泛播 Cloudflare
+      - sws-14|韩国首尔 
+      - sws-15|新加坡 亚马逊云
       - sws-16|泛播 Cloudflare
-      - sws-17|泛播 Cloudflare
+      - sws-17|美国 
       - sws-18|泛播 Cloudflare
       - sws-19|泛播 Cloudflare
       - sws-20|泛播 Cloudflare
       - sws-21|泛播 Cloudflare
-      - sws-22|泛播 Cloudflare
-      - sws-23|澳大利亚 
-      - sws-24|澳大利亚 
-      - sws-25|澳大利亚 
-      - sws-26|美国 Cloudflare
-      - sws-27|美国 Cloudflare
+      - sws-22|韩国首尔 腾讯云
+      - sws-23|俄罗斯莫斯科 
+      - sws-24|泛播 Cloudflare
+      - sws-25|泛播 Cloudflare
+      - sws-26|泛播 Cloudflare
+      - sws-27|泛播 Cloudflare
       - sws-28|泛播 Cloudflare
       - sws-29|泛播 Cloudflare
       - sws-30|泛播 Cloudflare
-      - sws-31|广东省深圳市 移动
-      - sws-32|泛播 Cloudflare
-      - sws-33|上海市上海嘉定 联通
-      - sws-34|香港 电讯盈科
-      - sws-35|泛播 BetConstruct
+      - sws-31|泛播 Cloudflare
+      - sws-32|日本 
+      - sws-33|泛播 Cloudflare
+      - sws-34|泛播 Cloudflare
+      - sws-35|美国 
       - sws-36|泛播 Cloudflare
-      - sws-37|
-      - sws-38|美国佐治亚亚特兰大 
-      - sws-39|美国 
-      - sws-40|美国佐治亚亚特兰大 
-      - sws-41|美国 
+      - sws-37|泛播 Cloudflare
+      - sws-38|美国 Cloudflare
+      - sws-39|泛播 Cloudflare
+      - sws-40|泛播 Cloudflare
+      - sws-41|泛播 Cloudflare
       - sws-42|泛播 Cloudflare
-      - sws-43|美国 
-      - sws-44|美国 
+      - sws-43|泛播 Cloudflare
+      - sws-44|泛播 Cloudflare
       - sws-45|泛播 Cloudflare
-      - sws-46|美国 
+      - sws-46|泛播 Cloudflare
       - sws-47|泛播 Cloudflare
-      - sws-48|泛播 Cloudflare
-      - sws-49|泛播 Shopify
-      - sws-50|美国佐治亚亚特兰大 
-      - sws-51|美国 
-      - sws-52|上海市上海嘉定 联通
-      - sws-53|英国英格兰伦敦 
-      - sws-54|美国 
-      - sws-55|美国 
-      - sws-56|上海市上海嘉定 联通
+      - sws-48|俄罗斯莫斯科 
+      - sws-49|美国 
+      - sws-50|泛播 Cloudflare
+      - sws-51|泛播 Cloudflare
+      - sws-52|泛播 Cloudflare
+      - sws-53|泛播 Cloudflare
+      - sws-54|澳大利亚 
+      - sws-55|泛播 Cloudflare
+      - sws-56|泛播 Cloudflare
       - sws-57|泛播 Cloudflare
       - sws-58|泛播 Cloudflare
       - sws-59|泛播 Cloudflare
       - sws-60|泛播 Cloudflare
       - sws-61|泛播 Cloudflare
-      - sws-62|美国 Cloudflare
+      - sws-62|泛播 Cloudflare
       - sws-63|泛播 Cloudflare
       - sws-64|泛播 Cloudflare
-      - sws-65|美国 Cloudflare
-      - sws-66|美国 
-      - sws-67|美国 
-      - sws-68|韩国首尔 xTom
-      - sws-69|美国 
-      - sws-70|泛播 Cloudflare
-      - sws-71|泛播 Cloudflare
+      - sws-65|澳大利亚 
+      - sws-66|泛播 Cloudflare
+      - sws-67|泛播 Cloudflare
+      - sws-68|泛播 Cloudflare
+      - sws-69|泛播 Cloudflare
+      - sws-70|美国 
+      - sws-71|泛播 Shopify
       - sws-72|泛播 Cloudflare
-      - sws-73|澳大利亚 
-      - sws-74|美国 
+      - sws-73|泛播 Cloudflare
+      - sws-74|泛播 Cloudflare
       - sws-75|泛播 Cloudflare
       - sws-76|泛播 Cloudflare
-      - sws-77|澳大利亚 
+      - sws-77|泛播 Cloudflare
       - sws-78|泛播 Cloudflare
-      - sws-79|美国 
-      - sws-80|广东省深圳市 移动
-      - sws-81|澳大利亚 
+      - sws-79|泛播 Cloudflare
+      - sws-80|泛播 Cloudflare
+      - sws-81|泛播 BetConstruct
       - sws-82|泛播 Cloudflare
-      - sws-83|澳大利亚新南威尔士悉尼 
+      - sws-83|泛播 Cloudflare
       - sws-84|泛播 Cloudflare
       - sws-85|泛播 Cloudflare
       - sws-86|泛播 Cloudflare
-      - sws-87|美国 
+      - sws-87|泛播 Cloudflare
       - sws-88|泛播 Cloudflare
-      - sws-89|澳大利亚 
-      - sws-90|香港 亚马逊云
-      - sws-91|广东省江门市 移动
-      - sws-92|日本东京 亚马逊云
-      - sws-93|江苏省扬州市 移动
-      - sws-94|日本东京 亚马逊云
-      - sws-95|香港 亚马逊云
-      - sws-96|美国加利福尼亚洛杉矶 
-      - sws-97|新加坡 亚马逊云
-      - sws-98|香港 和记黄埔
-      - sws-99|德国黑森法兰克福 亚马逊云
-      - sws-100|香港 亚马逊云
+      - sws-89|泛播 Cloudflare
+      - sws-90|泛播 Cloudflare
+      - sws-91|泛播 Cloudflare
+      - sws-92|泛播 Cloudflare
+      - sws-93|美国 
+      - sws-94|泛播 Cloudflare
+      - sws-95|泛播 Cloudflare
+      - sws-96|泛播 Cloudflare
+      - sws-97|泛播 Cloudflare
+      - sws-98|泛播 Cloudflare
+      - sws-99|泛播 Cloudflare
+      - sws-100|泛播 Cloudflare
       - sws-101|泛播 Cloudflare
-      - sws-102|新加坡 亚马逊云
-      - sws-103|香港 微软云
-      - sws-104|美国加利福尼亚费利蒙 
+      - sws-102|摩尔多瓦 
+      - sws-103|泛播 Cloudflare
+      - sws-104|泛播 Cloudflare
       - sws-105|泛播 Cloudflare
-      - sws-106|美国伊利诺伊芝加哥 
-      - sws-107|美国 
-      - sws-108|日本东京 亚马逊云
+      - sws-106|泛播 Cloudflare
+      - sws-107|泛播 Cloudflare
+      - sws-108|泛播 Cloudflare
       - sws-109|泛播 Cloudflare
-      - sws-110|德国黑森法兰克福 
-      - sws-111|德国黑森法兰克福 
+      - sws-110|澳大利亚 
+      - sws-111|泛播 Cloudflare
       - sws-112|泛播 Cloudflare
-      - sws-113|广东省汕头市 电信
-      - sws-114|香港 腾讯云
-      - sws-115|澳大利亚 
-      - sws-116|新加坡 
-      - sws-117|泛播 Cloudflare
-      - sws-118|泛播 Cloudflare
-      - sws-119|澳大利亚 
-      - sws-120|泛播 Cloudflare
-      - sws-121|澳大利亚 
-      - sws-122|泛播 Shopify
-      - sws-123|德国巴伐利亚纽伦堡 
-      - sws-124|泛播 Cloudflare
-      - sws-125|泛播 Shopify
-      - sws-126|泛播 Cloudflare
-      - sws-127|美国 Cloudflare
-      - sws-128|澳大利亚 
-      - sws-129|泛播 Cloudflare
-      - sws-130|泛播 Cloudflare
+      - sws-113|泛播 Cloudflare
 
   - name: 🎯 全球直连
     type: select
