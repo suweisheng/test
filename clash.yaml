@@ -5,381 +5,117 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: sws-0|陕西省咸阳市秦都 联通, server: yes.iamagoodman.net, port: 16617, type: vmess, uuid: 45f2770d-bb12-4841-9ebc-c020010590a3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: yes.iamagoodman.net}}, udp: true}
-  - {name: sws-1|湖北省武汉市 电信, server: t.cccao.cyou, port: 16617, type: vmess, uuid: 45f2770d-bb12-4841-9ebc-c020010590a3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: t.cccao.cyou}}, udp: true}
-  - {name: sws-2|陕西省咸阳市秦都 联通, server: yes.iamagoodman.net, port: 16627, type: vmess, uuid: 45f2770d-bb12-4841-9ebc-c020010590a3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: yes.iamagoodman.net}}, udp: true}
-  - {name: sws-3|广东省佛山市 移动, server: m.lwvzmdu.cn, port: 16617, type: vmess, uuid: 45f2770d-bb12-4841-9ebc-c020010590a3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: m.lwvzmdu.cn}}, udp: true}
-  - {name: sws-4|陕西省咸阳市秦都 联通, server: yes.iamagoodman.net, port: 16618, type: vmess, uuid: 45f2770d-bb12-4841-9ebc-c020010590a3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: yes.iamagoodman.net}}, udp: true}
-  - {name: sws-5|辽宁省鞍山市 联通, server: 42.7.24.12, port: 1872, type: vmess, uuid: d1896d7e-b2d2-42b4-899b-4b4a797f9c3a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: sws-6|广东省佛山市 移动, server: m.lwvzmdu.cn, port: 16618, type: vmess, uuid: 45f2770d-bb12-4841-9ebc-c020010590a3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: m.lwvzmdu.cn}}, udp: true}
-  - {name: sws-7|陕西省咸阳市秦都 联通, server: yes.iamagoodman.net, port: 16648, type: vmess, uuid: 45f2770d-bb12-4841-9ebc-c020010590a3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: yes.iamagoodman.net}}, udp: true}
-  - {name: sws-8|辽宁省鞍山市 联通, server: 42.7.24.12, port: 1874, type: vmess, uuid: d1896d7e-b2d2-42b4-899b-4b4a797f9c3a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: sws-9|江苏省徐州市 移动, server: 223.113.141.195, port: 3761, type: vmess, uuid: d1896d7e-b2d2-42b4-899b-4b4a797f9c3a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: sws-10|广东省佛山市 移动, server: m.lwvzmdu.cn, port: 16627, type: vmess, uuid: 45f2770d-bb12-4841-9ebc-c020010590a3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: m.lwvzmdu.cn}}, udp: true}
-  - {name: sws-11|福建省泉州市 移动, server: 112.47.34.236, port: 2382, type: vmess, uuid: d1896d7e-b2d2-42b4-899b-4b4a797f9c3a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: sws-12|福建省泉州市 移动, server: hshsbsbsj.ty777.xyz, port: 9638, type: vmess, uuid: d1896d7e-b2d2-42b4-899b-4b4a797f9c3a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: hshsbsbsj.ty777.xyz}}, udp: true}
-  - {name: sws-13|广东省佛山市 移动, server: m.lwvzmdu.cn, port: 16648, type: vmess, uuid: 45f2770d-bb12-4841-9ebc-c020010590a3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: m.lwvzmdu.cn}}, udp: true}
-  - {name: sws-14|福建省泉州市 移动, server: hshsbsbsj.ty777.xyz, port: 9636, type: vmess, uuid: d1896d7e-b2d2-42b4-899b-4b4a797f9c3a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: hshsbsbsj.ty777.xyz}}, udp: true}
-  - {name: sws-15|湖北省武汉市 电信, server: t.cccao.cyou, port: 16627, type: vmess, uuid: 45f2770d-bb12-4841-9ebc-c020010590a3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: t.cccao.cyou}}, udp: true}
-  - {name: sws-16|福建省泉州市 移动, server: hshsbsbsj.ty777.xyz, port: 9637, type: vmess, uuid: d1896d7e-b2d2-42b4-899b-4b4a797f9c3a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: hshsbsbsj.ty777.xyz}}, udp: true}
-  - {name: sws-17|湖北省武汉市 电信, server: t.cccao.cyou, port: 16648, type: vmess, uuid: 45f2770d-bb12-4841-9ebc-c020010590a3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: t.cccao.cyou}}, udp: true}
-  - {name: sws-18|福建省泉州市 移动, server: 112.47.34.236, port: 2383, type: vmess, uuid: d1896d7e-b2d2-42b4-899b-4b4a797f9c3a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: sws-19|辽宁省鞍山市 联通, server: 42.7.24.12, port: 1879, type: vmess, uuid: d1896d7e-b2d2-42b4-899b-4b4a797f9c3a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: sws-20|辽宁省鞍山市 联通, server: 42.7.24.12, port: 1876, type: vmess, uuid: d1896d7e-b2d2-42b4-899b-4b4a797f9c3a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: sws-21|辽宁省鞍山市 联通, server: 42.7.24.12, port: 1877, type: vmess, uuid: d1896d7e-b2d2-42b4-899b-4b4a797f9c3a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: sws-22|陕西省咸阳市秦都 联通, server: yes.iamagoodman.net, port: 16642, type: vmess, uuid: 45f2770d-bb12-4841-9ebc-c020010590a3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: yes.iamagoodman.net}}, udp: true}
-  - {name: sws-23|福建省泉州市 移动, server: 112.47.34.236, port: 2380, type: vmess, uuid: d1896d7e-b2d2-42b4-899b-4b4a797f9c3a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: sws-24|福建省泉州市 移动, server: 112.47.34.236, port: 2386, type: vmess, uuid: d1896d7e-b2d2-42b4-899b-4b4a797f9c3a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: sws-25|福建省泉州市 移动, server: 112.47.34.236, port: 2381, type: vmess, uuid: d1896d7e-b2d2-42b4-899b-4b4a797f9c3a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: sws-26|福建省泉州市 移动, server: hshsbsbsj.ty777.xyz, port: 1795, type: vmess, uuid: d1896d7e-b2d2-42b4-899b-4b4a797f9c3a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: sws-27|福建省泉州市 移动, server: hshsbsbsj.ty777.xyz, port: 1794, type: vmess, uuid: d1896d7e-b2d2-42b4-899b-4b4a797f9c3a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: sws-28|辽宁省鞍山市 联通, server: 42.7.24.12, port: 1873, type: vmess, uuid: d1896d7e-b2d2-42b4-899b-4b4a797f9c3a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: sws-29|福建省泉州市 移动, server: 112.47.34.236, port: 2384, type: vmess, uuid: d1896d7e-b2d2-42b4-899b-4b4a797f9c3a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: sws-30|福建省泉州市 移动, server: hshsbsbsj.ty777.xyz, port: 1780, type: vmess, uuid: d1896d7e-b2d2-42b4-899b-4b4a797f9c3a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: sws-31|广东省佛山市 移动, server: m.lwvzmdu.cn, port: 16638, type: vmess, uuid: 45f2770d-bb12-4841-9ebc-c020010590a3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /mjp, headers: {Host: pull.free.video.10010.com}}, udp: true}
-  - {name: sws-32|上海市上海嘉定 联通, server: in05.my1188.org, port: 63088, type: vmess, uuid: 093c5776-723e-3dbe-8a6b-f39b09ae0c00, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /mugua, headers: {Host: tw-load-balancer.myn1des.com}}, udp: true}
-  - {name: sws-33|福建省泉州市 移动, server: 112.47.34.236, port: 2387, type: vmess, uuid: d1896d7e-b2d2-42b4-899b-4b4a797f9c3a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: sws-34|陕西省咸阳市秦都 联通, server: yes.iamagoodman.net, port: 16639, type: vmess, uuid: 45f2770d-bb12-4841-9ebc-c020010590a3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: yes.iamagoodman.net}}, udp: true}
-  - {name: sws-35|广东省深圳市 移动, server: in02.my1188.org, port: 63088, type: vmess, uuid: 093c5776-723e-3dbe-8a6b-f39b09ae0c00, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /mugua, headers: {Host: tw-load-balancer.myn1des.com}}, udp: true}
-  - {name: sws-36|辽宁省鞍山市 联通, server: 42.7.24.12, port: 1793, type: vmess, uuid: d1896d7e-b2d2-42b4-899b-4b4a797f9c3a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: sws-37|上海市上海嘉定 联通, server: in03.my1188.org, port: 63088, type: vmess, uuid: 093c5776-723e-3dbe-8a6b-f39b09ae0c00, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /mugua, headers: {Host: tw-load-balancer.myn1des.com}}, udp: true}
-  - {name: sws-38|湖北省武汉市 电信, server: t.cccao.cyou, port: 16642, type: vmess, uuid: 45f2770d-bb12-4841-9ebc-c020010590a3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: t.cccao.cyou}}, udp: true}
-  - {name: sws-39|福建省泉州市 移动, server: 112.47.34.236, port: 2385, type: vmess, uuid: d1896d7e-b2d2-42b4-899b-4b4a797f9c3a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: sws-40|上海市上海嘉定 联通, server: in05.my1188.org, port: 63084, type: vmess, uuid: 093c5776-723e-3dbe-8a6b-f39b09ae0c00, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: de01-cdn.airport-v2.com}}, udp: true}
-  - {name: sws-41|广东省深圳市 移动, server: in04.my1188.org, port: 63088, type: vmess, uuid: 093c5776-723e-3dbe-8a6b-f39b09ae0c00, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /mugua, headers: {Host: tw-load-balancer.myn1des.com}}, udp: true}
-  - {name: sws-42|陕西省咸阳市秦都 联通, server: yes.iamagoodman.net, port: 16641, type: vmess, uuid: 45f2770d-bb12-4841-9ebc-c020010590a3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: yes.iamagoodman.net}}, udp: true}
-  - {name: sws-43|陕西省咸阳市秦都 联通, server: yes.iamagoodman.net, port: 16640, type: vmess, uuid: 45f2770d-bb12-4841-9ebc-c020010590a3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: yes.iamagoodman.net}}, udp: true}
-  - {name: sws-44|香港 Cloudinnovation, server: 156.225.67.154, port: 55531, type: vmess, uuid: 375e70f0-5d46-476f-8d69-0fb35c5548a9, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: sws-45|泛播 Cloudflare, server: quranweb4.xyz, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /current_time, headers: {Host: quranweb4.xyz}}, udp: true}
-  - {name: sws-46|福建省泉州市 移动, server: 112.47.34.236, port: 2389, type: vmess, uuid: d1896d7e-b2d2-42b4-899b-4b4a797f9c3a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: sws-47|香港 Cloudinnovation, server: 156.225.67.78, port: 32911, type: vmess, uuid: 3e016c4d-986e-42df-838c-6046f3d89ecf, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: sws-48|泛播 Cloudflare, server: quranweb23.xyz, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /current_time, headers: {Host: quranweb23.xyz}}, udp: true}
-  - {name: sws-49|泛播 Cloudflare, server: 172.67.222.57, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /current_time, headers: {Host: quranweb22.xyz}}, udp: true}
-  - {name: sws-50|泛播 Cloudflare, server: holyquran4.store, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /current_time, headers: {Host: holyquran4.store}}, udp: true}
-  - {name: sws-51|上海市上海嘉定 联通, server: in05.my1188.org, port: 63081, type: vmess, uuid: 093c5776-723e-3dbe-8a6b-f39b09ae0c00, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: hkt2-cdn.tencent.best}}, udp: true}
-  - {name: sws-52|泛播 Cloudflare, server: holyquran18.store, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /current_time, headers: {Host: holyquran18.store}}, udp: true}
-  - {name: sws-53|泛播 Cloudflare, server: uk1.scproxy.top, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: uk1.scproxy.top}}, udp: true}
-  - {name: sws-54|澳大利亚 , server: 203.30.190.1, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: 154.v2ray3.xyz}}, udp: true}
-  - {name: sws-55|泛播 Cloudflare, server: quranweb41.xyz, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /current_time, headers: {Host: quranweb41.xyz}}, udp: true}
-  - {name: sws-56|香港 Cloudinnovation, server: 156.225.67.118, port: 443, type: vmess, uuid: 84d1de11-ce12-4a15-8312-1338356d4ac4, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /path/120306182525, headers: {Host: www.57424349.xyz}}, udp: true}
-  - {name: sws-57|俄罗斯 , server: 185.148.104.215, port: 2053, type: vmess, uuid: 0268eba3-522d-43f2-ba0e-93674fa8017a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram-@VPNHouse_Official, headers: {Host: dl.mmdmahdi.tk}}, udp: true}
-  - {name: sws-58|泛播 Cloudflare, server: holyquran19.store, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /current_time, headers: {Host: holyquran19.store}}, udp: true}
-  - {name: sws-59|泛播 Cloudflare, server: quran-audio1.xyz, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /current_time, headers: {Host: quran-audio1.xyz}}, udp: true}
-  - {name: sws-60|辽宁省鞍山市 联通, server: 42.7.24.12, port: 1875, type: vmess, uuid: d1896d7e-b2d2-42b4-899b-4b4a797f9c3a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: sws-61|泛播 Cloudflare, server: social.progbyrazyar.ir, port: 2096, type: vmess, uuid: 4a92ff9c-7940-4dba-e5de-22df9c20c798, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /nodejs, headers: {Host: social.progbyrazyar.ir}}, udp: true}
-  - {name: sws-62|荷兰 , server: 45.95.241.24, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /current_time, headers: {Host: holyquran10.store}}, udp: true}
-  - {name: sws-63|泛播 Cloudflare, server: cf-topspeedvv2.uk, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /current_time, headers: {Host: cf-topspeedvv2.uk}}, udp: true}
-  - {name: sws-64|泛播 Cloudflare, server: quranweb26.xyz, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /current_time, headers: {Host: quranweb26.xyz}}, udp: true}
-  - {name: sws-65|辽宁省鞍山市 联通, server: 42.7.24.12, port: 1871, type: vmess, uuid: d1896d7e-b2d2-42b4-899b-4b4a797f9c3a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: sws-66|福建省泉州市 移动, server: 112.47.34.236, port: 6621, type: vmess, uuid: d1896d7e-b2d2-42b4-899b-4b4a797f9c3a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: sws-67|泛播 Cloudflare, server: chat.samrg.buzz, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /cutin, headers: {Host: chat.samrg.buzz}}, udp: true}
-  - {name: sws-68|泛播 Cloudflare, server: quranweb17.xyz, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /current_time, headers: {Host: quranweb17.xyz}}, udp: true}
-  - {name: sws-69|卢森堡 , server: vps.jiegebuyao.top, port: 19790, type: vmess, uuid: dce44967-ee54-4beb-b1bf-0c51aad60e08, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: vps.jiegebuyao.top}}, udp: true}
-  - {name: sws-70|泛播 Cloudflare, server: cf-topspeedonline.uk, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /current_time, headers: {Host: cf-topspeedonline.uk}}, udp: true}
-  - {name: sws-71|泛播 Cloudflare, server: 172.67.127.250, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /9JZFDTKE, headers: {Host: fr1.trump2023.org}}, udp: true}
-  - {name: sws-72|泛播 Cloudflare, server: quranweb19.xyz, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /current_time, headers: {Host: quranweb19.xyz}}, udp: true}
-  - {name: sws-73|广东省佛山市 移动, server: m.lwvzmdu.cn, port: 16622, type: vmess, uuid: 45f2770d-bb12-4841-9ebc-c020010590a3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: m.lwvzmdu.cn}}, udp: true}
-  - {name: sws-74|泛播 Cloudflare, server: quranweb6.xyz, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /current_time, headers: {Host: quranweb6.xyz}}, udp: true}
-  - {name: sws-75|泛播 Cloudflare, server: 172.67.194.139, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /current_time, headers: {Host: cf-topspeedoneplus.uk}}, udp: true}
-  - {name: sws-76|泛播 Cloudflare, server: cf.bakapie.cf, port: 2096, type: vmess, uuid: 72fd33d5-5c1a-4193-96c6-665fc20b71c1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /index, headers: {Host: 1076a8af.ikunxiao.top}}, udp: true}
-  - {name: sws-77|泛播 Cloudflare, server: 172.67.70.22, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
-  - {name: sws-78|泛播 Cloudflare, server: cf.xiaolong.world, port: 443, type: vmess, uuid: 7eea1139-79f8-45cb-8515-0ba45fa04eb2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vmess, headers: {Host: render.chenlan.top}}, udp: true}
-  - {name: sws-79|江苏省徐州市 移动, server: wcccpcppcp.ty777.xyz, port: 2388, type: vmess, uuid: d1896d7e-b2d2-42b4-899b-4b4a797f9c3a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: wcccpcppcp.ty777.xyz}}, udp: true}
-  - {name: sws-80|泛播 Cloudflare, server: holyquran15.store, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /current_time, headers: {Host: holyquran15.store}}, udp: true}
-  - {name: sws-81|澳大利亚 , server: 203.30.191.18, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}, udp: true}
-  - {name: sws-82|泛播 Shopify, server: 23.227.38.21, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
-  - {name: sws-83|泛播 BetConstruct, server: 185.162.228.2, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: 77.v2ray1.xyz}}, udp: true}
-  - {name: sws-84|泛播 BetConstruct, server: 185.162.228.1, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: 154.v2ray3.xyz}}, udp: true}
-  - {name: sws-85|泛播 Cloudflare, server: cf-topspeedoneplus.uk, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /current_time, headers: {Host: cf-topspeedoneplus.uk}}, udp: true}
-  - {name: sws-86|泛播 Cloudflare, server: 172.67.147.152, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /cutin, headers: {Host: chat.samrg.buzz}}, udp: true}
-  - {name: sws-87|摩尔多瓦 , server: 185.193.30.158, port: 443, type: vmess, uuid: A59E320C-BAC6-45E3-8A27-1518610708D0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.v2ray.online}}, udp: true}
-  - {name: sws-88|荷兰 , server: mtnx.ircf.space, port: 2096, type: vmess, uuid: 4a92ff9c-7940-4dba-e5de-22df9c20c798, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /nodejs, headers: {Host: social.progbyrazyar.ir}}, udp: true}
-  - {name: sws-89|上海市上海嘉定 联通, server: in05.my1188.org, port: 63082, type: vmess, uuid: 093c5776-723e-3dbe-8a6b-f39b09ae0c00, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: hkt3-cdn.tencent.best}}, udp: true}
-  - {name: sws-90|泛播 Cloudflare, server: quranweb22.xyz, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /current_time, headers: {Host: quranweb22.xyz}}, udp: true}
-  - {name: sws-91|泛播 Cloudflare, server: cf-topspeedv9.uk, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /current_time, headers: {Host: cf-topspeedv9.uk}}, udp: true}
-  - {name: sws-92|泛播 Cloudflare, server: 104.18.3.2, port: 80, type: vmess, uuid: 1d1c1d94-6987-4658-a4dc-8821a30fe7e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vmess, headers: {Host: idnusanet.vpnexecutive.my.id}}, udp: true}
-  - {name: sws-93|泛播 Cloudflare, server: quranweb29.xyz, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /current_time, headers: {Host: quranweb29.xyz}}, udp: true}
-  - {name: sws-94|泛播 Cloudflare, server: holyquran3.store, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /current_time, headers: {Host: holyquran3.store}}, udp: true}
-  - {name: sws-95|泛播 Cloudflare, server: ru11-ovb-rt.loopcloud.online, port: 443, type: vmess, uuid: e750675b-bf8c-48fd-bb5f-2a0a972ec92a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: grpc, servername: ru11-ovb-rt.loopcloud.online, grpc-opts: {grpc-service-name: /}, udp: true}
-  - {name: sws-96|泛播 Cloudflare, server: freequranbook.uk, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /current_time, headers: {Host: freequranbook.uk}}, udp: true}
-  - {name: sws-97|泛播 Cloudflare, server: ru06-mos-vds.loopcloud.online, port: 443, type: vmess, uuid: e750675b-bf8c-48fd-bb5f-2a0a972ec92a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: grpc, servername: ru06-mos-vds.loopcloud.online, grpc-opts: {grpc-service-name: /}, udp: true}
-  - {name: sws-98|泛播 Cloudflare, server: la.awsbest.com, port: 443, type: vmess, uuid: 8b6dd709-4d4e-4b92-f542-54a676efbfe4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /shares, headers: {Host: la.awsbest.com}}, udp: true}
-  - {name: sws-99|泛播 Cloudflare, server: us03-sea-rn.loopcloud.online, port: 443, type: vmess, uuid: e750675b-bf8c-48fd-bb5f-2a0a972ec92a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: grpc, servername: us03-sea-rn.loopcloud.online, grpc-opts: {grpc-service-name: /}, udp: true}
-  - {name: sws-100|天津市 电信, server: uuu.ednovas.cloud, port: 22044, type: vmess, uuid: bb917c6f-4dfc-420d-9124-e7934ce1e02c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: sws-101|美国加利福尼亚圣何塞 , server: 103.21.244.173, port: 80, type: vmess, uuid: f7738290-ba04-4dd1-b4f3-e6863a9e1c8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: zzsg.nmsl.pics}}, udp: true}
-  - {name: sws-102|天津市 电信, server: uuu.ednovas.cloud, port: 22034, type: vmess, uuid: bb917c6f-4dfc-420d-9124-e7934ce1e02c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: sws-103|泛播 Cloudflare, server: 172.67.218.254, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: us1.sharecentrepro.com}}, udp: true}
-  - {name: sws-104|天津市 电信, server: uuu.ednovas.cloud, port: 22045, type: vmess, uuid: bb917c6f-4dfc-420d-9124-e7934ce1e02c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: sws-105|泛播 Cloudflare, server: 172.67.147.153, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /cutin, headers: {Host: chat.samrg.buzz}}, udp: true}
-  - {name: sws-106|香港 Cloudinnovation, server: 156.225.67.107, port: 52488, type: vmess, uuid: 29a5d48e-24f1-48fd-a5e1-9a46cb31032f, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: sws-107|泛播 Cloudflare, server: japan.com, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: uk1.scproxy.top}}, udp: true}
-  - {name: sws-108|荷兰北荷兰阿姆斯特丹 , server: 46.182.107.22, port: 443, type: vmess, uuid: de491802-233e-47f2-8c6c-d19bcf5bd56b, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /path/120306182525, headers: {Host: www.67970370.xyz}}, udp: true}
-  - {name: sws-109|泛播 Cloudflare, server: 172.67.132.167, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /current_time, headers: {Host: holyquran11.store}}, udp: true}
-  - {name: sws-110|泛播 Cloudflare, server: quran-audio5.xyz, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /current_time, headers: {Host: quran-audio5.xyz}}, udp: true}
-  - {name: sws-111|泛播 Cloudflare, server: quranweb15.xyz, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /current_time, headers: {Host: quranweb15.xyz}}, udp: true}
-  - {name: sws-112|泛播 Cloudflare, server: cf.noaries.de, port: 80, type: vmess, uuid: 314c1387-618c-4689-97fc-4bc9a1ae5e05, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sg4.562148.xyz}}, udp: true}
-  - {name: sws-113|泛播 Cloudflare, server: quranweb1.xyz, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /current_time, headers: {Host: quranweb1.xyz}}, udp: true}
-  - {name: sws-114|泛播 Cloudflare, server: quranweb24.xyz, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /current_time, headers: {Host: quranweb24.xyz}}, udp: true}
-  - {name: sws-115|泛播 Cloudflare, server: 172.66.41.99, port: 443, type: vmess, uuid: 44bab30b-d1da-40b4-b65d-e0a3a98c0de6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vmessws, headers: {Host: ss.239000.xyz}}, udp: true}
-  - {name: sws-116|泛播 Cloudflare, server: quranweb3.xyz, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /current_time, headers: {Host: quranweb3.xyz}}, udp: true}
-  - {name: sws-117|日本 , server: leg.fastv2ray.eu.org, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /current_time, headers: {Host: holyquran4.store}}, udp: true}
-  - {name: sws-118|荷兰 , server: ping1.yebrahimi.ir, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /current_time, headers: {Host: cf-topspeedone.uk}}, udp: true}
-  - {name: sws-119|陕西省咸阳市秦都 联通, server: yes.iamagoodman.net, port: 16638, type: vmess, uuid: 45f2770d-bb12-4841-9ebc-c020010590a3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /mjp, headers: {Host: pull.free.video.10010.com}}, udp: true}
-  - {name: sws-120|泛播 Cloudflare, server: quranweb12.xyz, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /current_time, headers: {Host: quranweb12.xyz}}, udp: true}
+  - {name: sws-0|江苏省宿迁市 移动, server: ceu-a02.stream.fnode.top, port: 15106, type: vmess, uuid: 9970e6da-336e-3706-8a53-d612d23968ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: sws-1|江苏省宿迁市 移动, server: ceu-a01.stream.fnode.top, port: 15002, type: vmess, uuid: 9970e6da-336e-3706-8a53-d612d23968ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: sws-2|江苏省宿迁市 移动, server: ceu-a01.stream.fnode.top, port: 15004, type: vmess, uuid: 9970e6da-336e-3706-8a53-d612d23968ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: sws-3|江苏省宿迁市 移动, server: ceu-a02.stream.fnode.top, port: 25082, type: vmess, uuid: 9970e6da-336e-3706-8a53-d612d23968ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: sws-4|江苏省宿迁市 移动, server: csu-a03.stream.fnode.top, port: 25034, type: vmess, uuid: 9970e6da-336e-3706-8a53-d612d23968ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: sws-5|广东省深圳市 移动, server: csm-a01.stream.fnode.top, port: 10202, type: vmess, uuid: 9970e6da-336e-3706-8a53-d612d23968ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: sws-6|广东省深圳市 移动, server: csm-a01.stream.fnode.top, port: 10204, type: vmess, uuid: 9970e6da-336e-3706-8a53-d612d23968ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: sws-7|广东省深圳市 移动, server: csm-a01.stream.fnode.top, port: 10206, type: vmess, uuid: 9970e6da-336e-3706-8a53-d612d23968ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: sws-8|江苏省宿迁市 移动, server: csm-a02.stream.fnode.top, port: 10208, type: vmess, uuid: 9970e6da-336e-3706-8a53-d612d23968ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: sws-9|江苏省宿迁市 移动, server: csm-a02.stream.fnode.top, port: 10210, type: vmess, uuid: 9970e6da-336e-3706-8a53-d612d23968ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: sws-10|江苏省宿迁市 移动, server: ceu-a02.stream.fnode.top, port: 15108, type: vmess, uuid: 9970e6da-336e-3706-8a53-d612d23968ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: sws-11|广东省深圳市 移动, server: csm-a01.stream.fnode.top, port: 10216, type: vmess, uuid: 9970e6da-336e-3706-8a53-d612d23968ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: sws-12|广东省深圳市 移动, server: csm-a01.stream.fnode.top, port: 10218, type: vmess, uuid: 9970e6da-336e-3706-8a53-d612d23968ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: sws-13|广东省深圳市 移动, server: csm-a01.stream.fnode.top, port: 10214, type: vmess, uuid: 9970e6da-336e-3706-8a53-d612d23968ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: sws-14|江苏省宿迁市 移动, server: csm-a03.stream.fnode.top, port: 20502, type: vmess, uuid: 9970e6da-336e-3706-8a53-d612d23968ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: sws-15|江苏省宿迁市 移动, server: csm-a03.stream.fnode.top, port: 20504, type: vmess, uuid: 9970e6da-336e-3706-8a53-d612d23968ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: sws-16|江苏省宿迁市 移动, server: csm-a03.stream.fnode.top, port: 20506, type: vmess, uuid: 9970e6da-336e-3706-8a53-d612d23968ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: sws-17|江苏省宿迁市 移动, server: csu-a03.stream.fnode.top, port: 25042, type: vmess, uuid: 9970e6da-336e-3706-8a53-d612d23968ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: sws-18|江苏省宿迁市 移动, server: csu-a03.stream.fnode.top, port: 25072, type: vmess, uuid: 9970e6da-336e-3706-8a53-d612d23968ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: sws-19|江苏省宿迁市 移动, server: ceu-a02.stream.fnode.top, port: 15104, type: vmess, uuid: 9970e6da-336e-3706-8a53-d612d23968ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: sws-20|江苏省宿迁市 移动, server: ceu-a01.stream.fnode.top, port: 20332, type: vmess, uuid: 9970e6da-336e-3706-8a53-d612d23968ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: sws-21|江苏省宿迁市 移动, server: ceu-a01.stream.fnode.top, port: 20334, type: vmess, uuid: 9970e6da-336e-3706-8a53-d612d23968ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: sws-22|江苏省宿迁市 移动, server: ceu-a01.stream.fnode.top, port: 20336, type: vmess, uuid: 9970e6da-336e-3706-8a53-d612d23968ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: sws-23|江苏省宿迁市 移动, server: ceu-a01.stream.fnode.top, port: 20302, type: vmess, uuid: 9970e6da-336e-3706-8a53-d612d23968ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: sws-24|江苏省宿迁市 移动, server: ceu-a01.stream.fnode.top, port: 20304, type: vmess, uuid: 9970e6da-336e-3706-8a53-d612d23968ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: sws-25|江苏省宿迁市 移动, server: ceu-a02.stream.fnode.top, port: 15102, type: vmess, uuid: 9970e6da-336e-3706-8a53-d612d23968ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: sws-26|江苏省宿迁市 移动, server: csu-a03.stream.fnode.top, port: 25032, type: vmess, uuid: 9970e6da-336e-3706-8a53-d612d23968ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: sws-27|江苏省宿迁市 移动, server: ceu-a03.stream.fnode.top, port: 25022, type: vmess, uuid: 9970e6da-336e-3706-8a53-d612d23968ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: sws-28|广东省深圳市 移动, server: csm-a01.stream.fnode.top, port: 10132, type: vmess, uuid: 9970e6da-336e-3706-8a53-d612d23968ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: sws-29|广东省深圳市 移动, server: csm-a01.stream.fnode.top, port: 10134, type: vmess, uuid: 9970e6da-336e-3706-8a53-d612d23968ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: sws-30|广东省深圳市 移动, server: csm-a01.stream.fnode.top, port: 10136, type: vmess, uuid: 9970e6da-336e-3706-8a53-d612d23968ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: sws-31|广东省深圳市 移动, server: csm-a01.stream.fnode.top, port: 10102, type: vmess, uuid: 9970e6da-336e-3706-8a53-d612d23968ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: sws-32|江苏省宿迁市 移动, server: csu-a03.stream.fnode.top, port: 25052, type: vmess, uuid: 9970e6da-336e-3706-8a53-d612d23968ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
 
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
-      - sws-0|陕西省咸阳市秦都 联通
-      - sws-1|湖北省武汉市 电信
-      - sws-2|陕西省咸阳市秦都 联通
-      - sws-3|广东省佛山市 移动
-      - sws-4|陕西省咸阳市秦都 联通
-      - sws-5|辽宁省鞍山市 联通
-      - sws-6|广东省佛山市 移动
-      - sws-7|陕西省咸阳市秦都 联通
-      - sws-8|辽宁省鞍山市 联通
-      - sws-9|江苏省徐州市 移动
-      - sws-10|广东省佛山市 移动
-      - sws-11|福建省泉州市 移动
-      - sws-12|福建省泉州市 移动
-      - sws-13|广东省佛山市 移动
-      - sws-14|福建省泉州市 移动
-      - sws-15|湖北省武汉市 电信
-      - sws-16|福建省泉州市 移动
-      - sws-17|湖北省武汉市 电信
-      - sws-18|福建省泉州市 移动
-      - sws-19|辽宁省鞍山市 联通
-      - sws-20|辽宁省鞍山市 联通
-      - sws-21|辽宁省鞍山市 联通
-      - sws-22|陕西省咸阳市秦都 联通
-      - sws-23|福建省泉州市 移动
-      - sws-24|福建省泉州市 移动
-      - sws-25|福建省泉州市 移动
-      - sws-26|福建省泉州市 移动
-      - sws-27|福建省泉州市 移动
-      - sws-28|辽宁省鞍山市 联通
-      - sws-29|福建省泉州市 移动
-      - sws-30|福建省泉州市 移动
-      - sws-31|广东省佛山市 移动
-      - sws-32|上海市上海嘉定 联通
-      - sws-33|福建省泉州市 移动
-      - sws-34|陕西省咸阳市秦都 联通
-      - sws-35|广东省深圳市 移动
-      - sws-36|辽宁省鞍山市 联通
-      - sws-37|上海市上海嘉定 联通
-      - sws-38|湖北省武汉市 电信
-      - sws-39|福建省泉州市 移动
-      - sws-40|上海市上海嘉定 联通
-      - sws-41|广东省深圳市 移动
-      - sws-42|陕西省咸阳市秦都 联通
-      - sws-43|陕西省咸阳市秦都 联通
-      - sws-44|香港 Cloudinnovation
-      - sws-45|泛播 Cloudflare
-      - sws-46|福建省泉州市 移动
-      - sws-47|香港 Cloudinnovation
-      - sws-48|泛播 Cloudflare
-      - sws-49|泛播 Cloudflare
-      - sws-50|泛播 Cloudflare
-      - sws-51|上海市上海嘉定 联通
-      - sws-52|泛播 Cloudflare
-      - sws-53|泛播 Cloudflare
-      - sws-54|澳大利亚 
-      - sws-55|泛播 Cloudflare
-      - sws-56|香港 Cloudinnovation
-      - sws-57|俄罗斯 
-      - sws-58|泛播 Cloudflare
-      - sws-59|泛播 Cloudflare
-      - sws-60|辽宁省鞍山市 联通
-      - sws-61|泛播 Cloudflare
-      - sws-62|荷兰 
-      - sws-63|泛播 Cloudflare
-      - sws-64|泛播 Cloudflare
-      - sws-65|辽宁省鞍山市 联通
-      - sws-66|福建省泉州市 移动
-      - sws-67|泛播 Cloudflare
-      - sws-68|泛播 Cloudflare
-      - sws-69|卢森堡 
-      - sws-70|泛播 Cloudflare
-      - sws-71|泛播 Cloudflare
-      - sws-72|泛播 Cloudflare
-      - sws-73|广东省佛山市 移动
-      - sws-74|泛播 Cloudflare
-      - sws-75|泛播 Cloudflare
-      - sws-76|泛播 Cloudflare
-      - sws-77|泛播 Cloudflare
-      - sws-78|泛播 Cloudflare
-      - sws-79|江苏省徐州市 移动
-      - sws-80|泛播 Cloudflare
-      - sws-81|澳大利亚 
-      - sws-82|泛播 Shopify
-      - sws-83|泛播 BetConstruct
-      - sws-84|泛播 BetConstruct
-      - sws-85|泛播 Cloudflare
-      - sws-86|泛播 Cloudflare
-      - sws-87|摩尔多瓦 
-      - sws-88|荷兰 
-      - sws-89|上海市上海嘉定 联通
-      - sws-90|泛播 Cloudflare
-      - sws-91|泛播 Cloudflare
-      - sws-92|泛播 Cloudflare
-      - sws-93|泛播 Cloudflare
-      - sws-94|泛播 Cloudflare
-      - sws-95|泛播 Cloudflare
-      - sws-96|泛播 Cloudflare
-      - sws-97|泛播 Cloudflare
-      - sws-98|泛播 Cloudflare
-      - sws-99|泛播 Cloudflare
-      - sws-100|天津市 电信
-      - sws-101|美国加利福尼亚圣何塞 
-      - sws-102|天津市 电信
-      - sws-103|泛播 Cloudflare
-      - sws-104|天津市 电信
-      - sws-105|泛播 Cloudflare
-      - sws-106|香港 Cloudinnovation
-      - sws-107|泛播 Cloudflare
-      - sws-108|荷兰北荷兰阿姆斯特丹 
-      - sws-109|泛播 Cloudflare
-      - sws-110|泛播 Cloudflare
-      - sws-111|泛播 Cloudflare
-      - sws-112|泛播 Cloudflare
-      - sws-113|泛播 Cloudflare
-      - sws-114|泛播 Cloudflare
-      - sws-115|泛播 Cloudflare
-      - sws-116|泛播 Cloudflare
-      - sws-117|日本 
-      - sws-118|荷兰 
-      - sws-119|陕西省咸阳市秦都 联通
-      - sws-120|泛播 Cloudflare
+      - sws-0|江苏省宿迁市 移动
+      - sws-1|江苏省宿迁市 移动
+      - sws-2|江苏省宿迁市 移动
+      - sws-3|江苏省宿迁市 移动
+      - sws-4|江苏省宿迁市 移动
+      - sws-5|广东省深圳市 移动
+      - sws-6|广东省深圳市 移动
+      - sws-7|广东省深圳市 移动
+      - sws-8|江苏省宿迁市 移动
+      - sws-9|江苏省宿迁市 移动
+      - sws-10|江苏省宿迁市 移动
+      - sws-11|广东省深圳市 移动
+      - sws-12|广东省深圳市 移动
+      - sws-13|广东省深圳市 移动
+      - sws-14|江苏省宿迁市 移动
+      - sws-15|江苏省宿迁市 移动
+      - sws-16|江苏省宿迁市 移动
+      - sws-17|江苏省宿迁市 移动
+      - sws-18|江苏省宿迁市 移动
+      - sws-19|江苏省宿迁市 移动
+      - sws-20|江苏省宿迁市 移动
+      - sws-21|江苏省宿迁市 移动
+      - sws-22|江苏省宿迁市 移动
+      - sws-23|江苏省宿迁市 移动
+      - sws-24|江苏省宿迁市 移动
+      - sws-25|江苏省宿迁市 移动
+      - sws-26|江苏省宿迁市 移动
+      - sws-27|江苏省宿迁市 移动
+      - sws-28|广东省深圳市 移动
+      - sws-29|广东省深圳市 移动
+      - sws-30|广东省深圳市 移动
+      - sws-31|广东省深圳市 移动
+      - sws-32|江苏省宿迁市 移动
 
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 200
     proxies:
-      - sws-0|陕西省咸阳市秦都 联通
-      - sws-1|湖北省武汉市 电信
-      - sws-2|陕西省咸阳市秦都 联通
-      - sws-3|广东省佛山市 移动
-      - sws-4|陕西省咸阳市秦都 联通
-      - sws-5|辽宁省鞍山市 联通
-      - sws-6|广东省佛山市 移动
-      - sws-7|陕西省咸阳市秦都 联通
-      - sws-8|辽宁省鞍山市 联通
-      - sws-9|江苏省徐州市 移动
-      - sws-10|广东省佛山市 移动
-      - sws-11|福建省泉州市 移动
-      - sws-12|福建省泉州市 移动
-      - sws-13|广东省佛山市 移动
-      - sws-14|福建省泉州市 移动
-      - sws-15|湖北省武汉市 电信
-      - sws-16|福建省泉州市 移动
-      - sws-17|湖北省武汉市 电信
-      - sws-18|福建省泉州市 移动
-      - sws-19|辽宁省鞍山市 联通
-      - sws-20|辽宁省鞍山市 联通
-      - sws-21|辽宁省鞍山市 联通
-      - sws-22|陕西省咸阳市秦都 联通
-      - sws-23|福建省泉州市 移动
-      - sws-24|福建省泉州市 移动
-      - sws-25|福建省泉州市 移动
-      - sws-26|福建省泉州市 移动
-      - sws-27|福建省泉州市 移动
-      - sws-28|辽宁省鞍山市 联通
-      - sws-29|福建省泉州市 移动
-      - sws-30|福建省泉州市 移动
-      - sws-31|广东省佛山市 移动
-      - sws-32|上海市上海嘉定 联通
-      - sws-33|福建省泉州市 移动
-      - sws-34|陕西省咸阳市秦都 联通
-      - sws-35|广东省深圳市 移动
-      - sws-36|辽宁省鞍山市 联通
-      - sws-37|上海市上海嘉定 联通
-      - sws-38|湖北省武汉市 电信
-      - sws-39|福建省泉州市 移动
-      - sws-40|上海市上海嘉定 联通
-      - sws-41|广东省深圳市 移动
-      - sws-42|陕西省咸阳市秦都 联通
-      - sws-43|陕西省咸阳市秦都 联通
-      - sws-44|香港 Cloudinnovation
-      - sws-45|泛播 Cloudflare
-      - sws-46|福建省泉州市 移动
-      - sws-47|香港 Cloudinnovation
-      - sws-48|泛播 Cloudflare
-      - sws-49|泛播 Cloudflare
-      - sws-50|泛播 Cloudflare
-      - sws-51|上海市上海嘉定 联通
-      - sws-52|泛播 Cloudflare
-      - sws-53|泛播 Cloudflare
-      - sws-54|澳大利亚 
-      - sws-55|泛播 Cloudflare
-      - sws-56|香港 Cloudinnovation
-      - sws-57|俄罗斯 
-      - sws-58|泛播 Cloudflare
-      - sws-59|泛播 Cloudflare
-      - sws-60|辽宁省鞍山市 联通
-      - sws-61|泛播 Cloudflare
-      - sws-62|荷兰 
-      - sws-63|泛播 Cloudflare
-      - sws-64|泛播 Cloudflare
-      - sws-65|辽宁省鞍山市 联通
-      - sws-66|福建省泉州市 移动
-      - sws-67|泛播 Cloudflare
-      - sws-68|泛播 Cloudflare
-      - sws-69|卢森堡 
-      - sws-70|泛播 Cloudflare
-      - sws-71|泛播 Cloudflare
-      - sws-72|泛播 Cloudflare
-      - sws-73|广东省佛山市 移动
-      - sws-74|泛播 Cloudflare
-      - sws-75|泛播 Cloudflare
-      - sws-76|泛播 Cloudflare
-      - sws-77|泛播 Cloudflare
-      - sws-78|泛播 Cloudflare
-      - sws-79|江苏省徐州市 移动
-      - sws-80|泛播 Cloudflare
-      - sws-81|澳大利亚 
-      - sws-82|泛播 Shopify
-      - sws-83|泛播 BetConstruct
-      - sws-84|泛播 BetConstruct
-      - sws-85|泛播 Cloudflare
-      - sws-86|泛播 Cloudflare
-      - sws-87|摩尔多瓦 
-      - sws-88|荷兰 
-      - sws-89|上海市上海嘉定 联通
-      - sws-90|泛播 Cloudflare
-      - sws-91|泛播 Cloudflare
-      - sws-92|泛播 Cloudflare
-      - sws-93|泛播 Cloudflare
-      - sws-94|泛播 Cloudflare
-      - sws-95|泛播 Cloudflare
-      - sws-96|泛播 Cloudflare
-      - sws-97|泛播 Cloudflare
-      - sws-98|泛播 Cloudflare
-      - sws-99|泛播 Cloudflare
-      - sws-100|天津市 电信
-      - sws-101|美国加利福尼亚圣何塞 
-      - sws-102|天津市 电信
-      - sws-103|泛播 Cloudflare
-      - sws-104|天津市 电信
-      - sws-105|泛播 Cloudflare
-      - sws-106|香港 Cloudinnovation
-      - sws-107|泛播 Cloudflare
-      - sws-108|荷兰北荷兰阿姆斯特丹 
-      - sws-109|泛播 Cloudflare
-      - sws-110|泛播 Cloudflare
-      - sws-111|泛播 Cloudflare
-      - sws-112|泛播 Cloudflare
-      - sws-113|泛播 Cloudflare
-      - sws-114|泛播 Cloudflare
-      - sws-115|泛播 Cloudflare
-      - sws-116|泛播 Cloudflare
-      - sws-117|日本 
-      - sws-118|荷兰 
-      - sws-119|陕西省咸阳市秦都 联通
-      - sws-120|泛播 Cloudflare
+      - sws-0|江苏省宿迁市 移动
+      - sws-1|江苏省宿迁市 移动
+      - sws-2|江苏省宿迁市 移动
+      - sws-3|江苏省宿迁市 移动
+      - sws-4|江苏省宿迁市 移动
+      - sws-5|广东省深圳市 移动
+      - sws-6|广东省深圳市 移动
+      - sws-7|广东省深圳市 移动
+      - sws-8|江苏省宿迁市 移动
+      - sws-9|江苏省宿迁市 移动
+      - sws-10|江苏省宿迁市 移动
+      - sws-11|广东省深圳市 移动
+      - sws-12|广东省深圳市 移动
+      - sws-13|广东省深圳市 移动
+      - sws-14|江苏省宿迁市 移动
+      - sws-15|江苏省宿迁市 移动
+      - sws-16|江苏省宿迁市 移动
+      - sws-17|江苏省宿迁市 移动
+      - sws-18|江苏省宿迁市 移动
+      - sws-19|江苏省宿迁市 移动
+      - sws-20|江苏省宿迁市 移动
+      - sws-21|江苏省宿迁市 移动
+      - sws-22|江苏省宿迁市 移动
+      - sws-23|江苏省宿迁市 移动
+      - sws-24|江苏省宿迁市 移动
+      - sws-25|江苏省宿迁市 移动
+      - sws-26|江苏省宿迁市 移动
+      - sws-27|江苏省宿迁市 移动
+      - sws-28|广东省深圳市 移动
+      - sws-29|广东省深圳市 移动
+      - sws-30|广东省深圳市 移动
+      - sws-31|广东省深圳市 移动
+      - sws-32|江苏省宿迁市 移动
 
   - name: 🎯 全球直连
     type: select
