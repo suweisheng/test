@@ -5,183 +5,302 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: sws-0, server: aparat.persianmizban.com, port: 4433, type: vmess, uuid: 88790a1b-f059-40c7-9c9d-b7c943b4420b, client-fingerprint: chrome, alterId: 0, tfo: False, skip-cert-verify: False, tls: True, cipher: auto}
-  - {name: sws-1, server: scloudtw2-tg-data.amazonwebservicess.com, port: 443, type: trojan, client-fingerprint: chrome, tfo: False, skip-cert-verify: False, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e}
-  - {name: sws-2, server: cu.wfitech.net, port: 443, type: vmess, uuid: 030ae75a-1a4a-45cc-88f1-f1b7d9fe15f3, client-fingerprint: chrome, alterId: 0, tfo: False, skip-cert-verify: False, tls: True, cipher: auto, ws-opts: {'path': '/', 'headers': {'Host': 'cu.wfitech.net'}}, network: ws}
-  - {name: sws-3, server: 167.88.63.79, port: 3306, type: ss, client-fingerprint: chrome, tfo: False, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: sws-4, server: hk5.cnamazon.sbs, port: 443, type: trojan, client-fingerprint: chrome, tfo: False, skip-cert-verify: False, password: bc2a1eb1-a706-4ee5-95a6-732a6c324142}
-  - {name: sws-5, server: de.vfun.icu, port: 443, type: ssr, client-fingerprint: chrome, tfo: False, protocol: auth_aes128_sha1, protocol-param: 17422:TTp0SX, obfs-param: ab93117422.jd.hk, cipher: aes-256-cfb, obfs: plain, password: vyunme}
-  - {name: sws-6, server: 36.134.16.171, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, client-fingerprint: chrome, alterId: 0, tfo: False, skip-cert-verify: False, tls: False, cipher: auto}
-  - {name: sws-7, server: scloudtw1-tg-data.amazonwebservicess.com, port: 443, type: trojan, client-fingerprint: chrome, tfo: False, skip-cert-verify: False, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e}
-  - {name: sws-8, server: vn.mjt001.com, port: 443, type: trojan, client-fingerprint: chrome, tfo: False, skip-cert-verify: False, password: af4dc66a-ec88-4057-9e46-777b584577f7}
-  - {name: sws-9, server: sg-am3.eqsunshine.com, port: 32001, type: ssr, client-fingerprint: chrome, tfo: False, protocol: origin, protocol-param: , obfs-param: , cipher: aes-256-cfb, obfs: tls1.2_ticket_auth, password: 3g0dHlKME}
-  - {name: sws-10, server: 167.88.63.79, port: 7307, type: ss, client-fingerprint: chrome, tfo: False, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: sws-11, server: stw5-tg-data.amazonwebservicess.com, port: 443, type: trojan, client-fingerprint: chrome, tfo: False, skip-cert-verify: False, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e}
-  - {name: sws-12, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, client-fingerprint: chrome, alterId: 0, tfo: False, skip-cert-verify: False, tls: False, cipher: auto, ws-opts: {'path': '/shirker', 'headers': {'Host': 'ca.ilovescp.com'}}, network: ws}
-  - {name: sws-13, server: cnhkall.debugex.xyz, port: 561, type: ssr, client-fingerprint: chrome, tfo: False, protocol: auth_aes128_md5, protocol-param: 3866:125458558, obfs-param: , cipher: chacha20-ietf, obfs: plain, password: mblank1port}
-  - {name: sws-14, server: 202.79.174.157, port: 55264, type: vmess, uuid: 121c9c89-7d11-4f49-9112-dc1e85363f6f, client-fingerprint: chrome, alterId: 64, tfo: False, skip-cert-verify: False, tls: False, cipher: auto}
-  - {name: sws-15, server: 135.148.149.209, port: 80, type: trojan, client-fingerprint: chrome, tfo: False, skip-cert-verify: False, password: 255c924c-1314-4084-9a9e-1d1a82a5cf49}
-  - {name: sws-16, server: hk1.cnamazon.sbs, port: 443, type: trojan, client-fingerprint: chrome, tfo: False, password: 5f9a5d8c-a57b-4da6-baff-490fe4cf8d60, skip-cert-verify: False, sni: tlsdata.cnamazon.sbs}
-  - {name: sws-17, server: 152.70.74.66, port: 443, type: trojan, client-fingerprint: chrome, tfo: False, skip-cert-verify: False, password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e}
-  - {name: sws-18, server: hk1.vfun.icu, port: 443, type: ssr, client-fingerprint: chrome, tfo: False, protocol: auth_aes128_sha1, protocol-param: 17422:TTp0SX, obfs-param: ab93117422.jd.hk, cipher: aes-256-cfb, obfs: plain, password: vyunme}
-  - {name: sws-19, server: 142.0.133.39, port: 51412, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, client-fingerprint: chrome, alterId: 64, tfo: False, skip-cert-verify: False, tls: False, cipher: auto}
-  - {name: sws-20, server: us-am3.eqnode.net, port: 8081, type: ssr, client-fingerprint: chrome, tfo: False, protocol: origin, protocol-param: , obfs-param: , cipher: aes-256-cfb, obfs: tls1.2_ticket_auth, password: fou8MBGij}
-  - {name: sws-21, server: hk4.iepl.cooc.icu, port: 24881, type: ss, client-fingerprint: chrome, tfo: False, cipher: aes-256-gcm, password: 7db2fa0a-f781-40b9-a3d4-a327e2a48ab3}
-  - {name: sws-22, server: 138.2.71.111, port: 80, type: vmess, uuid: b2947942-701b-4de2-91cd-f6810d5d03bc, client-fingerprint: chrome, alterId: 0, tfo: False, skip-cert-verify: False, tls: False, cipher: auto, ws-opts: {'path': '/'}, network: ws}
-  - {name: sws-23, server: stw7-tg-data.amazonwebservicess.com, port: 443, type: trojan, client-fingerprint: chrome, tfo: False, password: 4aeda200-44c9-4168-8f2a-a00a72176d35, skip-cert-verify: False, sni: data.amazonwebservicess.com}
-  - {name: sws-24, server: 167.88.63.79, port: 8118, type: ss, client-fingerprint: chrome, tfo: False, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: sws-25, server: 192.74.242.156, port: 44667, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, client-fingerprint: chrome, alterId: 64, tfo: False, skip-cert-verify: False, tls: False, cipher: auto}
-  - {name: sws-26, server: 3.112.220.151, port: 31467, type: trojan, client-fingerprint: chrome, tfo: False, password: e8dacfc5-79b1-4289-92f1-e390080d56aa, skip-cert-verify: False, sni: sgp.piaole.me}
-  - {name: sws-27, server: 192.74.229.220, port: 51592, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, client-fingerprint: chrome, alterId: 64, tfo: False, skip-cert-verify: False, tls: False, cipher: auto}
-  - {name: sws-28, server: 142.0.130.11, port: 53452, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, client-fingerprint: chrome, alterId: 64, tfo: False, skip-cert-verify: False, tls: False, cipher: auto}
-  - {name: sws-29, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, client-fingerprint: chrome, alterId: 0, tfo: False, skip-cert-verify: False, tls: False, cipher: auto, ws-opts: {'path': '/yxzbp', 'headers': {'Host': 'dp1.yxjnode.com'}}, network: ws}
-  - {name: sws-30, server: en.foriran.live, port: 443, type: vmess, uuid: 8357816b-68e4-4a2b-830c-e9bdd369ea22, client-fingerprint: chrome, alterId: 0, tfo: False, skip-cert-verify: False, tls: True, cipher: auto, ws-opts: {'path': '/', 'headers': {'Host': 'en.foriran.live'}}, network: ws}
-  - {name: sws-31, server: 216.52.183.243, port: 80, type: ss, client-fingerprint: chrome, tfo: False, cipher: aes-128-gcm, password: 83XvX4Vo%*3a}
-  - {name: sws-32, server: 192.74.228.183, port: 443, type: vmess, uuid: 051b844f-efe3-4847-92aa-66b5de0b6d4e, client-fingerprint: chrome, alterId: 64, tfo: False, skip-cert-verify: False, tls: True, cipher: auto, ws-opts: {'path': '/'}, network: ws}
-  - {name: sws-33, server: 137.175.61.152, port: 53940, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, client-fingerprint: chrome, alterId: 64, tfo: False, skip-cert-verify: False, tls: False, cipher: auto}
-  - {name: sws-34, server: 14.29.124.168, port: 24006, type: ss, client-fingerprint: chrome, tfo: False, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: sws-35, server: 172.104.64.90, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, client-fingerprint: chrome, alterId: 0, tfo: False, skip-cert-verify: False, tls: True, cipher: auto, ws-opts: {'path': '/'}, network: ws}
-  - {name: sws-36, server: awshk9-tg-data.amazonwebservicess.com, port: 443, type: trojan, client-fingerprint: chrome, tfo: False, password: 4aeda200-44c9-4168-8f2a-a00a72176d35, skip-cert-verify: False, sni: data.amazonwebservicess.com}
-  - {name: sws-37, server: 192.74.228.178, port: 42857, type: vmess, uuid: 051b844f-efe3-4847-92aa-66b5de0b6d4e, client-fingerprint: chrome, alterId: 64, tfo: False, skip-cert-verify: False, tls: False, cipher: auto}
-  - {name: sws-38, server: 14.29.124.168, port: 24000, type: ss, client-fingerprint: chrome, tfo: False, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: sws-39, server: 167.88.63.79, port: 5003, type: ss, client-fingerprint: chrome, tfo: False, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: sws-40, server: 23.225.33.173, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, client-fingerprint: chrome, alterId: 64, tfo: False, skip-cert-verify: False, tls: True, cipher: auto, ws-opts: {'path': '/'}, network: ws}
-  - {name: sws-41, server: stw10-tg-data.amazonwebservicess.com, port: 443, type: trojan, client-fingerprint: chrome, tfo: False, skip-cert-verify: False, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e}
-  - {name: sws-42, server: 23.227.38.99, port: 443, type: vmess, uuid: 86d37526-5758-4cec-862f-df404b313086, client-fingerprint: chrome, alterId: 0, tfo: False, skip-cert-verify: False, tls: True, cipher: auto, ws-opts: {'path': '/3G6WPDL7', 'headers': {'Host': '1.freek1.xyz'}}, network: ws}
-  - {name: sws-43, server: fr-am1-5.eqsunshine.com, port: 8181, type: ssr, client-fingerprint: chrome, tfo: False, protocol: origin, protocol-param: , obfs-param: , cipher: aes-256-cfb, obfs: tls1.2_ticket_auth, password: RcfVcDzzB}
-  - {name: sws-44, server: 3.112.220.151, port: 26911, type: trojan, client-fingerprint: chrome, tfo: False, password: a3869db4-eaaa-4cef-b131-26b3c0b46686, skip-cert-verify: False, sni: sgp.piaole.me}
-  - {name: sws-45, server: 192.74.230.61, port: 42689, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, client-fingerprint: chrome, alterId: 64, tfo: False, skip-cert-verify: False, tls: False, cipher: auto}
-  - {name: sws-46, server: 43.198.104.234, port: 443, type: trojan, udp: True, password: e3b8d876-47a7-408c-bb0b-2478da0cd498, skip-cert-verify: True, sni: 4-193-105-141.nhost.00cdn.com, network: tcp}
-  - {name: sws-47, server: 43.198.102.15, port: 443, type: trojan, udp: True, password: e3b8d876-47a7-408c-bb0b-2478da0cd498, skip-cert-verify: True, sni: 4-193-105-141.nhost.00cdn.com, network: tcp}
-  - {name: sws-48, server: 43.207.94.114, port: 443, type: trojan, udp: True, password: e3b8d876-47a7-408c-bb0b-2478da0cd498, skip-cert-verify: True, sni: 4-193-105-141.nhost.00cdn.com, network: tcp}
-  - {name: sws-49, server: 43.206.114.25, port: 443, type: trojan, udp: True, password: e3b8d876-47a7-408c-bb0b-2478da0cd498, skip-cert-verify: True, sni: 4-193-105-141.nhost.00cdn.com, network: tcp}
-  - {name: sws-50, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: e3b8d876-47a7-408c-bb0b-2478da0cd498, alterId: 0, tls: True, skip-cert-verify: True, cipher: auto, ws-opts: {'path': '/kbjc/jp1', 'headers': {'host': 'jp1.hnokkdf.top'}}, network: ws}
-  - {name: sws-51, server: 163.123.192.146, port: 443, type: trojan, udp: True, password: e3b8d876-47a7-408c-bb0b-2478da0cd498, skip-cert-verify: True, sni: 4-193-105-141.nhost.00cdn.com, network: tcp}
-  - {name: sws-52, server: 163.123.192.143, port: 443, type: trojan, udp: True, password: e3b8d876-47a7-408c-bb0b-2478da0cd498, skip-cert-verify: True, sni: 4-193-105-141.nhost.00cdn.com, network: tcp}
-  - {name: sws-53, server: 163.123.192.144, port: 443, type: trojan, udp: True, password: e3b8d876-47a7-408c-bb0b-2478da0cd498, skip-cert-verify: True, sni: 4-193-105-141.nhost.00cdn.com, network: tcp}
-  - {name: sws-54, server: 141.11.127.19, port: 443, type: trojan, udp: True, password: e3b8d876-47a7-408c-bb0b-2478da0cd498, skip-cert-verify: True, sni: 4-193-105-141.nhost.00cdn.com, network: tcp}
-  - {name: sws-55, server: 163.123.192.145, port: 443, type: trojan, udp: True, password: e3b8d876-47a7-408c-bb0b-2478da0cd498, skip-cert-verify: True, sni: 4-193-105-141.nhost.00cdn.com, network: tcp}
-  - {name: sws-56, server: hk4.cnamazon.sbs, port: 443, type: trojan, udp: True, password: 33114904-dfa7-4267-9996-2c5bb47b7b50, skip-cert-verify: True, sni: tlsdata.cnamazon.sbs, network: tcp}
-  - {name: sws-57, server: jp4.cnamazon.sbs, port: 443, type: trojan, udp: True, password: 33114904-dfa7-4267-9996-2c5bb47b7b50, skip-cert-verify: True, sni: tlsdata.cnamazon.sbs, network: tcp}
-  - {name: sws-58, server: jp5.cnamazon.sbs, port: 443, type: trojan, udp: True, password: 33114904-dfa7-4267-9996-2c5bb47b7b50, skip-cert-verify: True, sni: tlsdata.cnamazon.sbs, network: tcp}
-  - {name: sws-59, server: 50.cnamazon.sbs, port: 443, type: trojan, udp: True, password: 33114904-dfa7-4267-9996-2c5bb47b7b50, skip-cert-verify: True, sni: tlsdata.cnamazon.sbs, network: tcp}
-  - {name: sws-60, server: jp3.cnamazon.sbs, port: 443, type: trojan, udp: True, password: 33114904-dfa7-4267-9996-2c5bb47b7b50, skip-cert-verify: True, sni: tlsdata.cnamazon.sbs, network: tcp}
-  - {name: sws-61, server: jp2.cnamazon.sbs, port: 443, type: trojan, udp: True, password: 33114904-dfa7-4267-9996-2c5bb47b7b50, skip-cert-verify: True, sni: tlsdata.cnamazon.sbs, network: tcp}
-  - {name: sws-62, server: jp1.cnamazon.sbs, port: 443, type: trojan, udp: True, password: 33114904-dfa7-4267-9996-2c5bb47b7b50, skip-cert-verify: True, sni: tlsdata.cnamazon.sbs, network: tcp}
-  - {name: sws-63, server: sg2.cnamazon.sbs, port: 443, type: trojan, udp: True, password: 33114904-dfa7-4267-9996-2c5bb47b7b50, skip-cert-verify: True, sni: tlsdata.cnamazon.sbs, network: tcp}
-  - {name: sws-64, server: bgptw1.cnamazon.sbs, port: 443, type: trojan, udp: True, password: 33114904-dfa7-4267-9996-2c5bb47b7b50, skip-cert-verify: True, sni: tlsdata.cnamazon.sbs, network: tcp}
-  - {name: sws-65, server: bgptw5.cnamazon.sbs, port: 443, type: trojan, udp: True, password: 33114904-dfa7-4267-9996-2c5bb47b7b50, skip-cert-verify: True, sni: tlsdata.cnamazon.sbs, network: tcp}
-  - {name: sws-66, server: bgptw2.cnamazon.sbs, port: 443, type: trojan, udp: True, password: 33114904-dfa7-4267-9996-2c5bb47b7b50, skip-cert-verify: True, sni: tlsdata.cnamazon.sbs, network: tcp}
-  - {name: sws-67, server: bgptw3.cnamazon.sbs, port: 443, type: trojan, udp: True, password: 33114904-dfa7-4267-9996-2c5bb47b7b50, skip-cert-verify: True, sni: tlsdata.cnamazon.sbs, network: tcp}
-  - {name: sws-68, server: us1.cnamazon.sbs, port: 443, type: trojan, udp: True, password: 33114904-dfa7-4267-9996-2c5bb47b7b50, skip-cert-verify: True, sni: tlsdata.cnamazon.sbs, network: tcp}
-  - {name: sws-69, server: sg3.cnamazon.sbs, port: 443, type: trojan, udp: True, password: 33114904-dfa7-4267-9996-2c5bb47b7b50, skip-cert-verify: True, sni: tlsdata.cnamazon.sbs, network: tcp}
-  - {name: sws-70, server: sg1.cnamazon.sbs, port: 443, type: trojan, udp: True, password: 33114904-dfa7-4267-9996-2c5bb47b7b50, skip-cert-verify: True, sni: tlsdata.cnamazon.sbs, network: tcp}
-  - {name: sws-71, server: sg4.cnamazon.sbs, port: 443, type: trojan, udp: True, password: 33114904-dfa7-4267-9996-2c5bb47b7b50, skip-cert-verify: True, sni: tlsdata.cnamazon.sbs, network: tcp}
-  - {name: sws-72, server: bgptru1.cnamazon.sbs, port: 443, type: trojan, udp: True, password: 33114904-dfa7-4267-9996-2c5bb47b7b50, skip-cert-verify: True, sni: tlsdata.cnamazon.sbs, network: tcp}
-  - {name: sws-73, server: in1.cnamazon.sbs, port: 443, type: trojan, udp: True, password: 33114904-dfa7-4267-9996-2c5bb47b7b50, skip-cert-verify: True, sni: tlsdata.cnamazon.sbs, network: tcp}
-  - {name: sws-74, server: 3.120.151.24, port: 26911, type: trojan, udp: True, password: a3869db4-eaaa-4cef-b131-26b3c0b46686, skip-cert-verify: True, sni: sgp.piaole.me, network: tcp}
-  - {name: sws-75, server: 43.200.244.189, port: 26911, type: trojan, udp: True, password: a3869db4-eaaa-4cef-b131-26b3c0b46686, skip-cert-verify: True, sni: sgp.piaole.me, network: tcp}
-  - {name: sws-76, server: gzyd.lanyunshi.cc, port: 10001, type: vmess, uuid: 02a6dba7-df3f-38fc-8e80-e3e55aacfd71, alterId: 2, tls: False, skip-cert-verify: True, cipher: auto, network: tcp}
-  - {name: sws-77, server: cnah.lanyunshi.cc, port: 60006, type: vmess, uuid: 02a6dba7-df3f-38fc-8e80-e3e55aacfd71, alterId: 2, tls: False, skip-cert-verify: True, cipher: auto, network: tcp}
-  - {name: sws-78, server: cnah2.lanyunshi.cc, port: 30003, type: vmess, uuid: 02a6dba7-df3f-38fc-8e80-e3e55aacfd71, alterId: 2, tls: False, skip-cert-verify: True, cipher: auto, network: tcp}
-  - {name: sws-79, server: vip1.rovod.top, port: 20002, type: vmess, uuid: 02a6dba7-df3f-38fc-8e80-e3e55aacfd71, alterId: 2, tls: False, skip-cert-verify: True, cipher: auto, network: tcp}
-  - {name: sws-80, server: gzyd.lanyunshi.cc, port: 10002, type: vmess, uuid: 02a6dba7-df3f-38fc-8e80-e3e55aacfd71, alterId: 2, tls: False, skip-cert-verify: True, cipher: auto, network: tcp}
-  - {name: sws-81, server: cnah.lanyunshi.cc, port: 20003, type: vmess, uuid: 02a6dba7-df3f-38fc-8e80-e3e55aacfd71, alterId: 2, tls: False, skip-cert-verify: True, cipher: auto, network: tcp}
-  - {name: sws-82, server: cnah.lanyunshi.cc, port: 20002, type: vmess, uuid: 02a6dba7-df3f-38fc-8e80-e3e55aacfd71, alterId: 2, tls: False, skip-cert-verify: True, cipher: auto, network: tcp}
-  - {name: sws-83, server: gzyd.lanyunshi.cc, port: 10005, type: vmess, uuid: 02a6dba7-df3f-38fc-8e80-e3e55aacfd71, alterId: 2, tls: False, skip-cert-verify: True, cipher: auto, network: tcp}
-  - {name: sws-84, server: vip1.zhangxuan.best, port: 20001, type: vmess, uuid: 02a6dba7-df3f-38fc-8e80-e3e55aacfd71, alterId: 2, tls: False, skip-cert-verify: True, cipher: auto, network: tcp}
-  - {name: sws-85, server: cnah.lanyunshi.cc, port: 10006, type: vmess, uuid: 02a6dba7-df3f-38fc-8e80-e3e55aacfd71, alterId: 2, tls: False, skip-cert-verify: True, cipher: auto, network: tcp}
-  - {name: sws-86, server: cnah.lanyunshi.cc, port: 60005, type: vmess, uuid: 02a6dba7-df3f-38fc-8e80-e3e55aacfd71, alterId: 2, tls: False, skip-cert-verify: True, cipher: auto, network: tcp}
-  - {name: sws-87, server: cnah.lanyunshi.cc, port: 60004, type: vmess, uuid: 02a6dba7-df3f-38fc-8e80-e3e55aacfd71, alterId: 2, tls: False, skip-cert-verify: True, cipher: auto, network: tcp}
-  - {name: sws-88, server: cnah.lanyunshi.cc, port: 60003, type: vmess, uuid: 02a6dba7-df3f-38fc-8e80-e3e55aacfd71, alterId: 2, tls: False, skip-cert-verify: True, cipher: auto, network: tcp}
-  - {name: sws-89, server: gzyd.lanyunshi.cc, port: 10006, type: vmess, uuid: 02a6dba7-df3f-38fc-8e80-e3e55aacfd71, alterId: 2, tls: False, skip-cert-verify: True, cipher: auto, network: tcp}
-  - {name: sws-90, server: vip1.rovod.top, port: 19995, type: vmess, uuid: 02a6dba7-df3f-38fc-8e80-e3e55aacfd71, alterId: 2, tls: False, skip-cert-verify: True, cipher: auto, network: tcp}
-  - {name: sws-91, server: vip1.rovod.top, port: 60006, type: vmess, uuid: 02a6dba7-df3f-38fc-8e80-e3e55aacfd71, alterId: 2, tls: False, skip-cert-verify: True, cipher: auto, network: tcp}
-  - {name: sws-92, server: cnah.lanyunshi.cc, port: 10003, type: vmess, uuid: 02a6dba7-df3f-38fc-8e80-e3e55aacfd71, alterId: 2, tls: False, skip-cert-verify: True, cipher: auto, network: tcp}
-  - {name: sws-93, server: gzyd.lanyunshi.cc, port: 19991, type: vmess, uuid: 02a6dba7-df3f-38fc-8e80-e3e55aacfd71, alterId: 2, tls: False, skip-cert-verify: True, cipher: auto, network: tcp}
-  - {name: sws-94, server: azjp2.lanyunshi.cc, port: 1248, type: vmess, uuid: 02a6dba7-df3f-38fc-8e80-e3e55aacfd71, alterId: 2, tls: True, skip-cert-verify: True, cipher: auto, network: tcp}
-  - {name: sws-95, server: vip1.rovod.top, port: 10003, type: vmess, uuid: 02a6dba7-df3f-38fc-8e80-e3e55aacfd71, alterId: 2, tls: False, skip-cert-verify: True, cipher: auto, network: tcp}
-  - {name: sws-96, server: gzyd.lanyunshi.cc, port: 20001, type: vmess, uuid: 02a6dba7-df3f-38fc-8e80-e3e55aacfd71, alterId: 2, tls: False, skip-cert-verify: True, cipher: auto, network: tcp}
-  - {name: sws-97, server: gzyd.lanyunshi.cc, port: 10007, type: vmess, uuid: 02a6dba7-df3f-38fc-8e80-e3e55aacfd71, alterId: 2, tls: False, skip-cert-verify: True, cipher: auto, network: tcp}
-  - {name: sws-98, server: gzyd.lanyunshi.cc, port: 60001, type: vmess, uuid: 02a6dba7-df3f-38fc-8e80-e3e55aacfd71, alterId: 2, tls: False, skip-cert-verify: True, cipher: auto, network: tcp}
-  - {name: sws-99, server: iepl2.airtcp.vip, port: 20027, type: vmess, uuid: 02a6dba7-df3f-38fc-8e80-e3e55aacfd71, alterId: 2, tls: False, skip-cert-verify: True, cipher: auto, network: tcp}
-  - {name: sws-100, server: cnah2.lanyunshi.top, port: 50009, type: vmess, uuid: 02a6dba7-df3f-38fc-8e80-e3e55aacfd71, alterId: 2, tls: False, skip-cert-verify: True, cipher: auto, network: tcp}
-  - {name: sws-101, server: vip1.rovod.top, port: 19994, type: vmess, uuid: 02a6dba7-df3f-38fc-8e80-e3e55aacfd71, alterId: 2, tls: False, skip-cert-verify: True, cipher: auto, network: tcp}
-  - {name: sws-102, server: cnah2.lanyunshi.top, port: 10008, type: vmess, uuid: 02a6dba7-df3f-38fc-8e80-e3e55aacfd71, alterId: 2, tls: False, skip-cert-verify: True, cipher: auto, network: tcp}
-  - {name: sws-103, server: cnlt.zhangxuan.best, port: 10004, type: vmess, uuid: 02a6dba7-df3f-38fc-8e80-e3e55aacfd71, alterId: 2, tls: False, skip-cert-verify: True, cipher: auto, network: tcp}
-  - {name: sws-104, server: cnah2.lanyunshi.top, port: 10007, type: vmess, uuid: 02a6dba7-df3f-38fc-8e80-e3e55aacfd71, alterId: 2, tls: False, skip-cert-verify: True, cipher: auto, network: tcp}
-  - {name: sws-105, server: cnah2.lanyunshi.top, port: 11001, type: vmess, uuid: 02a6dba7-df3f-38fc-8e80-e3e55aacfd71, alterId: 2, tls: False, skip-cert-verify: True, cipher: auto, network: tcp}
-  - {name: sws-106, server: cnah2.lanyunshi.top, port: 19902, type: vmess, uuid: 02a6dba7-df3f-38fc-8e80-e3e55aacfd71, alterId: 2, tls: False, skip-cert-verify: True, cipher: auto, network: tcp}
-  - {name: sws-107, server: ddns2.airtcp.vip, port: 10001, type: vmess, uuid: 02a6dba7-df3f-38fc-8e80-e3e55aacfd71, alterId: 2, tls: False, skip-cert-verify: True, cipher: auto, network: tcp}
-  - {name: sws-108, server: cnah2.lanyunshi.cc, port: 10003, type: vmess, uuid: 02a6dba7-df3f-38fc-8e80-e3e55aacfd71, alterId: 2, tls: False, skip-cert-verify: True, cipher: auto, network: tcp}
-  - {name: sws-109, server: ddns.airtcp.vip, port: 10001, type: vmess, uuid: 02a6dba7-df3f-38fc-8e80-e3e55aacfd71, alterId: 2, tls: False, skip-cert-verify: True, cipher: auto, network: tcp}
-  - {name: sws-110, server: cnah2.lanyunshi.cc, port: 30001, type: vmess, uuid: 02a6dba7-df3f-38fc-8e80-e3e55aacfd71, alterId: 2, tls: False, skip-cert-verify: True, cipher: auto, network: tcp}
-  - {name: sws-111, server: cnah2.lanyunshi.top, port: 10009, type: vmess, uuid: 02a6dba7-df3f-38fc-8e80-e3e55aacfd71, alterId: 2, tls: False, skip-cert-verify: True, cipher: auto, network: tcp}
-  - {name: sws-112, server: cnah2.lanyunshi.top, port: 19901, type: vmess, uuid: 02a6dba7-df3f-38fc-8e80-e3e55aacfd71, alterId: 2, tls: False, skip-cert-verify: True, cipher: auto, network: tcp}
-  - {name: sws-113, server: 94.131.108.128, port: 50407, type: trojan, udp: True, password: 8dfa2432-4f1f-4900-a7b8-8cdc87338961, skip-cert-verify: True, sni: tr.aikun.online, network: tcp}
-  - {name: sws-114, server: aws-jp.aikun.online, port: 443, type: trojan, udp: True, password: 8dfa2432-4f1f-4900-a7b8-8cdc87338961, skip-cert-verify: True, sni: aws-jp.aikun.online, network: tcp}
-  - {name: sws-115, server: cdn.twnct.6641634715834932.me, port: 7045, type: trojan, udp: True, password: 8dfa2432-4f1f-4900-a7b8-8cdc87338961, skip-cert-verify: True, sni: cdn.twnct.6641634715834932.me, network: tcp}
-  - {name: sws-116, server: aws-sg.aikun.online, port: 443, type: trojan, udp: True, password: 8dfa2432-4f1f-4900-a7b8-8cdc87338961, skip-cert-verify: True, sni: aws-sg.aikun.online, network: tcp}
-  - {name: sws-117, server: az-jp.aikun.online, port: 443, type: trojan, udp: True, password: 8dfa2432-4f1f-4900-a7b8-8cdc87338961, skip-cert-verify: True, sni: az-jp.aikun.online, network: tcp}
-  - {name: sws-118, server: aws-hk02.aikun.online, port: 443, type: trojan, udp: True, password: 8dfa2432-4f1f-4900-a7b8-8cdc87338961, skip-cert-verify: True, sni: aws-hk02.aikun.online, network: tcp}
-  - {name: sws-119, server: aws-hk01.aikun.online, port: 443, type: trojan, udp: True, password: 8dfa2432-4f1f-4900-a7b8-8cdc87338961, skip-cert-verify: True, sni: aws-hk01.aikun.online, network: tcp}
-  - {name: sws-120, server: aws-hk03.aikun.online, port: 443, type: trojan, udp: True, password: 8dfa2432-4f1f-4900-a7b8-8cdc87338961, skip-cert-verify: True, sni: aws-hk03.aikun.online, network: tcp}
-  - {name: sws-121, server: 163.123.192.37, port: 443, type: trojan, udp: True, password: 4e975131-e8bf-4580-8762-59306ad666b6, sni: download.xn--mes358a9urctx.com}
-  - {name: sws-122, server: 163.123.192.38, port: 443, type: trojan, udp: True, password: 4e975131-e8bf-4580-8762-59306ad666b6, sni: download.xn--mes358a9urctx.com}
-  - {name: sws-123, server: 163.123.192.40, port: 443, type: trojan, udp: True, password: 4e975131-e8bf-4580-8762-59306ad666b6, sni: download.xn--mes358a9urctx.com}
-  - {name: sws-124, server: 163.123.192.56, port: 443, type: trojan, udp: True, password: 4e975131-e8bf-4580-8762-59306ad666b6, sni: download.xn--mes358a9urctx.com}
-  - {name: sws-125, server: 217.79.184.18, port: 443, type: trojan, udp: True, password: 4e975131-e8bf-4580-8762-59306ad666b6, sni: download.xn--mes358a9urctx.com}
-  - {name: sws-126, server: 16.163.101.79, port: 443, type: trojan, udp: True, password: 4e975131-e8bf-4580-8762-59306ad666b6, sni: download.xn--mes358a9urctx.com}
-  - {name: sws-127, server: 18.163.113.231, port: 443, type: trojan, udp: True, password: 4e975131-e8bf-4580-8762-59306ad666b6, sni: download.xn--mes358a9urctx.com}
-  - {name: sws-128, server: 43.198.88.173, port: 443, type: trojan, udp: True, password: 4e975131-e8bf-4580-8762-59306ad666b6, sni: download.xn--mes358a9urctx.com}
-  - {name: sws-129, server: downloadvip.cfd, port: 443, type: vmess, uuid: 4e975131-e8bf-4580-8762-59306ad666b6, alterId: 0, tls: True, udp: True, ws-path: /djjc/us1, ws-headers: {'Host': 'us1.djjc.sbs'}, cipher: auto, ws-opts: {'path': '/djjc/us1', 'headers': {'Host': 'us1.djjc.sbs'}}, network: ws}
-  - {name: sws-130, server: 127.0.0.1, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, udp: True, cipher: auto}
-  - {name: sws-131, server: 163.123.192.61, port: 443, type: trojan, udp: True, password: 3b27a470-7639-4a27-90c6-1b23bfd07c7b, sni: download.xn--mes358acgm99l.com}
-  - {name: sws-132, server: 163.123.192.62, port: 443, type: trojan, udp: True, password: 3b27a470-7639-4a27-90c6-1b23bfd07c7b, sni: download.xn--mes358acgm99l.com}
-  - {name: sws-133, server: 163.123.192.63, port: 443, type: trojan, udp: True, password: 3b27a470-7639-4a27-90c6-1b23bfd07c7b, sni: download.xn--mes358acgm99l.com}
-  - {name: sws-134, server: 163.123.192.64, port: 443, type: trojan, udp: True, password: 3b27a470-7639-4a27-90c6-1b23bfd07c7b, sni: download.xn--mes358acgm99l.com}
-  - {name: sws-135, server: 217.79.181.82, port: 443, type: trojan, udp: True, password: 3b27a470-7639-4a27-90c6-1b23bfd07c7b, sni: download.xn--mes358acgm99l.com}
-  - {name: sws-136, server: 43.198.105.210, port: 443, type: trojan, udp: True, password: 3b27a470-7639-4a27-90c6-1b23bfd07c7b, sni: download.xn--mes358acgm99l.com}
-  - {name: sws-137, server: 18.163.188.51, port: 443, type: trojan, udp: True, password: 3b27a470-7639-4a27-90c6-1b23bfd07c7b, sni: download.xn--mes358acgm99l.com}
-  - {name: sws-138, server: 43.198.111.183, port: 443, type: trojan, udp: True, password: 3b27a470-7639-4a27-90c6-1b23bfd07c7b, sni: download.xn--mes358acgm99l.com}
-  - {name: sws-139, server: cloudflare.piaole.me, port: 443, type: vmess, uuid: e8dacfc5-79b1-4289-92f1-e390080d56aa, alterId: 0, tls: True, udp: True, ws-path: /huawei, cipher: auto, ws-opts: {'path': '/huawei'}, network: ws}
-  - {name: sws-140, server: 146.190.199.180, port: 18693, type: trojan, udp: True, password: e8dacfc5-79b1-4289-92f1-e390080d56aa, skip-cert-verify: True, sni: us.piaole.me}
-  - {name: sws-141, server: usv6.piaole.me, port: 18693, type: trojan, udp: True, password: e8dacfc5-79b1-4289-92f1-e390080d56aa, skip-cert-verify: True, sni: us.piaole.me}
-  - {name: sws-142, server: cdn.hkhkt.6641634715834932.me, port: 7045, type: trojan, udp: True, password: 8dfa2432-4f1f-4900-a7b8-8cdc87338961, skip-cert-verify: True, sni: cdn.hkhkt.6641634715834932.me}
-  - {name: sws-143, server: tempest-us.aikun.online, port: 443, type: trojan, udp: True, password: 8dfa2432-4f1f-4900-a7b8-8cdc87338961, skip-cert-verify: True, sni: s-jp01.aikun.online}
-  - {name: sws-144, server: gdyd.aikun.online, port: 11699, type: ss, udp: True, cipher: aes-128-gcm, password: 8dfa2432-4f1f-4900-a7b8-8cdc87338961}
-  - {name: sws-145, server: jsyd.aikun.online, port: 20817, type: ss, udp: True, cipher: aes-128-gcm, password: 8dfa2432-4f1f-4900-a7b8-8cdc87338961}
-  - {name: sws-146, server: sh.aikun.online, port: 33580, type: ss, udp: True, cipher: aes-128-gcm, password: 8dfa2432-4f1f-4900-a7b8-8cdc87338961}
-  - {name: sws-147, server: 183.240.18.38, port: 34743, type: vmess, uuid: 2203753d-8a00-49ce-af0b-d31e4a5ecb31, client-fingerprint: chrome, alterId: 0, tfo: False, skip-cert-verify: False, tls: True, cipher: auto, ws-opts: {'path': '/'}, network: ws}
-  - {name: sws-148, server: 183.240.18.38, port: 45501, type: vmess, uuid: 2203753d-8a00-49ce-af0b-d31e4a5ecb31, client-fingerprint: chrome, alterId: 0, tfo: False, skip-cert-verify: False, tls: False, cipher: auto, ws-opts: {'path': '/', 'headers': {'Host': 'hkt2.kidcc.xyz'}}, network: ws}
-  - {name: sws-149, server: cnrelay1.blackpink520.cyou, port: 12129, type: vmess, uuid: 2203753d-8a00-49ce-af0b-d31e4a5ecb31, client-fingerprint: chrome, alterId: 0, tfo: False, skip-cert-verify: False, tls: True, cipher: auto, ws-opts: {'path': '/', 'headers': {'Host': 'cnrelay1.blackpink520.cyou'}}, network: ws}
-  - {name: sws-150, server: cnrelay1.blackpink520.cyou, port: 18979, type: vmess, uuid: 2203753d-8a00-49ce-af0b-d31e4a5ecb31, client-fingerprint: chrome, alterId: 0, tfo: False, skip-cert-verify: False, tls: True, cipher: auto, ws-opts: {'path': '/', 'headers': {'Host': 'cnrelay1.blackpink520.cyou'}}, network: ws}
-  - {name: sws-151, server: 183.240.18.38, port: 32001, type: vmess, uuid: 2203753d-8a00-49ce-af0b-d31e4a5ecb31, client-fingerprint: chrome, alterId: 0, tfo: False, skip-cert-verify: False, tls: True, cipher: auto, ws-opts: {'path': '/'}, network: ws}
-  - {name: sws-152, server: 183.240.18.38, port: 32002, type: vmess, uuid: 2203753d-8a00-49ce-af0b-d31e4a5ecb31, client-fingerprint: chrome, alterId: 0, tfo: False, skip-cert-verify: False, tls: True, cipher: auto, ws-opts: {'path': '/'}, network: ws}
-  - {name: sws-153, server: 183.240.18.38, port: 8858, type: vmess, uuid: 2203753d-8a00-49ce-af0b-d31e4a5ecb31, client-fingerprint: chrome, alterId: 0, tfo: False, skip-cert-verify: False, tls: False, cipher: auto, ws-opts: {'path': '/'}, network: ws}
-  - {name: sws-154, server: cnrelay1.blackpink520.cyou, port: 55977, type: vmess, uuid: 2203753d-8a00-49ce-af0b-d31e4a5ecb31, client-fingerprint: chrome, alterId: 0, tfo: False, skip-cert-verify: False, tls: True, cipher: auto, ws-opts: {'path': '/', 'headers': {'Host': 'cnrelay1.blackpink520.cyou'}}, network: ws}
-  - {name: sws-155, server: cnrelay1.blackpink520.cyou, port: 40242, type: vmess, uuid: 2203753d-8a00-49ce-af0b-d31e4a5ecb31, client-fingerprint: chrome, alterId: 0, tfo: False, skip-cert-verify: False, tls: True, cipher: auto, ws-opts: {'path': '/', 'headers': {'Host': 'cnrelay1.blackpink520.cyou'}}, network: ws}
-  - {name: sws-156, server: cnrelay1.blackpink520.cyou, port: 43792, type: vmess, uuid: 2203753d-8a00-49ce-af0b-d31e4a5ecb31, client-fingerprint: chrome, alterId: 0, tfo: False, skip-cert-verify: False, tls: True, cipher: auto, ws-opts: {'path': '/', 'headers': {'Host': 'cnrelay1.blackpink520.cyou'}}, network: ws}
-  - {name: sws-157, server: cnrelay2.blackpink520.cyou, port: 51435, type: vmess, uuid: 2203753d-8a00-49ce-af0b-d31e4a5ecb31, client-fingerprint: chrome, alterId: 0, tfo: False, skip-cert-verify: False, tls: False, cipher: auto, ws-opts: {'path': '/', 'headers': {'Host': 'cnrelay2.blackpink520.cyou'}}, network: ws}
-  - {name: sws-158, server: cn-sh2.kidcc.xyz, port: 9001, type: vmess, uuid: 2203753d-8a00-49ce-af0b-d31e4a5ecb31, client-fingerprint: chrome, alterId: 0, tfo: False, skip-cert-verify: False, tls: False, cipher: auto, ws-opts: {'path': '/', 'headers': {'Host': 'tw2.kidcc.xyz'}}, network: ws}
-  - {name: sws-159, server: cn-sh3.kidcc.xyz, port: 9001, type: vmess, uuid: 2203753d-8a00-49ce-af0b-d31e4a5ecb31, client-fingerprint: chrome, alterId: 0, tfo: False, skip-cert-verify: False, tls: True, cipher: auto, ws-opts: {'path': '/', 'headers': {'Host': 'tw1.kidcc.xyz'}}, network: ws}
-  - {name: sws-160, server: cnrelay1.blackpink520.cyou, port: 47906, type: vmess, uuid: 2203753d-8a00-49ce-af0b-d31e4a5ecb31, client-fingerprint: chrome, alterId: 0, tfo: False, skip-cert-verify: False, tls: True, cipher: auto, ws-opts: {'path': '/', 'headers': {'Host': 'cnrelay1.blackpink520.cyou'}}, network: ws}
-  - {name: sws-161, server: cn-sh2.kidcc.xyz, port: 9002, type: vmess, uuid: 2203753d-8a00-49ce-af0b-d31e4a5ecb31, client-fingerprint: chrome, alterId: 0, tfo: False, skip-cert-verify: False, tls: False, cipher: auto, ws-opts: {'path': '/', 'headers': {'Host': 'hkt1.kidcc.xyz'}}, network: ws}
-  - {name: sws-162, server: cn-sh3.kidcc.xyz, port: 9002, type: vmess, uuid: 2203753d-8a00-49ce-af0b-d31e4a5ecb31, client-fingerprint: chrome, alterId: 0, tfo: False, skip-cert-verify: False, tls: True, cipher: auto, ws-opts: {'path': '/', 'headers': {'Host': 'hkt1.kidcc.xyz'}}, network: ws}
-  - {name: sws-163, server: bak-hinet.kidcc.xyz, port: 18443, type: vmess, uuid: 2203753d-8a00-49ce-af0b-d31e4a5ecb31, client-fingerprint: chrome, alterId: 0, tfo: False, skip-cert-verify: False, tls: False, cipher: auto, ws-opts: {'path': '/', 'headers': {'Host': 'bak-hinet.kidcc.xyz'}}, network: ws}
-  - {name: sws-164, server: hinet.kidcc.xyz, port: 8443, type: vmess, uuid: 2203753d-8a00-49ce-af0b-d31e4a5ecb31, client-fingerprint: chrome, alterId: 0, tfo: False, skip-cert-verify: False, tls: True, cipher: auto, ws-opts: {'path': '/', 'headers': {'Host': 'hinet.kidcc.xyz'}}, network: ws}
-  - {name: sws-165, server: tw2.kidcc.xyz, port: 8443, type: vmess, uuid: 2203753d-8a00-49ce-af0b-d31e4a5ecb31, client-fingerprint: chrome, alterId: 0, tfo: False, skip-cert-verify: False, tls: True, cipher: auto, ws-opts: {'path': '/', 'headers': {'Host': 'tw2.kidcc.xyz'}}, network: ws}
-  - {name: sws-166, server: tw1.kidcc.xyz, port: 8443, type: vmess, uuid: 2203753d-8a00-49ce-af0b-d31e4a5ecb31, client-fingerprint: chrome, alterId: 0, tfo: False, skip-cert-verify: False, tls: False, cipher: auto, ws-opts: {'path': '/', 'headers': {'Host': 'tw1.kidcc.xyz'}}, network: ws}
-  - {name: sws-167, server: oracle.accessconnect.cc, port: 1126, type: ssr, client-fingerprint: chrome, tfo: False, protocol: auth_aes128_md5, protocol-param: 203677:APfz9b, obfs-param: c08ed203677.www.gov.hk, cipher: rc4-md5, obfs: plain, password: di15PV}
-  - {name: sws-168, server: oracle.accessconnect.cc, port: 1129, type: ssr, client-fingerprint: chrome, tfo: False, protocol: auth_aes128_md5, protocol-param: 203677:APfz9b, obfs-param: c08ed203677.www.gov.hk, cipher: rc4-md5, obfs: tls1.2_ticket_auth, password: di15PV}
-  - {name: sws-169, server: oracle.accessconnect.cc, port: 7001, type: ssr, client-fingerprint: chrome, tfo: False, protocol: auth_aes128_md5, protocol-param: 203677:APfz9b, obfs-param: c08ed203677.www.gov.hk, cipher: chacha20-ietf, obfs: tls1.2_ticket_auth, password: di15PV}
-  - {name: sws-170, server: oracle.accessconnect.cc, port: 7002, type: ssr, client-fingerprint: chrome, tfo: False, protocol: auth_aes128_md5, protocol-param: 203677:APfz9b, obfs-param: c08ed203677.www.gov.hk, cipher: chacha20-ietf, obfs: tls1.2_ticket_auth, password: di15PV}
-  - {name: sws-171, server: oracle.accessconnect.cc, port: 7003, type: ssr, client-fingerprint: chrome, tfo: False, protocol: auth_aes128_md5, protocol-param: 203677:APfz9b, obfs-param: c08ed203677.www.gov.hk, cipher: chacha20-ietf, obfs: tls1.2_ticket_auth, password: di15PV}
-  - {name: sws-172, server: oracle.accessconnect.cc, port: 7004, type: ssr, client-fingerprint: chrome, tfo: False, protocol: auth_aes128_md5, protocol-param: 203677:APfz9b, obfs-param: c08ed203677.www.gov.hk, cipher: chacha20-ietf, obfs: tls1.2_ticket_auth, password: di15PV}
-  - {name: sws-173, server: oracle.accessconnect.cc, port: 7005, type: ssr, client-fingerprint: chrome, tfo: False, protocol: auth_aes128_md5, protocol-param: 203677:APfz9b, obfs-param: c08ed203677.www.gov.hk, cipher: rc4-md5, obfs: tls1.2_ticket_auth, password: di15PV}
-  - {name: sws-174, server: oracle.accessconnect.cc, port: 7006, type: ssr, client-fingerprint: chrome, tfo: False, protocol: auth_aes128_md5, protocol-param: 203677:APfz9b, obfs-param: c08ed203677.www.gov.hk, cipher: chacha20-ietf, obfs: tls1.2_ticket_auth, password: di15PV}
-  - {name: sws-175, server: oracle.accessconnect.cc, port: 7007, type: ssr, client-fingerprint: chrome, tfo: False, protocol: auth_aes128_md5, protocol-param: 203677:APfz9b, obfs-param: c08ed203677.www.gov.hk, cipher: rc4-md5, obfs: tls1.2_ticket_auth, password: di15PV}
-  - {name: sws-176, server: oracle.accessconnect.cc, port: 7008, type: ssr, client-fingerprint: chrome, tfo: False, protocol: auth_aes128_md5, protocol-param: 203677:APfz9b, obfs-param: c08ed203677.www.gov.hk, cipher: chacha20-ietf, obfs: tls1.2_ticket_auth, password: di15PV}
+  - {name: sws-0, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: DC615FCF-98B5-4D06-AA18-A6A1F65FF6D3, client-fingerprint: chrome, alterId: 0, tfo: False, skip-cert-verify: False, tls: True, cipher: auto, ws-opts: {'path': '/speedtest', 'headers': {'Host': 'Lille.kotick.site'}}, network: ws}
+  - {name: sws-1, server: 108.186.116.175, port: 55005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, client-fingerprint: chrome, alterId: 64, tfo: False, skip-cert-verify: False, tls: False, cipher: auto}
+  - {name: sws-2, server: 148.59.74.238, port: 443, type: trojan, client-fingerprint: chrome, tfo: False, password: 39007fdd-ce3d-4d69-9db9-8434ce32d43b, skip-cert-verify: False, sni: 20-212-60-88.nhost.00cdn.com}
+  - {name: sws-3, server: 14.29.124.168, port: 24008, type: ss, client-fingerprint: chrome, tfo: False, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: sws-4, server: fscus.fscloud123456789.com, port: 443, type: trojan, client-fingerprint: chrome, tfo: False, skip-cert-verify: False, password: 8a7d181d-0a3c-4266-b2b1-336124d1d943}
+  - {name: sws-5, server: 23.224.110.182, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, client-fingerprint: chrome, alterId: 64, tfo: False, skip-cert-verify: False, tls: True, cipher: auto, ws-opts: {'path': '/'}, network: ws}
+  - {name: sws-6, server: 163.123.192.145, port: 443, type: trojan, client-fingerprint: chrome, tfo: False, password: 8764f05d-8516-43cc-802c-a1ad6c67aeef, skip-cert-verify: False, sni: 4-193-105-141.nhost.00cdn.com}
+  - {name: sws-7, server: 36.134.16.171, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, client-fingerprint: chrome, alterId: 0, tfo: False, skip-cert-verify: False, tls: False, cipher: auto}
+  - {name: sws-8, server: 108.186.116.174, port: 55005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, client-fingerprint: chrome, alterId: 64, tfo: False, skip-cert-verify: False, tls: False, cipher: auto}
+  - {name: sws-9, server: yd1.01dj.sbs, port: 443, type: vmess, uuid: 4dc3b73e-9c0a-477c-8a29-843849e9194e, client-fingerprint: chrome, alterId: 0, tfo: False, skip-cert-verify: False, tls: True, cipher: auto, ws-opts: {'path': '/', 'headers': {'Host': 'yd1.01dj.sbs'}}, network: ws}
+  - {name: sws-10, server: jp1.01dj.sbs, port: 443, type: vmess, uuid: 4dc3b73e-9c0a-477c-8a29-843849e9194e, client-fingerprint: chrome, alterId: 0, tfo: False, skip-cert-verify: False, tls: True, cipher: auto, ws-opts: {'path': '/', 'headers': {'Host': 'jp1.01dj.sbs'}}, network: ws}
+  - {name: sws-11, server: 43.154.76.92, port: 21857, type: vmess, uuid: 784272d2-bd2d-438a-bbd4-1271bb1f1b0d, client-fingerprint: chrome, alterId: 64, tfo: False, skip-cert-verify: False, tls: True, cipher: auto, ws-opts: {'path': '/'}, network: ws}
+  - {name: sws-12, server: 18.102.68.105, port: 443, type: trojan, client-fingerprint: chrome, tfo: False, skip-cert-verify: False, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e}
+  - {name: sws-13, server: 198.2.203.57, port: 44502, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, client-fingerprint: chrome, alterId: 64, tfo: False, skip-cert-verify: False, tls: False, cipher: auto}
+  - {name: sws-14, server: scloudtw1-tg-data.amazonwebservicess.com, port: 443, type: trojan, client-fingerprint: chrome, tfo: False, skip-cert-verify: False, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e}
+  - {name: sws-15, server: 142.4.126.71, port: 31002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, client-fingerprint: chrome, alterId: 64, tfo: False, skip-cert-verify: False, tls: False, cipher: auto}
+  - {name: sws-16, server: scaleway.696960.xyz, port: 443, type: vmess, uuid: e357cd63-f1a5-4c8e-c42e-26da11207fee, client-fingerprint: chrome, alterId: 0, tfo: False, skip-cert-verify: False, tls: True, cipher: auto, ws-opts: {'path': '/', 'headers': {'Host': 'scaleway.696960.xyz'}}, network: ws}
+  - {name: sws-17, server: 14.29.124.168, port: 24005, type: ss, client-fingerprint: chrome, tfo: False, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: sws-18, server: 163.123.192.150, port: 443, type: trojan, client-fingerprint: chrome, tfo: False, password: 7f4e8527-79da-49c3-8ca8-64eef120882f, skip-cert-verify: False, sni: download.xn--mes358acgm99l.com}
+  - {name: sws-19, server: us9.ss361.xyz, port: 2095, type: vmess, uuid: 600d53b5-b034-4889-80ec-3817c5658e3d, client-fingerprint: chrome, alterId: 0, tfo: False, skip-cert-verify: False, tls: False, cipher: auto, ws-opts: {'path': '/', 'headers': {'Host': 'us9.ss361.xyz'}}, network: ws}
+  - {name: sws-20, server: 154.85.1.4, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, client-fingerprint: chrome, alterId: 64, tfo: False, skip-cert-verify: False, tls: True, cipher: auto, ws-opts: {'path': '/'}, network: ws}
+  - {name: sws-21, server: 154.85.1.3, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, client-fingerprint: chrome, alterId: 64, tfo: False, skip-cert-verify: False, tls: True, cipher: auto, ws-opts: {'path': '/'}, network: ws}
+  - {name: sws-22, server: hgchk.457843.xyz, port: 9998, type: trojan, client-fingerprint: chrome, tfo: False, skip-cert-verify: False, password: 88fa7209-5ce8-4fc4-a379-c02b546cf3f2}
+  - {name: sws-23, server: 45.12.112.102, port: 40002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, client-fingerprint: chrome, alterId: 64, tfo: False, skip-cert-verify: False, tls: False, cipher: auto}
+  - {name: sws-24, server: 107.167.4.122, port: 46766, type: vmess, uuid: 9838c1b4-c3fd-49b5-8a59-2ff05385f17c, client-fingerprint: chrome, alterId: 64, tfo: False, skip-cert-verify: False, tls: False, cipher: auto}
+  - {name: sws-25, server: stw8-tg-data.amazonwebservicess.com, port: 443, type: trojan, client-fingerprint: chrome, tfo: False, skip-cert-verify: False, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e}
+  - {name: sws-26, server: tech.noaries.de, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, client-fingerprint: chrome, alterId: 0, tfo: False, skip-cert-verify: False, tls: False, cipher: auto, ws-opts: {'path': '/shirker', 'headers': {'Host': 'nl.sharecentrepro.com'}}, network: ws}
+  - {name: sws-27, server: 6q59.cdn.node.a.tddns-ounk.com, port: 40261, type: vmess, uuid: 72bea5d3-7591-3ca4-9d61-3c89bd6e45a5, client-fingerprint: chrome, alterId: 0, tfo: False, skip-cert-verify: False, tls: False, cipher: auto, ws-opts: {'path': '/', 'headers': {'Host': '6q59.cdn.node.a.tddns-ounk.com'}}, network: ws}
+  - {name: sws-28, server: 104.21.53.35, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, client-fingerprint: chrome, alterId: 0, tfo: False, skip-cert-verify: False, tls: False, cipher: auto, ws-opts: {'path': '/yxzbp', 'headers': {'Host': 'buyvm1.yxjnode.com'}}, network: ws}
+  - {name: sws-29, server: 13.215.190.191, port: 80, type: vmess, uuid: ca7febc2-bb45-4e6d-810e-ab0af6009c4e, client-fingerprint: chrome, alterId: 0, tfo: False, skip-cert-verify: False, tls: False, cipher: auto, ws-opts: {'path': '/'}, network: ws}
+  - {name: sws-30, server: 163.123.192.146, port: 443, type: trojan, client-fingerprint: chrome, tfo: False, password: 8764f05d-8516-43cc-802c-a1ad6c67aeef, skip-cert-verify: False, sni: 4-193-105-141.nhost.00cdn.com}
+  - {name: sws-31, server: 112.132.215.189, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, client-fingerprint: chrome, alterId: 64, tfo: False, skip-cert-verify: False, tls: False, cipher: auto}
+  - {name: sws-32, server: stw6-tg-data.amazonwebservicess.com, port: 443, type: trojan, client-fingerprint: chrome, tfo: False, skip-cert-verify: False, password: 4aeda200-44c9-4168-8f2a-a00a72176d35}
+  - {name: sws-33, server: 148.59.74.239, port: 443, type: trojan, client-fingerprint: chrome, tfo: False, password: 95da9259-6a36-4de4-9811-e85282ccae77, skip-cert-verify: False, sni: 20-212-60-88.nhost.00cdn.com}
+  - {name: sws-34, server: 163.123.192.151, port: 443, type: trojan, client-fingerprint: chrome, tfo: False, password: 7f4e8527-79da-49c3-8ca8-64eef120882f, skip-cert-verify: False, sni: download.xn--mes358acgm99l.com}
+  - {name: sws-35, server: 14.29.124.168, port: 24000, type: ss, client-fingerprint: chrome, tfo: False, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: sws-36, server: 163.123.192.143, port: 443, type: trojan, client-fingerprint: chrome, tfo: False, password: 8764f05d-8516-43cc-802c-a1ad6c67aeef, skip-cert-verify: False, sni: 4-193-105-141.nhost.00cdn.com}
+  - {name: sws-37, server: 104.18.21.81, port: 443, type: vmess, uuid: 3E271C5F-28FF-4704-B8E5-CC2B39AB7F60, client-fingerprint: chrome, alterId: 0, tfo: False, skip-cert-verify: False, tls: True, cipher: auto, ws-opts: {'path': '/speedtest', 'headers': {'Host': 'Dusseldorf.kotick.site'}}, network: ws}
+  - {name: sws-38, server: 148.59.74.240, port: 443, type: trojan, client-fingerprint: chrome, tfo: False, password: 95da9259-6a36-4de4-9811-e85282ccae77, skip-cert-verify: False, sni: 20-212-60-88.nhost.00cdn.com}
+  - {name: sws-39, server: 139.99.162.120, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, client-fingerprint: chrome, alterId: 64, tfo: False, skip-cert-verify: False, tls: False, cipher: auto}
+  - {name: sws-40, server: 43.207.57.168, port: 80, type: vmess, uuid: 4062b33c-be7a-4b69-94f5-4c738a4def8f, client-fingerprint: chrome, alterId: 0, tfo: False, skip-cert-verify: False, tls: False, cipher: auto, ws-opts: {'path': '/'}, network: ws}
+  - {name: sws-41, server: 205.185.126.20, port: 80, type: vmess, uuid: 2cfc4c58-88cb-4e00-9977-ef0a37559a22, client-fingerprint: chrome, alterId: 0, tfo: False, skip-cert-verify: False, tls: False, cipher: auto, ws-opts: {'path': '/'}, network: ws}
+  - {name: sws-42, server: 142.4.118.150, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, client-fingerprint: chrome, alterId: 64, tfo: False, skip-cert-verify: False, tls: True, cipher: auto, ws-opts: {'path': '/'}, network: ws}
+  - {name: sws-43, server: 107.173.84.58, port: 48531, type: vmess, uuid: b7883f85-b042-4c0f-a28a-492504ec0be5, client-fingerprint: chrome, alterId: 0, tfo: False, skip-cert-verify: False, tls: False, cipher: auto}
+  - {name: sws-44, server: 45.85.119.44, port: 443, type: vmess, uuid: 3E271C5F-28FF-4704-B8E5-CC2B39AB7F60, client-fingerprint: chrome, alterId: 0, tfo: False, skip-cert-verify: False, tls: True, cipher: auto, ws-opts: {'path': '/speedtest', 'headers': {'Host': 'Kansas.kotick.site'}}, network: ws}
+  - {name: sws-45, server: sg-am3.eqsunshine.com, port: 32001, type: ssr, client-fingerprint: chrome, tfo: False, protocol: origin, protocol-param: , obfs-param: , cipher: aes-256-cfb, obfs: tls1.2_ticket_auth, password: 3g0dHlKME}
+  - {name: sws-46, server: 163.123.192.152, port: 443, type: trojan, client-fingerprint: chrome, tfo: False, password: 7f4e8527-79da-49c3-8ca8-64eef120882f, skip-cert-verify: False, sni: download.xn--mes358acgm99l.com}
+  - {name: sws-47, server: uk-v2ray.freevmess.com, port: 8442, type: vmess, uuid: 35caae60-f273-11ed-a05b-0242ac120003, client-fingerprint: chrome, alterId: 0, tfo: False, skip-cert-verify: False, tls: False, cipher: auto, http-opts: {'path': ['/'], 'method': 'GET', 'headers': {'Host': ['uk-v2ray.freevmess.com']}}, network: http}
+  - {name: sws-48, server: 192.74.229.215, port: 51592, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, client-fingerprint: chrome, alterId: 64, tfo: False, skip-cert-verify: False, tls: False, cipher: auto}
+  - {name: sws-49, server: hz-cm.topmusicworld.com, port: 13784, type: ss, cipher: chacha20-ietf-poly1305, password: adc570f1-d591-4a5a-93f0-0013bba3f116}
+  - {name: sws-50, server: sh-dx.duaaoped.xyz, port: 42953, type: ss, cipher: chacha20-ietf-poly1305, password: adc570f1-d591-4a5a-93f0-0013bba3f116}
+  - {name: sws-51, server: gd-cm.topmusicworld.com, port: 20051, type: ss, cipher: chacha20-ietf-poly1305, password: adc570f1-d591-4a5a-93f0-0013bba3f116}
+  - {name: sws-52, server: hz-dx.duaaoped.xyz, port: 46177, type: ss, cipher: chacha20-ietf-poly1305, password: adc570f1-d591-4a5a-93f0-0013bba3f116}
+  - {name: sws-53, server: hd.520226.xyz, port: 63605, type: trojan, udp: True, password: 87b16e93-3174-487c-848f-9ffe05dec1ad, skip-cert-verify: True, sni: xjp-1.520226.xyz, network: tcp}
+  - {name: sws-54, server: sh-dx.duaaoped.xyz, port: 43153, type: ss, cipher: chacha20-ietf-poly1305, password: adc570f1-d591-4a5a-93f0-0013bba3f116}
+  - {name: sws-55, server: gz-yd.crazyspeed.xyz, port: 13595, type: ss, cipher: chacha20-ietf-poly1305, password: adc570f1-d591-4a5a-93f0-0013bba3f116}
+  - {name: sws-56, server: hd.520226.xyz, port: 24746, type: trojan, udp: True, password: 87b16e93-3174-487c-848f-9ffe05dec1ad, skip-cert-verify: True, sni: jp-1.520226.xyz, network: tcp}
+  - {name: sws-57, server: hz-cm.topmusicworld.com, port: 14597, type: ss, cipher: chacha20-ietf-poly1305, password: adc570f1-d591-4a5a-93f0-0013bba3f116}
+  - {name: sws-58, server: sh-dx.duaaoped.xyz, port: 19272, type: ss, cipher: chacha20-ietf-poly1305, password: adc570f1-d591-4a5a-93f0-0013bba3f116}
+  - {name: sws-59, server: gy.520226.xyz, port: 20547, type: trojan, udp: True, password: 87b16e93-3174-487c-848f-9ffe05dec1ad, skip-cert-verify: True, sni: jp-1.520226.xyz, network: tcp}
+  - {name: sws-60, server: hd.520226.xyz, port: 35009, type: trojan, udp: True, password: 87b16e93-3174-487c-848f-9ffe05dec1ad, skip-cert-verify: True, sni: th.520226.xyz, network: tcp}
+  - {name: sws-61, server: gy.520226.xyz, port: 24254, type: trojan, udp: True, password: 87b16e93-3174-487c-848f-9ffe05dec1ad, skip-cert-verify: True, sni: hk-3.520226.xyz, network: tcp}
+  - {name: sws-62, server: hd.520226.xyz, port: 37315, type: trojan, udp: True, password: 87b16e93-3174-487c-848f-9ffe05dec1ad, skip-cert-verify: True, sni: hk-3.520226.xyz, network: tcp}
+  - {name: sws-63, server: hz-dx.duaaoped.xyz, port: 39433, type: ss, cipher: chacha20-ietf-poly1305, password: adc570f1-d591-4a5a-93f0-0013bba3f116}
+  - {name: sws-64, server: gy.520226.xyz, port: 29292, type: trojan, udp: True, password: 87b16e93-3174-487c-848f-9ffe05dec1ad, skip-cert-verify: True, sni: xjp-1.520226.xyz, network: tcp}
+  - {name: sws-65, server: gz-yd.crazyspeed.xyz, port: 45287, type: ss, cipher: chacha20-ietf-poly1305, password: adc570f1-d591-4a5a-93f0-0013bba3f116}
+  - {name: sws-66, server: hd.520226.xyz, port: 32664, type: trojan, udp: True, password: 87b16e93-3174-487c-848f-9ffe05dec1ad, skip-cert-verify: True, sni: uk.520226.xyz, network: tcp}
+  - {name: sws-67, server: gz-yd.crazyspeed.xyz, port: 39126, type: ss, cipher: chacha20-ietf-poly1305, password: adc570f1-d591-4a5a-93f0-0013bba3f116}
+  - {name: sws-68, server: gy.520226.xyz, port: 47439, type: trojan, udp: True, password: 87b16e93-3174-487c-848f-9ffe05dec1ad, skip-cert-verify: True, sni: uk.520226.xyz, network: tcp}
+  - {name: sws-69, server: hz-cm.topmusicworld.com, port: 23822, type: ss, cipher: chacha20-ietf-poly1305, password: adc570f1-d591-4a5a-93f0-0013bba3f116}
+  - {name: sws-70, server: gy.520226.xyz, port: 65005, type: trojan, udp: True, password: 87b16e93-3174-487c-848f-9ffe05dec1ad, skip-cert-verify: True, sni: th.520226.xyz, network: tcp}
+  - {name: sws-71, server: gd-cm.topmusicworld.com, port: 44982, type: ss, cipher: chacha20-ietf-poly1305, password: adc570f1-d591-4a5a-93f0-0013bba3f116}
+  - {name: sws-72, server: mg.txy.a.node1.jijio.stream, port: 38999, type: vmess, uuid: adc570f1-d591-4a5a-93f0-0013bba3f116, alterId: 0, tls: True, skip-cert-verify: True, cipher: auto, ws-opts: {'path': '/wesad', 'headers': {'host': 'mg.txy.a.node1.jijio.stream'}}, network: ws}
+  - {name: sws-73, server: gd-cm.topmusicworld.com, port: 43695, type: ss, cipher: chacha20-ietf-poly1305, password: adc570f1-d591-4a5a-93f0-0013bba3f116}
+  - {name: sws-74, server: hz-dx.duaaoped.xyz, port: 41191, type: ss, cipher: chacha20-ietf-poly1305, password: adc570f1-d591-4a5a-93f0-0013bba3f116}
+  - {name: sws-75, server: mg.dogcloud.a.nod1.jijio.stream, port: 38999, type: vmess, uuid: adc570f1-d591-4a5a-93f0-0013bba3f116, alterId: 0, tls: True, skip-cert-verify: True, cipher: auto, ws-opts: {'path': '/wesad', 'headers': {'host': 'mg.dogcloud.a.nod1.jijio.stream'}}, network: ws}
+  - {name: sws-76, server: xgy.leiyingchuanmei.com, port: 49257, type: ss, cipher: chacha20-ietf-poly1305, password: adc570f1-d591-4a5a-93f0-0013bba3f116}
+  - {name: sws-77, server: gl.leiyingchuanmei.com, port: 31181, type: ss, cipher: chacha20-ietf-poly1305, password: adc570f1-d591-4a5a-93f0-0013bba3f116}
+  - {name: sws-78, server: xgy.leiyingchuanmei.com, port: 10047, type: ss, cipher: chacha20-ietf-poly1305, password: adc570f1-d591-4a5a-93f0-0013bba3f116}
+  - {name: sws-79, server: lt.leiyingchuanmei.com, port: 42515, type: ss, cipher: chacha20-ietf-poly1305, password: adc570f1-d591-4a5a-93f0-0013bba3f116}
+  - {name: sws-80, server: gl.leiyingchuanmei.com, port: 23707, type: ss, cipher: chacha20-ietf-poly1305, password: adc570f1-d591-4a5a-93f0-0013bba3f116}
+  - {name: sws-81, server: lt.leiyingchuanmei.com, port: 47467, type: ss, cipher: chacha20-ietf-poly1305, password: adc570f1-d591-4a5a-93f0-0013bba3f116}
+  - {name: sws-82, server: 141.11.127.19, port: 443, type: trojan, udp: True, password: c7cddf59-468b-493a-9802-a8f8c870d12f, skip-cert-verify: True, sni: 4-193-105-141.nhost.00cdn.com, network: tcp}
+  - {name: sws-83, server: 163.123.192.144, port: 443, type: trojan, udp: True, password: c7cddf59-468b-493a-9802-a8f8c870d12f, skip-cert-verify: True, sni: 4-193-105-141.nhost.00cdn.com, network: tcp}
+  - {name: sws-84, server: 18.166.219.222, port: 443, type: trojan, udp: True, password: c7cddf59-468b-493a-9802-a8f8c870d12f, skip-cert-verify: True, sni: 4-193-105-141.nhost.00cdn.com, network: tcp}
+  - {name: sws-85, server: 43.198.145.118, port: 443, type: trojan, udp: True, password: c7cddf59-468b-493a-9802-a8f8c870d12f, skip-cert-verify: True, sni: 4-193-105-141.nhost.00cdn.com, network: tcp}
+  - {name: sws-86, server: 127.0.0.1, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, udp: True, cipher: auto}
+  - {name: sws-87, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, udp: True, ws-path: /shirker, ws-headers: {'Host': 'nl.sharecentrepro.com'}, cipher: auto, ws-opts: {'path': '/shirker', 'headers': {'Host': 'nl.sharecentrepro.com'}}, network: ws}
+  - {name: sws-88, server: yd-05.paofunlink.com, port: 1170, type: ss, udp: True, plugin-opts: {'host': 'c6a60226523.microsoft.com', 'mode': 'http'}, plugin: obfs, cipher: rc4-md5, password: Paofu}
+  - {name: sws-89, server: yd-05.paofunlink.com, port: 1171, type: ss, udp: True, plugin-opts: {'host': 'c6a60226523.microsoft.com', 'mode': 'http'}, plugin: obfs, cipher: rc4-md5, password: Paofu}
+  - {name: sws-90, server: yd-05.paofunlink.com, port: 1172, type: ss, udp: True, plugin-opts: {'host': 'c6a60226523.microsoft.com', 'mode': 'http'}, plugin: obfs, cipher: rc4-md5, password: Paofu}
+  - {name: sws-91, server: yd-02.paofunlink.com, port: 1173, type: ss, udp: True, plugin-opts: {'host': 'c6a60226523.microsoft.com', 'mode': 'http'}, plugin: obfs, cipher: rc4-md5, password: Paofu}
+  - {name: sws-92, server: yd-02.paofunlink.com, port: 1174, type: ss, udp: True, plugin-opts: {'host': 'c6a60226523.microsoft.com', 'mode': 'http'}, plugin: obfs, cipher: rc4-md5, password: Paofu}
+  - {name: sws-93, server: yd-05.paofunlink.com, port: 1190, type: ss, udp: True, plugin-opts: {'host': 'c6a60226523.microsoft.com', 'mode': 'http'}, plugin: obfs, cipher: rc4-md5, password: Paofu}
+  - {name: sws-94, server: yd-05.paofunlink.com, port: 1191, type: ss, udp: True, plugin-opts: {'host': 'c6a60226523.microsoft.com', 'mode': 'http'}, plugin: obfs, cipher: rc4-md5, password: Paofu}
+  - {name: sws-95, server: yd-02.paofunlink.com, port: 1192, type: ss, udp: True, plugin-opts: {'host': 'c6a60226523.microsoft.com', 'mode': 'http'}, plugin: obfs, cipher: rc4-md5, password: Paofu}
+  - {name: sws-96, server: yd-02.paofunlink.com, port: 1193, type: ss, udp: True, plugin-opts: {'host': 'c6a60226523.microsoft.com', 'mode': 'http'}, plugin: obfs, cipher: rc4-md5, password: Paofu}
+  - {name: sws-97, server: yd-02.paofunlink.com, port: 1194, type: ss, udp: True, plugin-opts: {'host': 'c6a60226523.microsoft.com', 'mode': 'http'}, plugin: obfs, cipher: rc4-md5, password: Paofu}
+  - {name: sws-98, server: yd-05.paofunlink.com, port: 1150, type: ss, udp: True, plugin-opts: {'host': 'c6a60226523.microsoft.com', 'mode': 'http'}, plugin: obfs, cipher: rc4-md5, password: Paofu}
+  - {name: sws-99, server: yd-05.paofunlink.com, port: 1151, type: ss, udp: True, plugin-opts: {'host': 'c6a60226523.microsoft.com', 'mode': 'http'}, plugin: obfs, cipher: rc4-md5, password: Paofu}
+  - {name: sws-100, server: yd-02.paofunlink.com, port: 1152, type: ss, udp: True, plugin-opts: {'host': 'c6a60226523.microsoft.com', 'mode': 'http'}, plugin: obfs, cipher: rc4-md5, password: Paofu}
+  - {name: sws-101, server: yd-02.paofunlink.com, port: 1153, type: ss, udp: True, plugin-opts: {'host': 'c6a60226523.microsoft.com', 'mode': 'http'}, plugin: obfs, cipher: rc4-md5, password: Paofu}
+  - {name: sws-102, server: yd-02.paofunlink.com, port: 1154, type: ss, udp: True, plugin-opts: {'host': 'c6a60226523.microsoft.com', 'mode': 'http'}, plugin: obfs, cipher: rc4-md5, password: Paofu}
+  - {name: sws-103, server: yd-05.paofunlink.com, port: 1180, type: ss, udp: True, plugin-opts: {'host': 'c6a60226523.microsoft.com', 'mode': 'http'}, plugin: obfs, cipher: rc4-md5, password: Paofu}
+  - {name: sws-104, server: yd-05.paofunlink.com, port: 1181, type: ss, udp: True, plugin-opts: {'host': 'c6a60226523.microsoft.com', 'mode': 'http'}, plugin: obfs, cipher: rc4-md5, password: Paofu}
+  - {name: sws-105, server: yd-02.paofunlink.com, port: 1182, type: ss, udp: True, plugin-opts: {'host': 'c6a60226523.microsoft.com', 'mode': 'http'}, plugin: obfs, cipher: rc4-md5, password: Paofu}
+  - {name: sws-106, server: yd-02.paofunlink.com, port: 1183, type: ss, udp: True, plugin-opts: {'host': 'c6a60226523.microsoft.com', 'mode': 'http'}, plugin: obfs, cipher: rc4-md5, password: Paofu}
+  - {name: sws-107, server: yd-02.paofunlink.com, port: 1184, type: ss, udp: True, plugin-opts: {'host': 'c6a60226523.microsoft.com', 'mode': 'http'}, plugin: obfs, cipher: rc4-md5, password: Paofu}
+  - {name: sws-108, server: yd-01.paofunlink.com, port: 5980, type: ss, udp: True, plugin-opts: {'host': 'c6a60226523.microsoft.com', 'mode': 'http'}, plugin: obfs, cipher: rc4-md5, password: Paofu}
+  - {name: sws-109, server: yd-01.paofunlink.com, port: 5981, type: ss, udp: True, plugin-opts: {'host': 'c6a60226523.microsoft.com', 'mode': 'http'}, plugin: obfs, cipher: rc4-md5, password: Paofu}
+  - {name: sws-110, server: yd-01.paofunlink.com, port: 5982, type: ss, udp: True, plugin-opts: {'host': 'c6a60226523.microsoft.com', 'mode': 'http'}, plugin: obfs, cipher: rc4-md5, password: Paofu}
+  - {name: sws-111, server: yd-06.paofunlink.com, port: 5983, type: ss, udp: True, plugin-opts: {'host': 'c6a60226523.microsoft.com', 'mode': 'http'}, plugin: obfs, cipher: rc4-md5, password: Paofu}
+  - {name: sws-112, server: yd-06.paofunlink.com, port: 5984, type: ss, udp: True, plugin-opts: {'host': 'c6a60226523.microsoft.com', 'mode': 'http'}, plugin: obfs, cipher: rc4-md5, password: Paofu}
+  - {name: sws-113, server: yd-06.paofunlink.com, port: 5985, type: ss, udp: True, plugin-opts: {'host': 'c6a60226523.microsoft.com', 'mode': 'http'}, plugin: obfs, cipher: rc4-md5, password: Paofu}
+  - {name: sws-114, server: yd-07.paofunlink.com, port: 5986, type: ss, udp: True, plugin-opts: {'host': 'c6a60226523.microsoft.com', 'mode': 'http'}, plugin: obfs, cipher: rc4-md5, password: Paofu}
+  - {name: sws-115, server: yd-07.paofunlink.com, port: 5987, type: ss, udp: True, plugin-opts: {'host': 'c6a60226523.microsoft.com', 'mode': 'http'}, plugin: obfs, cipher: rc4-md5, password: Paofu}
+  - {name: sws-116, server: yd-07.paofunlink.com, port: 5988, type: ss, udp: True, plugin-opts: {'host': 'c6a60226523.microsoft.com', 'mode': 'http'}, plugin: obfs, cipher: rc4-md5, password: Paofu}
+  - {name: sws-117, server: yd-07.paofunlink.com, port: 5989, type: ss, udp: True, plugin-opts: {'host': 'c6a60226523.microsoft.com', 'mode': 'http'}, plugin: obfs, cipher: rc4-md5, password: Paofu}
+  - {name: sws-118, server: yd-03.paofunlink.com, port: 1170, type: ss, udp: True, plugin-opts: {'host': 'c6a60226523.microsoft.com', 'mode': 'http'}, plugin: obfs, cipher: rc4-md5, password: Paofu}
+  - {name: sws-119, server: yd-03.paofunlink.com, port: 1171, type: ss, udp: True, plugin-opts: {'host': 'c6a60226523.microsoft.com', 'mode': 'http'}, plugin: obfs, cipher: rc4-md5, password: Paofu}
+  - {name: sws-120, server: yd-03.paofunlink.com, port: 1172, type: ss, udp: True, plugin-opts: {'host': 'c6a60226523.microsoft.com', 'mode': 'http'}, plugin: obfs, cipher: rc4-md5, password: Paofu}
+  - {name: sws-121, server: yd-03.paofunlink.com, port: 1173, type: ss, udp: True, plugin-opts: {'host': 'c6a60226523.microsoft.com', 'mode': 'http'}, plugin: obfs, cipher: rc4-md5, password: Paofu}
+  - {name: sws-122, server: yd-03.paofunlink.com, port: 1195, type: ss, udp: True, plugin-opts: {'host': 'c6a60226523.microsoft.com', 'mode': 'http'}, plugin: obfs, cipher: rc4-md5, password: Paofu}
+  - {name: sws-123, server: yd-03.paofunlink.com, port: 1196, type: ss, udp: True, plugin-opts: {'host': 'c6a60226523.microsoft.com', 'mode': 'http'}, plugin: obfs, cipher: rc4-md5, password: Paofu}
+  - {name: sws-124, server: yd-03.paofunlink.com, port: 1197, type: ss, udp: True, plugin-opts: {'host': 'c6a60226523.microsoft.com', 'mode': 'http'}, plugin: obfs, cipher: rc4-md5, password: Paofu}
+  - {name: sws-125, server: yd-03.paofunlink.com, port: 1198, type: ss, udp: True, plugin-opts: {'host': 'c6a60226523.microsoft.com', 'mode': 'http'}, plugin: obfs, cipher: rc4-md5, password: Paofu}
+  - {name: sws-126, server: yd-03.paofunlink.com, port: 1155, type: ss, udp: True, plugin-opts: {'host': 'c6a60226523.microsoft.com', 'mode': 'http'}, plugin: obfs, cipher: rc4-md5, password: Paofu}
+  - {name: sws-127, server: yd-03.paofunlink.com, port: 1156, type: ss, udp: True, plugin-opts: {'host': 'c6a60226523.microsoft.com', 'mode': 'http'}, plugin: obfs, cipher: rc4-md5, password: Paofu}
+  - {name: sws-128, server: yd-03.paofunlink.com, port: 1157, type: ss, udp: True, plugin-opts: {'host': 'c6a60226523.microsoft.com', 'mode': 'http'}, plugin: obfs, cipher: rc4-md5, password: Paofu}
+  - {name: sws-129, server: yd-03.paofunlink.com, port: 1158, type: ss, udp: True, plugin-opts: {'host': 'c6a60226523.microsoft.com', 'mode': 'http'}, plugin: obfs, cipher: rc4-md5, password: Paofu}
+  - {name: sws-130, server: yd-03.paofunlink.com, port: 1185, type: ss, udp: True, plugin-opts: {'host': 'c6a60226523.microsoft.com', 'mode': 'http'}, plugin: obfs, cipher: rc4-md5, password: Paofu}
+  - {name: sws-131, server: yd-03.paofunlink.com, port: 1186, type: ss, udp: True, plugin-opts: {'host': 'c6a60226523.microsoft.com', 'mode': 'http'}, plugin: obfs, cipher: rc4-md5, password: Paofu}
+  - {name: sws-132, server: yd-03.paofunlink.com, port: 1187, type: ss, udp: True, plugin-opts: {'host': 'c6a60226523.microsoft.com', 'mode': 'http'}, plugin: obfs, cipher: rc4-md5, password: Paofu}
+  - {name: sws-133, server: yd-03.paofunlink.com, port: 1188, type: ss, udp: True, plugin-opts: {'host': 'c6a60226523.microsoft.com', 'mode': 'http'}, plugin: obfs, cipher: rc4-md5, password: Paofu}
+  - {name: sws-134, server: yd-04.paofunlink.com, port: 5980, type: ss, udp: True, plugin-opts: {'host': 'c6a60226523.microsoft.com', 'mode': 'http'}, plugin: obfs, cipher: rc4-md5, password: Paofu}
+  - {name: sws-135, server: yd-04.paofunlink.com, port: 5981, type: ss, udp: True, plugin-opts: {'host': 'c6a60226523.microsoft.com', 'mode': 'http'}, plugin: obfs, cipher: rc4-md5, password: Paofu}
+  - {name: sws-136, server: yd-04.paofunlink.com, port: 5982, type: ss, udp: True, plugin-opts: {'host': 'c6a60226523.microsoft.com', 'mode': 'http'}, plugin: obfs, cipher: rc4-md5, password: Paofu}
+  - {name: sws-137, server: yd-04.paofunlink.com, port: 5983, type: ss, udp: True, plugin-opts: {'host': 'c6a60226523.microsoft.com', 'mode': 'http'}, plugin: obfs, cipher: rc4-md5, password: Paofu}
+  - {name: sws-138, server: yd-04.paofunlink.com, port: 5984, type: ss, udp: True, plugin-opts: {'host': 'c6a60226523.microsoft.com', 'mode': 'http'}, plugin: obfs, cipher: rc4-md5, password: Paofu}
+  - {name: sws-139, server: yd-04.paofunlink.com, port: 5985, type: ss, udp: True, plugin-opts: {'host': 'c6a60226523.microsoft.com', 'mode': 'http'}, plugin: obfs, cipher: rc4-md5, password: Paofu}
+  - {name: sws-140, server: yd-04.paofunlink.com, port: 5986, type: ss, udp: True, plugin-opts: {'host': 'c6a60226523.microsoft.com', 'mode': 'http'}, plugin: obfs, cipher: rc4-md5, password: Paofu}
+  - {name: sws-141, server: yd-04.paofunlink.com, port: 5987, type: ss, udp: True, plugin-opts: {'host': 'c6a60226523.microsoft.com', 'mode': 'http'}, plugin: obfs, cipher: rc4-md5, password: Paofu}
+  - {name: sws-142, server: yd-04.paofunlink.com, port: 5988, type: ss, udp: True, plugin-opts: {'host': 'c6a60226523.microsoft.com', 'mode': 'http'}, plugin: obfs, cipher: rc4-md5, password: Paofu}
+  - {name: sws-143, server: yd-04.paofunlink.com, port: 5989, type: ss, udp: True, plugin-opts: {'host': 'c6a60226523.microsoft.com', 'mode': 'http'}, plugin: obfs, cipher: rc4-md5, password: Paofu}
+  - {name: sws-144, server: 163.123.192.154, port: 443, type: trojan, udp: True, password: 49b94b41-d483-40f7-a5e7-3801c62401b7, sni: download.xn--mes358a9urctx.com}
+  - {name: sws-145, server: 163.123.192.155, port: 443, type: trojan, udp: True, password: 49b94b41-d483-40f7-a5e7-3801c62401b7, sni: download.xn--mes358a9urctx.com}
+  - {name: sws-146, server: 163.123.192.153, port: 443, type: trojan, udp: True, password: 49b94b41-d483-40f7-a5e7-3801c62401b7, sni: download.xn--mes358a9urctx.com}
+  - {name: sws-147, server: 163.123.192.156, port: 443, type: trojan, udp: True, password: 49b94b41-d483-40f7-a5e7-3801c62401b7, sni: download.xn--mes358a9urctx.com}
+  - {name: sws-148, server: 217.79.184.18, port: 443, type: trojan, udp: True, password: 49b94b41-d483-40f7-a5e7-3801c62401b7, sni: download.xn--mes358a9urctx.com}
+  - {name: sws-149, server: sg2.downloadvip.cfd, port: 443, type: trojan, udp: True, password: 49b94b41-d483-40f7-a5e7-3801c62401b7, sni: download.xn--mes358a9urctx.com}
+  - {name: sws-150, server: azjp2.downloadvip.cfd, port: 443, type: trojan, udp: True, password: 49b94b41-d483-40f7-a5e7-3801c62401b7, sni: jp1.xn--mes358a9urctx.com}
+  - {name: sws-151, server: downloadvip.cfd, port: 443, type: vmess, uuid: 49b94b41-d483-40f7-a5e7-3801c62401b7, alterId: 0, tls: True, udp: True, ws-path: /djjc/us1, ws-headers: {'Host': 'us1.djjc.sbs'}, cipher: auto, ws-opts: {'path': '/djjc/us1', 'headers': {'Host': 'us1.djjc.sbs'}}, network: ws}
+  - {name: sws-152, server: gd-cm.topmusicworld.com, port: 59666, type: ss, udp: True, cipher: chacha20-ietf-poly1305, password: adc570f1-d591-4a5a-93f0-0013bba3f116}
+  - {name: sws-153, server: hz-cm.topmusicworld.com, port: 41254, type: ss, udp: True, cipher: chacha20-ietf-poly1305, password: adc570f1-d591-4a5a-93f0-0013bba3f116}
+  - {name: sws-154, server: gy.520226.xyz, port: 15216, type: trojan, udp: True, password: 87b16e93-3174-487c-848f-9ffe05dec1ad, skip-cert-verify: True, sni: tur.520226.xyz}
+  - {name: sws-155, server: hd.520226.xyz, port: 13752, type: trojan, udp: True, password: 87b16e93-3174-487c-848f-9ffe05dec1ad, skip-cert-verify: True, sni: tur.520226.xyz}
+  - {name: sws-156, server: 163.123.192.149, port: 443, type: trojan, udp: True, password: 98b23a03-be1e-470c-8ee2-c1dc418819ad, sni: download.xn--mes358acgm99l.com}
+  - {name: sws-157, server: 217.79.181.82, port: 443, type: trojan, udp: True, password: 98b23a03-be1e-470c-8ee2-c1dc418819ad, sni: download.xn--mes358acgm99l.com}
+  - {name: sws-158, server: hk1.downloadvip.cfd, port: 443, type: trojan, udp: True, password: 98b23a03-be1e-470c-8ee2-c1dc418819ad, sni: download.xn--mes358acgm99l.com}
+  - {name: sws-159, server: jp1.downloadvip.cfd, port: 443, type: trojan, udp: True, password: 98b23a03-be1e-470c-8ee2-c1dc418819ad, sni: download.xn--mes358acgm99l.com}
+  - {name: sws-160, server: sg1.downloadvip.cfd, port: 443, type: trojan, udp: True, password: 98b23a03-be1e-470c-8ee2-c1dc418819ad, sni: download.xn--mes358acgm99l.com}
+  - {name: sws-161, server: azjp1.downloadvip.cfd, port: 443, type: trojan, udp: True, password: 98b23a03-be1e-470c-8ee2-c1dc418819ad, sni: us1.xn--mes358acgm99l.com}
+  - {name: sws-162, server: cn2-1-ant.go001.buzz, port: 11011, type: ss, udp: True, cipher: chacha20-ietf-poly1305, password: ec6a8338-65c4-4a17-85c7-7185ae0c5513}
+  - {name: sws-163, server: cn2-1-ant.go001.buzz, port: 11111, type: ss, udp: True, cipher: chacha20-ietf-poly1305, password: ec6a8338-65c4-4a17-85c7-7185ae0c5513}
+  - {name: sws-164, server: cm1-ant.go001.buzz, port: 11211, type: ss, udp: True, cipher: chacha20-ietf-poly1305, password: ec6a8338-65c4-4a17-85c7-7185ae0c5513}
+  - {name: sws-165, server: i1.go001.buzz, port: 11011, type: ss, udp: True, cipher: chacha20-ietf-poly1305, password: ec6a8338-65c4-4a17-85c7-7185ae0c5513}
+  - {name: sws-166, server: i2.go001.buzz, port: 11011, type: ss, udp: True, cipher: chacha20-ietf-poly1305, password: ec6a8338-65c4-4a17-85c7-7185ae0c5513}
+  - {name: sws-167, server: cn2-1-ant.go001.buzz, port: 11021, type: ss, udp: True, cipher: chacha20-ietf-poly1305, password: ec6a8338-65c4-4a17-85c7-7185ae0c5513}
+  - {name: sws-168, server: ct1-ant.go001.buzz, port: 11121, type: ss, udp: True, cipher: chacha20-ietf-poly1305, password: ec6a8338-65c4-4a17-85c7-7185ae0c5513}
+  - {name: sws-169, server: i1.go001.buzz, port: 11021, type: ss, udp: True, cipher: chacha20-ietf-poly1305, password: ec6a8338-65c4-4a17-85c7-7185ae0c5513}
+  - {name: sws-170, server: i2.go001.buzz, port: 11021, type: ss, udp: True, cipher: chacha20-ietf-poly1305, password: ec6a8338-65c4-4a17-85c7-7185ae0c5513}
+  - {name: sws-171, server: cn2-1-ant.go001.buzz, port: 11031, type: ss, udp: True, cipher: chacha20-ietf-poly1305, password: ec6a8338-65c4-4a17-85c7-7185ae0c5513}
+  - {name: sws-172, server: ct1-ant.go001.buzz, port: 11131, type: ss, udp: True, cipher: chacha20-ietf-poly1305, password: ec6a8338-65c4-4a17-85c7-7185ae0c5513}
+  - {name: sws-173, server: cm1-ant.go001.buzz, port: 11231, type: ss, udp: True, cipher: chacha20-ietf-poly1305, password: ec6a8338-65c4-4a17-85c7-7185ae0c5513}
+  - {name: sws-174, server: i1.go001.buzz, port: 11031, type: ss, udp: True, cipher: chacha20-ietf-poly1305, password: ec6a8338-65c4-4a17-85c7-7185ae0c5513}
+  - {name: sws-175, server: i2.go001.buzz, port: 11031, type: ss, udp: True, cipher: chacha20-ietf-poly1305, password: ec6a8338-65c4-4a17-85c7-7185ae0c5513}
+  - {name: sws-176, server: cn2-1-ant.go001.buzz, port: 11041, type: ss, udp: True, cipher: chacha20-ietf-poly1305, password: ec6a8338-65c4-4a17-85c7-7185ae0c5513}
+  - {name: sws-177, server: ct1-ant.go001.buzz, port: 11141, type: ss, udp: True, cipher: chacha20-ietf-poly1305, password: ec6a8338-65c4-4a17-85c7-7185ae0c5513}
+  - {name: sws-178, server: cm1-ant.go001.buzz, port: 11241, type: ss, udp: True, cipher: chacha20-ietf-poly1305, password: ec6a8338-65c4-4a17-85c7-7185ae0c5513}
+  - {name: sws-179, server: i1.go001.buzz, port: 11041, type: ss, udp: True, cipher: chacha20-ietf-poly1305, password: ec6a8338-65c4-4a17-85c7-7185ae0c5513}
+  - {name: sws-180, server: i2.go001.buzz, port: 11041, type: ss, udp: True, cipher: chacha20-ietf-poly1305, password: ec6a8338-65c4-4a17-85c7-7185ae0c5513}
+  - {name: sws-181, server: cn2-1-ant.go001.buzz, port: 11061, type: ss, udp: True, cipher: chacha20-ietf-poly1305, password: ec6a8338-65c4-4a17-85c7-7185ae0c5513}
+  - {name: sws-182, server: ct1-ant.go001.buzz, port: 11161, type: ss, udp: True, cipher: chacha20-ietf-poly1305, password: ec6a8338-65c4-4a17-85c7-7185ae0c5513}
+  - {name: sws-183, server: cm1-ant.go001.buzz, port: 11261, type: ss, udp: True, cipher: chacha20-ietf-poly1305, password: ec6a8338-65c4-4a17-85c7-7185ae0c5513}
+  - {name: sws-184, server: i1.go001.buzz, port: 11061, type: ss, udp: True, cipher: chacha20-ietf-poly1305, password: ec6a8338-65c4-4a17-85c7-7185ae0c5513}
+  - {name: sws-185, server: i2.go001.buzz, port: 11061, type: ss, udp: True, cipher: chacha20-ietf-poly1305, password: ec6a8338-65c4-4a17-85c7-7185ae0c5513}
+  - {name: sws-186, server: cn2-1-ant.go001.buzz, port: 11051, type: ss, udp: True, cipher: chacha20-ietf-poly1305, password: ec6a8338-65c4-4a17-85c7-7185ae0c5513}
+  - {name: sws-187, server: ct1-ant.go001.buzz, port: 11151, type: ss, udp: True, cipher: chacha20-ietf-poly1305, password: ec6a8338-65c4-4a17-85c7-7185ae0c5513}
+  - {name: sws-188, server: cm1-ant.go001.buzz, port: 11251, type: ss, udp: True, cipher: chacha20-ietf-poly1305, password: ec6a8338-65c4-4a17-85c7-7185ae0c5513}
+  - {name: sws-189, server: i1.go001.buzz, port: 11051, type: ss, udp: True, cipher: chacha20-ietf-poly1305, password: ec6a8338-65c4-4a17-85c7-7185ae0c5513}
+  - {name: sws-190, server: i2.go001.buzz, port: 11051, type: ss, udp: True, cipher: chacha20-ietf-poly1305, password: ec6a8338-65c4-4a17-85c7-7185ae0c5513}
+  - {name: sws-191, server: cm1-ant.go001.buzz, port: 11911, type: ss, udp: True, cipher: chacha20-ietf-poly1305, password: ec6a8338-65c4-4a17-85c7-7185ae0c5513}
+  - {name: sws-192, server: cm1-ant.go001.buzz, port: 11912, type: ss, udp: True, cipher: chacha20-ietf-poly1305, password: ec6a8338-65c4-4a17-85c7-7185ae0c5513}
+  - {name: sws-193, server: 2ce9e9be27040dc8f6f40ed966c687ebf706c308.zjcu1.lele233.top, port: 16156, type: ss, udp: True, cipher: chacha20-ietf-poly1305, password: 3fa4e2db-df4a-4df1-9f4b-f1caf3858ec6}
+  - {name: sws-194, server: 2ce9e9be27040dc8f6f40ed966c687ebf706c308.zjcu1.lele233.top, port: 13992, type: ss, udp: True, cipher: chacha20-ietf-poly1305, password: 3fa4e2db-df4a-4df1-9f4b-f1caf3858ec6}
+  - {name: sws-195, server: 2ce9e9be27040dc8f6f40ed966c687ebf706c308.zjcu1.lele233.top, port: 37613, type: ss, udp: True, cipher: chacha20-ietf-poly1305, password: 3fa4e2db-df4a-4df1-9f4b-f1caf3858ec6}
+  - {name: sws-196, server: 6f8ab8a5fce3778137bc92470e4b187f49d863b2.szct1.lele233.top, port: 41463, type: ss, udp: True, cipher: chacha20-ietf-poly1305, password: 3fa4e2db-df4a-4df1-9f4b-f1caf3858ec6}
+  - {name: sws-197, server: hk01-cf.qq5858.com, port: 443, type: vmess, uuid: 3fa4e2db-df4a-4df1-9f4b-f1caf3858ec6, alterId: 0, tls: True, udp: True, servername: jp3.magicby.top, ws-path: /jnd05, ws-headers: {'Host': 'jp3.magicby.top'}, cipher: auto, ws-opts: {'path': '/jnd05', 'headers': {'Host': 'jp3.magicby.top'}}, network: ws}
+  - {name: sws-198, server: 2ce9e9be27040dc8f6f40ed966c687ebf706c308.zjcu1.lele233.top, port: 33590, type: ss, udp: True, cipher: chacha20-ietf-poly1305, password: 3fa4e2db-df4a-4df1-9f4b-f1caf3858ec6}
+  - {name: sws-199, server: 2ce9e9be27040dc8f6f40ed966c687ebf706c308.zjcu1.lele233.top, port: 40827, type: ss, udp: True, cipher: chacha20-ietf-poly1305, password: 3fa4e2db-df4a-4df1-9f4b-f1caf3858ec6}
+  - {name: sws-200, server: 2ce9e9be27040dc8f6f40ed966c687ebf706c308.zjcu1.lele233.top, port: 49388, type: ss, udp: True, cipher: chacha20-ietf-poly1305, password: 3fa4e2db-df4a-4df1-9f4b-f1caf3858ec6}
+  - {name: sws-201, server: 2ce9e9be27040dc8f6f40ed966c687ebf706c308.zjcu1.lele233.top, port: 40809, type: ss, udp: True, cipher: chacha20-ietf-poly1305, password: 3fa4e2db-df4a-4df1-9f4b-f1caf3858ec6}
+  - {name: sws-202, server: 2ce9e9be27040dc8f6f40ed966c687ebf706c308.zjcu1.lele233.top, port: 42163, type: ss, udp: True, cipher: chacha20-ietf-poly1305, password: 3fa4e2db-df4a-4df1-9f4b-f1caf3858ec6}
+  - {name: sws-203, server: 2ce9e9be27040dc8f6f40ed966c687ebf706c308.zjcu1.lele233.top, port: 13580, type: ss, udp: True, cipher: chacha20-ietf-poly1305, password: 3fa4e2db-df4a-4df1-9f4b-f1caf3858ec6}
+  - {name: sws-204, server: 2ce9e9be27040dc8f6f40ed966c687ebf706c308.zjcu1.lele233.top, port: 33145, type: ss, udp: True, cipher: chacha20-ietf-poly1305, password: 3fa4e2db-df4a-4df1-9f4b-f1caf3858ec6}
+  - {name: sws-205, server: 2ce9e9be27040dc8f6f40ed966c687ebf706c308.zjcu1.lele233.top, port: 24034, type: ss, udp: True, cipher: chacha20-ietf-poly1305, password: 3fa4e2db-df4a-4df1-9f4b-f1caf3858ec6}
+  - {name: sws-206, server: 2ce9e9be27040dc8f6f40ed966c687ebf706c308.zjcu1.lele233.top, port: 10969, type: ss, udp: True, cipher: chacha20-ietf-poly1305, password: 3fa4e2db-df4a-4df1-9f4b-f1caf3858ec6}
+  - {name: sws-207, server: 2ce9e9be27040dc8f6f40ed966c687ebf706c308.zjcu1.lele233.top, port: 39459, type: ss, udp: True, cipher: chacha20-ietf-poly1305, password: 3fa4e2db-df4a-4df1-9f4b-f1caf3858ec6}
+  - {name: sws-208, server: 2ce9e9be27040dc8f6f40ed966c687ebf706c308.zjcu1.lele233.top, port: 44433, type: ss, udp: True, cipher: chacha20-ietf-poly1305, password: 3fa4e2db-df4a-4df1-9f4b-f1caf3858ec6}
+  - {name: sws-209, server: 2ce9e9be27040dc8f6f40ed966c687ebf706c308.zjcu1.lele233.top, port: 48698, type: ss, udp: True, cipher: chacha20-ietf-poly1305, password: 3fa4e2db-df4a-4df1-9f4b-f1caf3858ec6}
+  - {name: sws-210, server: 2ce9e9be27040dc8f6f40ed966c687ebf706c308.zjcu1.lele233.top, port: 16790, type: ss, udp: True, cipher: chacha20-ietf-poly1305, password: 3fa4e2db-df4a-4df1-9f4b-f1caf3858ec6}
+  - {name: sws-211, server: 2ce9e9be27040dc8f6f40ed966c687ebf706c308.zjcu1.lele233.top, port: 31616, type: ss, udp: True, cipher: chacha20-ietf-poly1305, password: 3fa4e2db-df4a-4df1-9f4b-f1caf3858ec6}
+  - {name: sws-212, server: 2ce9e9be27040dc8f6f40ed966c687ebf706c308.zjcu1.lele233.top, port: 37191, type: ss, udp: True, cipher: chacha20-ietf-poly1305, password: 3fa4e2db-df4a-4df1-9f4b-f1caf3858ec6}
+  - {name: sws-213, server: 2ce9e9be27040dc8f6f40ed966c687ebf706c308.zjcu1.lele233.top, port: 31855, type: ss, udp: True, cipher: chacha20-ietf-poly1305, password: 3fa4e2db-df4a-4df1-9f4b-f1caf3858ec6}
+  - {name: sws-214, server: 2ce9e9be27040dc8f6f40ed966c687ebf706c308.zjcu1.lele233.top, port: 36381, type: ss, udp: True, cipher: chacha20-ietf-poly1305, password: 3fa4e2db-df4a-4df1-9f4b-f1caf3858ec6}
+  - {name: sws-215, server: 2ce9e9be27040dc8f6f40ed966c687ebf706c308.zjcu1.lele233.top, port: 30997, type: ss, udp: True, cipher: chacha20-ietf-poly1305, password: 3fa4e2db-df4a-4df1-9f4b-f1caf3858ec6}
+  - {name: sws-216, server: 183.232.117.83, port: 53002, type: vmess, uuid: 7e319f7a-4c47-4606-8008-ce6c92634dd8, alterId: 0, udp: True, cipher: auto}
+  - {name: sws-217, server: 183.232.117.83, port: 41502, type: vmess, uuid: 7e319f7a-4c47-4606-8008-ce6c92634dd8, alterId: 0, udp: True, cipher: auto}
+  - {name: sws-218, server: gz.oracleyyds.com, port: 18353, type: vmess, uuid: 7e319f7a-4c47-4606-8008-ce6c92634dd8, alterId: 0, udp: True, cipher: auto}
+  - {name: sws-219, server: 183.232.117.83, port: 56268, type: vmess, uuid: 7e319f7a-4c47-4606-8008-ce6c92634dd8, alterId: 0, udp: True, cipher: auto}
+  - {name: sws-220, server: 183.232.117.83, port: 11451, type: ss, udp: True, cipher: chacha20-ietf-poly1305, password: 7e319f7a-4c47-4606-8008-ce6c92634dd8}
+  - {name: sws-221, server: 183.232.117.83, port: 19198, type: ss, udp: True, cipher: chacha20-ietf-poly1305, password: 7e319f7a-4c47-4606-8008-ce6c92634dd8}
+  - {name: sws-222, server: hk1.lianpi.xyz, port: 34180, type: vmess, uuid: 7e319f7a-4c47-4606-8008-ce6c92634dd8, alterId: 0, udp: True, cipher: auto}
+  - {name: sws-223, server: hk2.lianpi.xyz, port: 28069, type: trojan, udp: True, password: 7e319f7a-4c47-4606-8008-ce6c92634dd8, skip-cert-verify: True, sni: hk2.lianpi.xyz}
+  - {name: sws-224, server: fuck5.lianpi.xyz, port: 59019, type: ss, udp: True, cipher: chacha20-ietf-poly1305, password: 7e319f7a-4c47-4606-8008-ce6c92634dd8}
+  - {name: sws-225, server: fuck6.lianpi.xyz, port: 48057, type: trojan, udp: True, password: 7e319f7a-4c47-4606-8008-ce6c92634dd8, skip-cert-verify: True, sni: fuck6.lianpi.xyz}
+  - {name: sws-226, server: fuck7.lianpi.xyz, port: 37829, type: ss, udp: True, cipher: chacha20-ietf-poly1305, password: 7e319f7a-4c47-4606-8008-ce6c92634dd8}
+  - {name: sws-227, server: ko1.lianpi.xyz, port: 51256, type: trojan, udp: True, password: 7e319f7a-4c47-4606-8008-ce6c92634dd8, skip-cert-verify: True, sni: ko1.lianpi.xyz}
+  - {name: sws-228, server: ko2.lianpi.xyz, port: 64123, type: trojan, udp: True, password: 7e319f7a-4c47-4606-8008-ce6c92634dd8, skip-cert-verify: True, sni: ko2.lianpi.xyz}
+  - {name: sws-229, server: hinettw1.applebench.tech, port: 11189, type: trojan, udp: True, password: 7e319f7a-4c47-4606-8008-ce6c92634dd8, skip-cert-verify: True, sni: polotw1.guojiang.site}
+  - {name: sws-230, server: hinettw1.applebench.tech, port: 56568, type: vmess, uuid: 7e319f7a-4c47-4606-8008-ce6c92634dd8, alterId: 0, udp: True, cipher: auto}
+  - {name: sws-231, server: jp1.lianpi.xyz, port: 52422, type: ss, udp: True, cipher: chacha20-ietf-poly1305, password: 7e319f7a-4c47-4606-8008-ce6c92634dd8}
+  - {name: sws-232, server: jp2.lianpi.xyz, port: 45127, type: trojan, udp: True, password: 7e319f7a-4c47-4606-8008-ce6c92634dd8, skip-cert-verify: True, sni: jp2.lianpi.xyz}
+  - {name: sws-233, server: jp3.lianpi.xyz, port: 34234, type: ss, udp: True, cipher: chacha20-ietf-poly1305, password: 7e319f7a-4c47-4606-8008-ce6c92634dd8}
+  - {name: sws-234, server: jp4.lianpi.xyz, port: 54234, type: trojan, udp: True, password: 7e319f7a-4c47-4606-8008-ce6c92634dd8, skip-cert-verify: True, sni: jp4.lianpi.xyz}
+  - {name: sws-235, server: jp5.lianpi.xyz, port: 45123, type: vmess, uuid: 7e319f7a-4c47-4606-8008-ce6c92634dd8, alterId: 0, tls: True, udp: True, skip-cert-verify: True, servername: jp5.lianpi.xyz, ws-path: /, ws-headers: {'Host': 'QWQ'}, cipher: auto, ws-opts: {'path': '/', 'headers': {'Host': 'QWQ'}}, network: ws}
+  - {name: sws-236, server: jp6.lianpi.xyz, port: 23234, type: vmess, uuid: 7e319f7a-4c47-4606-8008-ce6c92634dd8, alterId: 0, udp: True, cipher: auto}
+  - {name: sws-237, server: jp7.lianpi.xyz, port: 53638, type: trojan, udp: True, password: 7e319f7a-4c47-4606-8008-ce6c92634dd8, skip-cert-verify: True, sni: jp6.lianpi.xyz}
+  - {name: sws-238, server: sg1.lianpi.xyz, port: 56138, type: ss, udp: True, cipher: chacha20-ietf-poly1305, password: 7e319f7a-4c47-4606-8008-ce6c92634dd8}
+  - {name: sws-239, server: sg2.lianpi.xyz, port: 61675, type: ss, udp: True, cipher: chacha20-ietf-poly1305, password: 7e319f7a-4c47-4606-8008-ce6c92634dd8}
+  - {name: sws-240, server: sg3.lianpi.xyz, port: 64578, type: ss, udp: True, cipher: chacha20-ietf-poly1305, password: 7e319f7a-4c47-4606-8008-ce6c92634dd8}
+  - {name: sws-241, server: sg4.lianpi.xyz, port: 39045, type: ss, udp: True, cipher: chacha20-ietf-poly1305, password: 7e319f7a-4c47-4606-8008-ce6c92634dd8}
+  - {name: sws-242, server: sg5.lianpi.xyz, port: 54126, type: vmess, uuid: 7e319f7a-4c47-4606-8008-ce6c92634dd8, alterId: 0, udp: True, cipher: auto}
+  - {name: sws-243, server: sg6.lianpi.xyz, port: 15638, type: vmess, uuid: 7e319f7a-4c47-4606-8008-ce6c92634dd8, alterId: 0, udp: True, ws-path: /, ws-headers: {'Host': 'tms.dingtalk.com'}, cipher: auto, ws-opts: {'path': '/', 'headers': {'Host': 'tms.dingtalk.com'}}, network: ws}
+  - {name: sws-244, server: gonggao01.lovehjq.xyz, port: 29993, type: trojan, udp: True, password: 09833a6f-4d46-426e-87fe-7793a5489f84, skip-cert-verify: True, sni: lovehjq.xyz}
+  - {name: sws-245, server: gonggao02.lovehjq.xyz, port: 29995, type: trojan, udp: True, password: 09833a6f-4d46-426e-87fe-7793a5489f84, skip-cert-verify: True, sni: lovehjq.xyz}
+  - {name: sws-246, server: gonggao03.lovehjq.xyz, port: 29997, type: trojan, udp: True, password: 09833a6f-4d46-426e-87fe-7793a5489f84, skip-cert-verify: True, sni: lovehjq.xyz}
+  - {name: sws-247, server: gonggao04.lovehjq.xyz, port: 29999, type: trojan, udp: True, password: 09833a6f-4d46-426e-87fe-7793a5489f84, skip-cert-verify: True, sni: lovehjq.xyz}
+  - {name: sws-248, server: gonggao05.lovehjq.xyz, port: 30001, type: trojan, udp: True, password: 09833a6f-4d46-426e-87fe-7793a5489f84, skip-cert-verify: True, sni: lovehjq.xyz}
+  - {name: sws-249, server: gonggao06.lovehjq.xyz, port: 30003, type: trojan, udp: True, password: 09833a6f-4d46-426e-87fe-7793a5489f84, skip-cert-verify: True, sni: lovehjq.xyz}
+  - {name: sws-250, server: hk01.lovehjq.xyz, port: 22001, type: trojan, udp: True, password: 09833a6f-4d46-426e-87fe-7793a5489f84, skip-cert-verify: True, sni: lovehjq.xyz}
+  - {name: sws-251, server: hk02.lovehjq.xyz, port: 22003, type: trojan, udp: True, password: 09833a6f-4d46-426e-87fe-7793a5489f84, skip-cert-verify: True, sni: lovehjq.xyz}
+  - {name: sws-252, server: hk03.lovehjq.xyz, port: 28101, type: trojan, udp: True, password: 09833a6f-4d46-426e-87fe-7793a5489f84, skip-cert-verify: True, sni: lovehjq.xyz}
+  - {name: sws-253, server: hk04.lovehjq.xyz, port: 28103, type: trojan, udp: True, password: 09833a6f-4d46-426e-87fe-7793a5489f84, skip-cert-verify: True, sni: lovehjq.xyz}
+  - {name: sws-254, server: kr01.lovehjq.xyz, port: 21001, type: trojan, udp: True, password: 09833a6f-4d46-426e-87fe-7793a5489f84, skip-cert-verify: True, sni: lovehjq.xyz}
+  - {name: sws-255, server: kr02.lovehjq.xyz, port: 21003, type: trojan, udp: True, password: 09833a6f-4d46-426e-87fe-7793a5489f84, skip-cert-verify: True, sni: lovehjq.xyz}
+  - {name: sws-256, server: kr03.lovehjq.xyz, port: 28105, type: trojan, udp: True, password: 09833a6f-4d46-426e-87fe-7793a5489f84, skip-cert-verify: True, sni: lovehjq.xyz}
+  - {name: sws-257, server: kr04.lovehjq.xyz, port: 28107, type: trojan, udp: True, password: 09833a6f-4d46-426e-87fe-7793a5489f84, skip-cert-verify: True, sni: lovehjq.xyz}
+  - {name: sws-258, server: us01.lovehjq.xyz, port: 25001, type: trojan, udp: True, password: 09833a6f-4d46-426e-87fe-7793a5489f84, skip-cert-verify: True, sni: lovehjq.xyz}
+  - {name: sws-259, server: us02.lovehjq.xyz, port: 26001, type: trojan, udp: True, password: 09833a6f-4d46-426e-87fe-7793a5489f84, skip-cert-verify: True, sni: lovehjq.xyz}
+  - {name: sws-260, server: us03.lovehjq.xyz, port: 28109, type: trojan, udp: True, password: 09833a6f-4d46-426e-87fe-7793a5489f84, skip-cert-verify: True, sni: lovehjq.xyz}
+  - {name: sws-261, server: us04.lovehjq.xyz, port: 28111, type: trojan, udp: True, password: 09833a6f-4d46-426e-87fe-7793a5489f84, skip-cert-verify: True, sni: lovehjq.xyz}
+  - {name: sws-262, server: sg01.lovehjq.xyz, port: 27001, type: trojan, udp: True, password: 09833a6f-4d46-426e-87fe-7793a5489f84, skip-cert-verify: True, sni: lovehjq.xyz}
+  - {name: sws-263, server: sg02.lovehjq.xyz, port: 27003, type: trojan, udp: True, password: 09833a6f-4d46-426e-87fe-7793a5489f84, skip-cert-verify: True, sni: lovehjq.xyz}
+  - {name: sws-264, server: sg03.lovehjq.xyz, port: 28113, type: trojan, udp: True, password: 09833a6f-4d46-426e-87fe-7793a5489f84, skip-cert-verify: True, sni: lovehjq.xyz}
+  - {name: sws-265, server: sg04.lovehjq.xyz, port: 28115, type: trojan, udp: True, password: 09833a6f-4d46-426e-87fe-7793a5489f84, skip-cert-verify: True, sni: lovehjq.xyz}
+  - {name: sws-266, server: jp01.lovehjq.xyz, port: 27005, type: trojan, udp: True, password: 09833a6f-4d46-426e-87fe-7793a5489f84, skip-cert-verify: True, sni: lovehjq.xyz}
+  - {name: sws-267, server: jp02.lovehjq.xyz, port: 27007, type: trojan, udp: True, password: 09833a6f-4d46-426e-87fe-7793a5489f84, skip-cert-verify: True, sni: lovehjq.xyz}
+  - {name: sws-268, server: jp03.lovehjq.xyz, port: 28117, type: trojan, udp: True, password: 09833a6f-4d46-426e-87fe-7793a5489f84, skip-cert-verify: True, sni: lovehjq.xyz}
+  - {name: sws-269, server: jp04.lovehjq.xyz, port: 41521, type: trojan, udp: True, password: 09833a6f-4d46-426e-87fe-7793a5489f84, skip-cert-verify: True, sni: lovehjq.xyz}
+  - {name: sws-270, server: twn01.lovehjq.xyz, port: 29001, type: trojan, udp: True, password: 09833a6f-4d46-426e-87fe-7793a5489f84, skip-cert-verify: True, sni: lovehjq.xyz}
+  - {name: sws-271, server: twn02.lovehjq.xyz, port: 28121, type: trojan, udp: True, password: 09833a6f-4d46-426e-87fe-7793a5489f84, skip-cert-verify: True, sni: lovehjq.xyz}
+  - {name: sws-272, server: twn03.lovehjq.xyz, port: 28123, type: trojan, udp: True, password: 09833a6f-4d46-426e-87fe-7793a5489f84, skip-cert-verify: True, sni: lovehjq.xyz}
+  - {name: sws-273, server: twn04.lovehjq.xyz, port: 29123, type: trojan, udp: True, password: 09833a6f-4d46-426e-87fe-7793a5489f84, skip-cert-verify: True, sni: lovehjq.xyz}
+  - {name: sws-274, server: uk01.lovehjq.xyz, port: 30005, type: trojan, udp: True, password: 09833a6f-4d46-426e-87fe-7793a5489f84, skip-cert-verify: True, sni: lovehjq.xyz}
+  - {name: sws-275, server: uk02.lovehjq.xyz, port: 30007, type: trojan, udp: True, password: 09833a6f-4d46-426e-87fe-7793a5489f84, skip-cert-verify: True, sni: lovehjq.xyz}
+  - {name: sws-276, server: uk03.lovehjq.xyz, port: 30009, type: trojan, udp: True, password: 09833a6f-4d46-426e-87fe-7793a5489f84, skip-cert-verify: True, sni: lovehjq.xyz}
+  - {name: sws-277, server: uk04.lovehjq.xyz, port: 30011, type: trojan, udp: True, password: 09833a6f-4d46-426e-87fe-7793a5489f84, skip-cert-verify: True, sni: lovehjq.xyz}
+  - {name: sws-278, server: th01.lovehjq.xyz, port: 30013, type: trojan, udp: True, password: 09833a6f-4d46-426e-87fe-7793a5489f84, skip-cert-verify: True, sni: lovehjq.xyz}
+  - {name: sws-279, server: th02.lovehjq.xyz, port: 30015, type: trojan, udp: True, password: 09833a6f-4d46-426e-87fe-7793a5489f84, skip-cert-verify: True, sni: lovehjq.xyz}
+  - {name: sws-280, server: ph01.lovehjq.xyz, port: 30017, type: trojan, udp: True, password: 09833a6f-4d46-426e-87fe-7793a5489f84, skip-cert-verify: True, sni: lovehjq.xyz}
+  - {name: sws-281, server: ph02.lovehjq.xyz, port: 30019, type: trojan, udp: True, password: 09833a6f-4d46-426e-87fe-7793a5489f84, skip-cert-verify: True, sni: lovehjq.xyz}
+  - {name: sws-282, server: au01.lovehjq.xyz, port: 41901, type: trojan, udp: True, password: 09833a6f-4d46-426e-87fe-7793a5489f84, skip-cert-verify: True, sni: lovehjq.xyz}
+  - {name: sws-283, server: au02.lovehjq.xyz, port: 41903, type: trojan, udp: True, password: 09833a6f-4d46-426e-87fe-7793a5489f84, skip-cert-verify: True, sni: lovehjq.xyz}
+  - {name: sws-284, server: ind01.lovehjq.xyz, port: 41905, type: trojan, udp: True, password: 09833a6f-4d46-426e-87fe-7793a5489f84, skip-cert-verify: True, sni: lovehjq.xyz}
+  - {name: sws-285, server: ind02.lovehjq.xyz, port: 41907, type: trojan, udp: True, password: 09833a6f-4d46-426e-87fe-7793a5489f84, skip-cert-verify: True, sni: lovehjq.xyz}
+  - {name: sws-286, server: br01.lovehjq.xyz, port: 41911, type: trojan, udp: True, password: 09833a6f-4d46-426e-87fe-7793a5489f84, skip-cert-verify: True, sni: lovehjq.xyz}
+  - {name: sws-287, server: br02.lovehjq.xyz, port: 41913, type: trojan, udp: True, password: 09833a6f-4d46-426e-87fe-7793a5489f84, skip-cert-verify: True, sni: lovehjq.xyz}
+  - {name: sws-288, server: fr01.lovehjq.xyz, port: 41915, type: trojan, udp: True, password: 09833a6f-4d46-426e-87fe-7793a5489f84, skip-cert-verify: True, sni: lovehjq.xyz}
+  - {name: sws-289, server: fr02.lovehjq.xyz, port: 41917, type: trojan, udp: True, password: 09833a6f-4d46-426e-87fe-7793a5489f84, skip-cert-verify: True, sni: lovehjq.xyz}
+  - {name: sws-290, server: ca01.lovehjq.xyz, port: 41921, type: trojan, udp: True, password: 09833a6f-4d46-426e-87fe-7793a5489f84, skip-cert-verify: True, sni: lovehjq.xyz}
+  - {name: sws-291, server: ca02.lovehjq.xyz, port: 41923, type: trojan, udp: True, password: 09833a6f-4d46-426e-87fe-7793a5489f84, skip-cert-verify: True, sni: lovehjq.xyz}
+  - {name: sws-292, server: vn01.lovehjq.xyz, port: 41925, type: trojan, udp: True, password: 09833a6f-4d46-426e-87fe-7793a5489f84, skip-cert-verify: True, sni: lovehjq.xyz}
+  - {name: sws-293, server: vn02.lovehjq.xyz, port: 41927, type: trojan, udp: True, password: 09833a6f-4d46-426e-87fe-7793a5489f84, skip-cert-verify: True, sni: lovehjq.xyz}
+  - {name: sws-294, server: nl01.lovehjq.xyz, port: 41929, type: trojan, udp: True, password: 09833a6f-4d46-426e-87fe-7793a5489f84, skip-cert-verify: True, sni: lovehjq.xyz}
+  - {name: sws-295, server: nl02.lovehjq.xyz, port: 41931, type: trojan, udp: True, password: 09833a6f-4d46-426e-87fe-7793a5489f84, skip-cert-verify: True, sni: lovehjq.xyz}
 
 proxy-groups:
   - name: 🚀 节点选择
@@ -365,6 +484,125 @@ proxy-groups:
       - sws-174
       - sws-175
       - sws-176
+      - sws-177
+      - sws-178
+      - sws-179
+      - sws-180
+      - sws-181
+      - sws-182
+      - sws-183
+      - sws-184
+      - sws-185
+      - sws-186
+      - sws-187
+      - sws-188
+      - sws-189
+      - sws-190
+      - sws-191
+      - sws-192
+      - sws-193
+      - sws-194
+      - sws-195
+      - sws-196
+      - sws-197
+      - sws-198
+      - sws-199
+      - sws-200
+      - sws-201
+      - sws-202
+      - sws-203
+      - sws-204
+      - sws-205
+      - sws-206
+      - sws-207
+      - sws-208
+      - sws-209
+      - sws-210
+      - sws-211
+      - sws-212
+      - sws-213
+      - sws-214
+      - sws-215
+      - sws-216
+      - sws-217
+      - sws-218
+      - sws-219
+      - sws-220
+      - sws-221
+      - sws-222
+      - sws-223
+      - sws-224
+      - sws-225
+      - sws-226
+      - sws-227
+      - sws-228
+      - sws-229
+      - sws-230
+      - sws-231
+      - sws-232
+      - sws-233
+      - sws-234
+      - sws-235
+      - sws-236
+      - sws-237
+      - sws-238
+      - sws-239
+      - sws-240
+      - sws-241
+      - sws-242
+      - sws-243
+      - sws-244
+      - sws-245
+      - sws-246
+      - sws-247
+      - sws-248
+      - sws-249
+      - sws-250
+      - sws-251
+      - sws-252
+      - sws-253
+      - sws-254
+      - sws-255
+      - sws-256
+      - sws-257
+      - sws-258
+      - sws-259
+      - sws-260
+      - sws-261
+      - sws-262
+      - sws-263
+      - sws-264
+      - sws-265
+      - sws-266
+      - sws-267
+      - sws-268
+      - sws-269
+      - sws-270
+      - sws-271
+      - sws-272
+      - sws-273
+      - sws-274
+      - sws-275
+      - sws-276
+      - sws-277
+      - sws-278
+      - sws-279
+      - sws-280
+      - sws-281
+      - sws-282
+      - sws-283
+      - sws-284
+      - sws-285
+      - sws-286
+      - sws-287
+      - sws-288
+      - sws-289
+      - sws-290
+      - sws-291
+      - sws-292
+      - sws-293
+      - sws-294
+      - sws-295
 
   - name: ♻️ 自动选择
     type: url-test
@@ -548,6 +786,125 @@ proxy-groups:
       - sws-174
       - sws-175
       - sws-176
+      - sws-177
+      - sws-178
+      - sws-179
+      - sws-180
+      - sws-181
+      - sws-182
+      - sws-183
+      - sws-184
+      - sws-185
+      - sws-186
+      - sws-187
+      - sws-188
+      - sws-189
+      - sws-190
+      - sws-191
+      - sws-192
+      - sws-193
+      - sws-194
+      - sws-195
+      - sws-196
+      - sws-197
+      - sws-198
+      - sws-199
+      - sws-200
+      - sws-201
+      - sws-202
+      - sws-203
+      - sws-204
+      - sws-205
+      - sws-206
+      - sws-207
+      - sws-208
+      - sws-209
+      - sws-210
+      - sws-211
+      - sws-212
+      - sws-213
+      - sws-214
+      - sws-215
+      - sws-216
+      - sws-217
+      - sws-218
+      - sws-219
+      - sws-220
+      - sws-221
+      - sws-222
+      - sws-223
+      - sws-224
+      - sws-225
+      - sws-226
+      - sws-227
+      - sws-228
+      - sws-229
+      - sws-230
+      - sws-231
+      - sws-232
+      - sws-233
+      - sws-234
+      - sws-235
+      - sws-236
+      - sws-237
+      - sws-238
+      - sws-239
+      - sws-240
+      - sws-241
+      - sws-242
+      - sws-243
+      - sws-244
+      - sws-245
+      - sws-246
+      - sws-247
+      - sws-248
+      - sws-249
+      - sws-250
+      - sws-251
+      - sws-252
+      - sws-253
+      - sws-254
+      - sws-255
+      - sws-256
+      - sws-257
+      - sws-258
+      - sws-259
+      - sws-260
+      - sws-261
+      - sws-262
+      - sws-263
+      - sws-264
+      - sws-265
+      - sws-266
+      - sws-267
+      - sws-268
+      - sws-269
+      - sws-270
+      - sws-271
+      - sws-272
+      - sws-273
+      - sws-274
+      - sws-275
+      - sws-276
+      - sws-277
+      - sws-278
+      - sws-279
+      - sws-280
+      - sws-281
+      - sws-282
+      - sws-283
+      - sws-284
+      - sws-285
+      - sws-286
+      - sws-287
+      - sws-288
+      - sws-289
+      - sws-290
+      - sws-291
+      - sws-292
+      - sws-293
+      - sws-294
+      - sws-295
 
   - name: 🎯 全球直连
     type: select
