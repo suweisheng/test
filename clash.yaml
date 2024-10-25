@@ -88,6 +88,11 @@ proxies:
   - {"name": "sws-17071-2024-03-04_132341", "skip-cert-verify": true, "server": "ru.mjt000.com", "password": "fbf636af-83a6-4d43-aa50-c041041c10cc", "type": "trojan", "port": 443}
   - {"name": "sws-19662-2024-03-31_172103", "skip-cert-verify": true, "server": "6e7da396-sb9ts0-sdlngq-1n7jq.s5.p5pv.com", "password": "85bce006-4885-11ee-8792-f23c9164ca5d", "type": "trojan", "port": 8443}
   - {"tls": false, "network": "ws", "name": "sws-15910-2024-04-11_135417", "servername": "worker-young-cloud-07c4.mortezahamidi1300.workers.dev", "server": "185.18.250.103", "ws-opts": {"path": "Twitter苏小柠", "headers": {"host": "worker-young-cloud-07c4.mortezahamidi1300.workers.dev"}}, "type": "vless", "port": 80, "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4"}
+  - {"name": "sws-20818-2024-03-23_155844", "server": "38.75.137.42", "cipher": "aes-256-gcm", "password": "Y6R9pAtvxxzmGC", "type": "ss", "port": 5600}
+  - {"name": "sws-20813-2024-03-23_155844", "server": "38.75.137.42", "cipher": "aes-256-gcm", "password": "XKFKl2rULjIp74", "type": "ss", "port": 8008}
+  - {"name": "sws-20877-2024-03-23_155844", "server": "38.75.137.42", "cipher": "aes-256-gcm", "password": "KixLvKzwjekG00rm", "type": "ss", "port": 5500}
+  - {"name": "sws-20896-2024-03-23_155844", "server": "38.75.137.42", "cipher": "aes-256-gcm", "password": "PCnnH6SQSnfoS27", "type": "ss", "port": 8090}
+  - {"tls": true, "network": "ws", "name": "sws-167-2024-08-13_151628", "servername": "juzibaipiao.5112233.xyz", "server": "212.41.15.119", "ws-opts": {"path": "/", "headers": {"host": "juzibaipiao.5112233.xyz"}}, "type": "vless", "port": 443, "uuid": "f775978b-6e22-41a8-ae5e-5f9779e6745f"}
 
 proxy-groups:
   - name: 🚀 节点选择
@@ -104,6 +109,11 @@ proxy-groups:
       - sws-17071-2024-03-04_132341
       - sws-19662-2024-03-31_172103
       - sws-15910-2024-04-11_135417
+      - sws-20818-2024-03-23_155844
+      - sws-20813-2024-03-23_155844
+      - sws-20877-2024-03-23_155844
+      - sws-20896-2024-03-23_155844
+      - sws-167-2024-08-13_151628
 
   - name: ♻️ 自动选择
     type: url-test
