@@ -93,6 +93,9 @@ proxies:
   - {"name": "sws-20877-2024-03-23_155844", "server": "38.75.137.42", "cipher": "aes-256-gcm", "password": "KixLvKzwjekG00rm", "type": "ss", "port": 5500}
   - {"name": "sws-20896-2024-03-23_155844", "server": "38.75.137.42", "cipher": "aes-256-gcm", "password": "PCnnH6SQSnfoS27", "type": "ss", "port": 8090}
   - {"tls": true, "network": "ws", "name": "sws-167-2024-08-13_151628", "servername": "juzibaipiao.5112233.xyz", "server": "212.41.15.119", "ws-opts": {"path": "/", "headers": {"host": "juzibaipiao.5112233.xyz"}}, "type": "vless", "port": 443, "uuid": "f775978b-6e22-41a8-ae5e-5f9779e6745f"}
+  - {"tls": true, "network": "ws", "name": "sws-1426-2024-07-25_123539", "servername": "werrr.azurewebsites.net", "server": "52.187.36.104", "ws-opts": {"path": "/", "headers": {"host": "werrr.azurewebsites.net"}}, "type": "vless", "port": 443, "uuid": "6f995056-7802-4a1d-bff7-61678e626c3f"}
+  - {"tls": true, "network": "ws", "name": "sws-2932-2024-08-28_133907", "servername": "vsdfee.azurewebsites.net", "server": "20.210.64.11", "ws-opts": {"path": "/", "headers": {"host": "vsdfee.azurewebsites.net"}}, "type": "vless", "port": 443, "uuid": "6f995056-7802-4a1d-bff7-61678e626c3f"}
+  - {"tls": true, "network": "ws", "name": "sws-601-2024-07-25_124150", "servername": "bnnm.azurewebsites.net", "server": "52.231.38.95", "ws-opts": {"path": "/", "headers": {"host": "bnnm.azurewebsites.net"}}, "type": "vless", "port": 443, "uuid": "6f995056-7802-4a1d-bff7-61678e626c3f"}
 
 proxy-groups:
   - name: 🚀 节点选择
@@ -114,6 +117,9 @@ proxy-groups:
       - sws-20877-2024-03-23_155844
       - sws-20896-2024-03-23_155844
       - sws-167-2024-08-13_151628
+      - sws-1426-2024-07-25_123539
+      - sws-2932-2024-08-28_133907
+      - sws-601-2024-07-25_124150
 
   - name: ♻️ 自动选择
     type: url-test
