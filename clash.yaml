@@ -78,7 +78,9 @@ dns:
       - 0.0.0.0/32
 
 proxies:
+  - {"tls": true, "network": "ws", "name": "sws-648-2024-07-25_124150", "servername": "bdfgfrtt7.azurewebsites.net", "server": "20.211.64.15", "ws-opts": {"path": "/", "headers": {"host": "bdfgfrtt7.azurewebsites.net"}}, "type": "vless", "port": 443, "uuid": "6f995056-7802-4a1d-bff7-61678e626c3f"}
   - {"tls": true, "network": "ws", "name": "sws-1426-2024-07-25_123539", "servername": "werrr.azurewebsites.net", "server": "52.187.36.104", "ws-opts": {"path": "/", "headers": {"host": "werrr.azurewebsites.net"}}, "type": "vless", "port": 443, "uuid": "6f995056-7802-4a1d-bff7-61678e626c3f"}
+  - {"tls": true, "network": "ws", "name": "sws-2643-2024-08-18_154429", "servername": "shg2.azurewebsites.net", "server": "13.67.9.5", "ws-opts": {"path": "/", "headers": {"host": "shg2.azurewebsites.net"}}, "type": "vless", "port": 443, "uuid": "6f995056-7802-4a1d-bff7-61678e626c3f"}
   - {"name": "sws-12031-2024-04-13_131612", "server": "38.110.1.252", "cipher": "aes-256-gcm", "password": "KixLvKzwjekG00rm", "type": "ss", "port": 8000}
   - {"name": "sws-12070-2024-04-13_131612", "server": "38.110.1.252", "cipher": "aes-256-gcm", "password": "pKEW8JPByTVTLtM", "type": "ss", "port": 443}
   - {"name": "sws-12117-2024-04-13_131612", "server": "38.110.1.252", "cipher": "aes-256-gcm", "password": "faBAoD54k87UJG7", "type": "ss", "port": 2376}
@@ -97,7 +99,9 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
+      - sws-648-2024-07-25_124150
       - sws-1426-2024-07-25_123539
+      - sws-2643-2024-08-18_154429
       - sws-12031-2024-04-13_131612
       - sws-12070-2024-04-13_131612
       - sws-12117-2024-04-13_131612
