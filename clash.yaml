@@ -78,48 +78,38 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name": "sws-6267-2024-06-24_133727", "server": "ununim.yangliq.com", "cipher": "aes-128-gcm", "password": "030741c1-8706-41f6-93ae-f97585365627", "type": "ss", "port": 21004}
-  - {"name": "sws-10220-2024-04-19_133055", "skip-cert-verify": true, "server": "jp.mjt000.com", "sni": "jp.mjt000.com", "password": "c256d26f-2c01-4a98-91dc-194aa48e8dbb", "type": "trojan", "port": 443}
-  - {"name": "sws-7190-2024-07-04_161529", "skip-cert-verify": true, "server": "scm.zarelayv1.com", "sni": "sg-misaka3.zodport.com", "password": "2baa2d43-b564-3b1f-92c7-c6fa1ff7e0a2", "type": "trojan", "port": 65510}
-  - {"name": "sws-10223-2024-04-19_133055", "skip-cert-verify": true, "server": "waphk.mjt000.com", "sni": "waphk.mjt000.com", "password": "c256d26f-2c01-4a98-91dc-194aa48e8dbb", "type": "trojan", "port": 443}
-  - {"udp": true, "name": "sws-1028-2024-07-17_132636", "server": "69.50.95.53", "cipher": "aes-256-gcm", "password": "Y6R9pAtvxxzmGC", "type": "ss", "port": 3389}
-  - {"name": "sws-10231-2024-04-19_133055", "skip-cert-verify": true, "server": "au.mjt000.com", "sni": "au.mjt000.com", "password": "c256d26f-2c01-4a98-91dc-194aa48e8dbb", "type": "trojan", "port": 443}
-  - {"udp": true, "name": "sws-2802-2024-07-11_164543", "skip-cert-verify": false, "server": "ca1.aaaa.gay", "sni": "ca1.aaaa.gay", "password": "7a49ebc8-6235-36b1-b7b4-0864b95bd90a", "type": "trojan", "port": 4586}
-  - {"name": "sws-17071-2024-03-04_132341", "skip-cert-verify": true, "server": "ru.mjt000.com", "password": "fbf636af-83a6-4d43-aa50-c041041c10cc", "type": "trojan", "port": 443}
-  - {"name": "sws-19662-2024-03-31_172103", "skip-cert-verify": true, "server": "6e7da396-sb9ts0-sdlngq-1n7jq.s5.p5pv.com", "password": "85bce006-4885-11ee-8792-f23c9164ca5d", "type": "trojan", "port": 8443}
-  - {"tls": false, "network": "ws", "name": "sws-15910-2024-04-11_135417", "servername": "worker-young-cloud-07c4.mortezahamidi1300.workers.dev", "server": "185.18.250.103", "ws-opts": {"path": "Twitter苏小柠", "headers": {"host": "worker-young-cloud-07c4.mortezahamidi1300.workers.dev"}}, "type": "vless", "port": 80, "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4"}
-  - {"name": "sws-20818-2024-03-23_155844", "server": "38.75.137.42", "cipher": "aes-256-gcm", "password": "Y6R9pAtvxxzmGC", "type": "ss", "port": 5600}
-  - {"name": "sws-20813-2024-03-23_155844", "server": "38.75.137.42", "cipher": "aes-256-gcm", "password": "XKFKl2rULjIp74", "type": "ss", "port": 8008}
-  - {"name": "sws-20877-2024-03-23_155844", "server": "38.75.137.42", "cipher": "aes-256-gcm", "password": "KixLvKzwjekG00rm", "type": "ss", "port": 5500}
-  - {"name": "sws-20896-2024-03-23_155844", "server": "38.75.137.42", "cipher": "aes-256-gcm", "password": "PCnnH6SQSnfoS27", "type": "ss", "port": 8090}
-  - {"tls": true, "network": "ws", "name": "sws-167-2024-08-13_151628", "servername": "juzibaipiao.5112233.xyz", "server": "212.41.15.119", "ws-opts": {"path": "/", "headers": {"host": "juzibaipiao.5112233.xyz"}}, "type": "vless", "port": 443, "uuid": "f775978b-6e22-41a8-ae5e-5f9779e6745f"}
   - {"tls": true, "network": "ws", "name": "sws-1426-2024-07-25_123539", "servername": "werrr.azurewebsites.net", "server": "52.187.36.104", "ws-opts": {"path": "/", "headers": {"host": "werrr.azurewebsites.net"}}, "type": "vless", "port": 443, "uuid": "6f995056-7802-4a1d-bff7-61678e626c3f"}
-  - {"tls": true, "network": "ws", "name": "sws-2932-2024-08-28_133907", "servername": "vsdfee.azurewebsites.net", "server": "20.210.64.11", "ws-opts": {"path": "/", "headers": {"host": "vsdfee.azurewebsites.net"}}, "type": "vless", "port": 443, "uuid": "6f995056-7802-4a1d-bff7-61678e626c3f"}
-  - {"tls": true, "network": "ws", "name": "sws-601-2024-07-25_124150", "servername": "bnnm.azurewebsites.net", "server": "52.231.38.95", "ws-opts": {"path": "/", "headers": {"host": "bnnm.azurewebsites.net"}}, "type": "vless", "port": 443, "uuid": "6f995056-7802-4a1d-bff7-61678e626c3f"}
+  - {"name": "sws-12031-2024-04-13_131612", "server": "38.110.1.252", "cipher": "aes-256-gcm", "password": "KixLvKzwjekG00rm", "type": "ss", "port": 8000}
+  - {"name": "sws-12070-2024-04-13_131612", "server": "38.110.1.252", "cipher": "aes-256-gcm", "password": "pKEW8JPByTVTLtM", "type": "ss", "port": 443}
+  - {"name": "sws-12117-2024-04-13_131612", "server": "38.110.1.252", "cipher": "aes-256-gcm", "password": "faBAoD54k87UJG7", "type": "ss", "port": 2376}
+  - {"name": "sws-12119-2024-04-13_131612", "server": "38.110.1.252", "cipher": "aes-256-gcm", "password": "cdBIDV42DCwnfIN", "type": "ss", "port": 8118}
+  - {"name": "sws-12141-2024-04-13_131612", "server": "38.110.1.252", "cipher": "aes-256-gcm", "password": "kDWvXYZoTBcGkC4", "type": "ss", "port": 8882}
+  - {"name": "sws-12165-2024-04-13_131612", "server": "38.110.1.252", "cipher": "aes-256-gcm", "password": "PCnnH6SQSnfoS27", "type": "ss", "port": 8091}
+  - {"name": "sws-12197-2024-04-13_131612", "server": "38.110.1.252", "cipher": "aes-256-gcm", "password": "g5MeD6Ft3CWlJId", "type": "ss", "port": 5004}
+  - {"name": "sws-12214-2024-04-13_131612", "server": "38.110.1.252", "cipher": "aes-256-gcm", "password": "Y6R9pAtvxxzmGC", "type": "ss", "port": 5600}
+  - {"name": "sws-12217-2024-04-13_131612", "server": "38.110.1.252", "cipher": "aes-256-gcm", "password": "lGqs95QkFHo2NV", "type": "ss", "port": 5498}
+  - {"name": "sws-12897-2024-04-13_131114", "server": "38.110.1.252", "cipher": "aes-256-gcm", "password": "faBAoD54k87UJG7", "type": "ss", "port": 2375}
+  - {"name": "sws-12907-2024-04-13_131114", "server": "38.110.1.252", "cipher": "aes-256-gcm", "password": "TEzjfAYq2IjtuoS", "type": "ss", "port": 6697}
+  - {"name": "sws-12928-2024-04-13_131114", "server": "38.110.1.252", "cipher": "aes-256-gcm", "password": "e4FCWrgpkji3QY", "type": "ss", "port": 9101}
 
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - DIRECT
-      - sws-6267-2024-06-24_133727
-      - sws-10220-2024-04-19_133055
-      - sws-7190-2024-07-04_161529
-      - sws-10223-2024-04-19_133055
-      - sws-1028-2024-07-17_132636
-      - sws-10231-2024-04-19_133055
-      - sws-2802-2024-07-11_164543
-      - sws-17071-2024-03-04_132341
-      - sws-19662-2024-03-31_172103
-      - sws-15910-2024-04-11_135417
-      - sws-20818-2024-03-23_155844
-      - sws-20813-2024-03-23_155844
-      - sws-20877-2024-03-23_155844
-      - sws-20896-2024-03-23_155844
-      - sws-167-2024-08-13_151628
       - sws-1426-2024-07-25_123539
-      - sws-2932-2024-08-28_133907
-      - sws-601-2024-07-25_124150
+      - sws-12031-2024-04-13_131612
+      - sws-12070-2024-04-13_131612
+      - sws-12117-2024-04-13_131612
+      - sws-12119-2024-04-13_131612
+      - sws-12141-2024-04-13_131612
+      - sws-12165-2024-04-13_131612
+      - sws-12197-2024-04-13_131612
+      - sws-12214-2024-04-13_131612
+      - sws-12217-2024-04-13_131612
+      - sws-12897-2024-04-13_131114
+      - sws-12907-2024-04-13_131114
+      - sws-12928-2024-04-13_131114
 
   - name: ♻️ 自动选择
     type: url-test
