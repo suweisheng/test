@@ -78,8 +78,11 @@ dns:
       - 0.0.0.0/32
 
 proxies:
+  - {"tls": true, "network": "ws", "name": "sws-601-2024-07-25_124150", "servername": "bnnm.azurewebsites.net", "server": "52.231.38.95", "ws-opts": {"path": "/", "headers": {"host": "bnnm.azurewebsites.net"}}, "type": "vless", "port": 443, "uuid": "6f995056-7802-4a1d-bff7-61678e626c3f"}
+  - {"tls": true, "network": "ws", "name": "sws-648-2024-07-25_124150", "servername": "bdfgfrtt7.azurewebsites.net", "server": "20.211.64.15", "ws-opts": {"path": "/", "headers": {"host": "bdfgfrtt7.azurewebsites.net"}}, "type": "vless", "port": 443, "uuid": "6f995056-7802-4a1d-bff7-61678e626c3f"}
   - {"alterId": 0, "tls": false, "udp": true, "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b", "skip-cert-verify": false, "name": "sws-907-2024-08-08_142634", "server": "172.67.170.103", "cipher": "auto", "ws-opts": {"path": "/glweidf.sbs/linkws", "headers": {"Host": "yaghoob55freenodes.repaco69437403.workers.dev"}}, "type": "vmess", "port": 2095, "network": "ws"}
   - {"tls": false, "network": "ws", "name": "sws-1246-2024-07-12_164752", "servername": "dl5.heykakenakhshanemvaberanakhshanemkhadijeomanigakobraoaminfatema.com", "server": "172.67.66.177", "ws-opts": {"path": "Mmdv2rayng-V2rayngmmd-telegram-mmd_v2rayng?ed", "headers": {"host": "dl5.heykakenakhshanemvaberanakhshanemkhadijeomanigakobraoaminfatema.com"}}, "type": "vless", "port": 80, "uuid": "bd2914ed-69b1-4533-a7f0-929527541c35"}
+  - {"alterId": 0, "tls": false, "udp": true, "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d", "skip-cert-verify": false, "name": "sws-1395-2024-07-29_142318", "server": "104.16.60.8", "cipher": "auto", "ws-opts": {"path": "/obdii.cfd/linkws", "headers": {"Host": "4868-poetry-4868.napora7003.workers.dev"}}, "type": "vmess", "port": 80, "network": "ws"}
   - {"tls": true, "network": "ws", "name": "sws-1426-2024-07-25_123539", "servername": "werrr.azurewebsites.net", "server": "52.187.36.104", "ws-opts": {"path": "/", "headers": {"host": "werrr.azurewebsites.net"}}, "type": "vless", "port": 443, "uuid": "6f995056-7802-4a1d-bff7-61678e626c3f"}
   - {"tls": true, "network": "ws", "name": "sws-2157-2024-08-01_131913", "servername": "edgood.889876.xyz", "server": "204.216.105.106", "ws-opts": {"path": "/", "headers": {"host": "edgood.889876.xyz"}}, "type": "vless", "port": 8443, "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4"}
   - {"tls": true, "network": "ws", "name": "sws-2266-2024-07-25_122815", "servername": "gkkui8.azurewebsites.net", "server": "104.215.58.230", "ws-opts": {"path": "/", "headers": {"host": "gkkui8.azurewebsites.net"}}, "type": "vless", "port": 443, "uuid": "6f995056-7802-4a1d-bff7-61678e626c3f"}
@@ -123,8 +126,11 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
+      - sws-601-2024-07-25_124150
+      - sws-648-2024-07-25_124150
       - sws-907-2024-08-08_142634
       - sws-1246-2024-07-12_164752
+      - sws-1395-2024-07-29_142318
       - sws-1426-2024-07-25_123539
       - sws-2157-2024-08-01_131913
       - sws-2266-2024-07-25_122815
