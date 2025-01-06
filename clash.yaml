@@ -78,64 +78,20 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"tls": true, "network": "ws", "name": "sws-243-2024-08-13_151628", "servername": "hkklo.azurewebsites.net", "server": "13.75.34.176", "ws-opts": {"path": "/", "headers": {"host": "hkklo.azurewebsites.net"}}, "type": "vless", "port": 443, "uuid": "6f995056-7802-4a1d-bff7-61678e626c3f"}
-  - {"tls": true, "network": "ws", "name": "sws-648-2024-07-25_124150", "servername": "bdfgfrtt7.azurewebsites.net", "server": "20.211.64.15", "ws-opts": {"path": "/", "headers": {"host": "bdfgfrtt7.azurewebsites.net"}}, "type": "vless", "port": 443, "uuid": "6f995056-7802-4a1d-bff7-61678e626c3f"}
-  - {"tls": true, "network": "ws", "name": "sws-1171-2024-08-30_184122", "servername": "mmdv2.pages.dev", "server": "104.16.116.48", "ws-opts": {"path": "/", "headers": {"host": "mmdv2.pages.dev"}}, "type": "vless", "port": 443, "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119"}
   - {"tls": true, "network": "ws", "name": "sws-1386-2024-08-13_151433", "servername": "dee33.azurewebsites.net", "server": "20.189.104.97", "ws-opts": {"path": "/", "headers": {"host": "dee33.azurewebsites.net"}}, "type": "vless", "port": 443, "uuid": "6f995056-7802-4a1d-bff7-61678e626c3f"}
-  - {"tls": true, "network": "ws", "name": "sws-1426-2024-07-25_123539", "servername": "werrr.azurewebsites.net", "server": "52.187.36.104", "ws-opts": {"path": "/", "headers": {"host": "werrr.azurewebsites.net"}}, "type": "vless", "port": 443, "uuid": "6f995056-7802-4a1d-bff7-61678e626c3f"}
   - {"tls": true, "network": "ws", "name": "sws-1729-2024-08-08_142443", "servername": "sdfee4.azurewebsites.net", "server": "20.42.228.160", "ws-opts": {"path": "/", "headers": {"host": "sdfee4.azurewebsites.net"}}, "type": "vless", "port": 443, "uuid": "6f995056-7802-4a1d-bff7-61678e626c3f"}
-  - {"tls": true, "network": "ws", "name": "sws-2266-2024-07-25_122815", "servername": "gkkui8.azurewebsites.net", "server": "104.215.58.230", "ws-opts": {"path": "/", "headers": {"host": "gkkui8.azurewebsites.net"}}, "type": "vless", "port": 443, "uuid": "6f995056-7802-4a1d-bff7-61678e626c3f"}
-  - {"tls": false, "network": "ws", "name": "sws-2625-2024-07-29_141314", "servername": "biTter-DArkNEsS-3199.wAKoCi1200.WorkERS.dEv", "server": "104.21.52.28", "ws-opts": {"path": "/09EpH4tzdpaF2F6Q?ed=2560", "headers": {"host": "biTter-DArkNEsS-3199.wAKoCi1200.WorkERS.dEv"}}, "type": "vless", "port": 80, "uuid": "90b3cbba-e6ac-485a-9481-976a0415eab9"}
-  - {"tls": true, "network": "ws", "name": "sws-2643-2024-08-18_154429", "servername": "shg2.azurewebsites.net", "server": "13.67.9.5", "ws-opts": {"path": "/", "headers": {"host": "shg2.azurewebsites.net"}}, "type": "vless", "port": 443, "uuid": "6f995056-7802-4a1d-bff7-61678e626c3f"}
   - {"udp": true, "name": "sws-2802-2024-07-11_164543", "skip-cert-verify": false, "server": "ca1.aaaa.gay", "sni": "ca1.aaaa.gay", "password": "7a49ebc8-6235-36b1-b7b4-0864b95bd90a", "type": "trojan", "port": 4586}
-  - {"tls": true, "network": "ws", "name": "sws-2932-2024-08-28_133907", "servername": "vsdfee.azurewebsites.net", "server": "20.210.64.11", "ws-opts": {"path": "/", "headers": {"host": "vsdfee.azurewebsites.net"}}, "type": "vless", "port": 443, "uuid": "6f995056-7802-4a1d-bff7-61678e626c3f"}
-  - {"tls": false, "network": "ws", "name": "sws-6668-2024-06-03_141740", "servername": "hamedan.hiven33959.workers.dev", "server": "104.16.28.34", "ws-opts": {"path": "/?ed=2048", "headers": {"host": "hamedan.hiven33959.workers.dev"}}, "type": "vless", "port": 8880, "uuid": "96494ca5-6dcf-4d33-b94f-5c3485586095"}
-  - {"tls": true, "network": "ws", "name": "sws-6735-2024-06-15_115011", "servername": "tnetplus3.pages.dev", "server": "172.66.47.109", "ws-opts": {"path": "/?ed=2048", "headers": {"host": "tnetplus3.pages.dev"}}, "type": "vless", "port": 2096, "uuid": "0fdc0235-0055-4203-a66f-f29e7e663d10"}
-  - {"name": "sws-7184-2024-07-04_161529", "skip-cert-verify": true, "server": "scm.zarelayv1.com", "sni": "us-katt.zodport.com", "password": "2baa2d43-b564-3b1f-92c7-c6fa1ff7e0a2", "type": "trojan", "port": 39874}
-  - {"name": "sws-8090-2024-07-08_130734", "skip-cert-verify": true, "server": "ecu.zarelay.com", "sni": "us-katt.zodport.com", "password": "a4d4dd16-c1fc-36b9-881d-8d4d73091e48", "type": "trojan", "port": 39874}
-  - {"tls": false, "network": "ws", "name": "sws-9566-2024-06-03_142047", "servername": "workerr.dimon22287.workers.dev", "server": "104.16.60.79", "ws-opts": {"path": "/?ed=2048", "headers": {"host": "workerr.dimon22287.workers.dev"}}, "type": "vless", "port": 2082, "uuid": "2b4bed25-a5ef-439d-93b1-395b7bcec58b"}
-  - {"name": "sws-10103-2024-06-13_130745", "skip-cert-verify": true, "server": "uk2-full.privateip.net", "password": "1ccce299-713e-466a-ba1e-0f2cef5ae0da", "type": "trojan", "port": 443}
   - {"name": "sws-10220-2024-04-19_133055", "skip-cert-verify": true, "server": "jp.mjt000.com", "sni": "jp.mjt000.com", "password": "c256d26f-2c01-4a98-91dc-194aa48e8dbb", "type": "trojan", "port": 443}
-  - {"name": "sws-10223-2024-04-19_133055", "skip-cert-verify": true, "server": "waphk.mjt000.com", "sni": "waphk.mjt000.com", "password": "c256d26f-2c01-4a98-91dc-194aa48e8dbb", "type": "trojan", "port": 443}
-  - {"name": "sws-10231-2024-04-19_133055", "skip-cert-verify": true, "server": "au.mjt000.com", "sni": "au.mjt000.com", "password": "c256d26f-2c01-4a98-91dc-194aa48e8dbb", "type": "trojan", "port": 443}
-  - {"tls": false, "network": "ws", "name": "sws-10846-2024-04-22_135956", "servername": "cdn-allxn--b6gaceuorg.l4o117en.workers.dev", "server": "172.67.162.88", "ws-opts": {"path": "Twitter苏小柠", "headers": {"host": "cdn-allxn--b6gaceuorg.l4o117en.workers.dev"}}, "type": "vless", "port": 8080, "uuid": "aa2dc840-be38-4b4d-a002-ba234999fd55"}
-  - {"tls": false, "network": "ws", "name": "sws-10862-2024-04-22_135956", "servername": "cdn-allxn--b6gaceuorg.l4o117en.workers.dev", "server": "162.159.243.231", "ws-opts": {"path": "Twitter苏小柠", "headers": {"host": "cdn-allxn--b6gaceuorg.l4o117en.workers.dev"}}, "type": "vless", "port": 8080, "uuid": "aa2dc840-be38-4b4d-a002-ba234999fd55"}
-  - {"tls": false, "network": "ws", "name": "sws-13437-2024-04-18_132641", "servername": "cdn-allxn--b6gaceuorg.l4o117en.workers.dev", "server": "172.64.84.90", "ws-opts": {"path": "Twitter苏小柠", "headers": {"host": "cdn-allxn--b6gaceuorg.l4o117en.workers.dev"}}, "type": "vless", "port": 8080, "uuid": "aa2dc840-be38-4b4d-a002-ba234999fd55"}
-  - {"alterId": 0, "tls": false, "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b", "name": "sws-14785-2024-04-06_152727", "server": "104.16.68.38", "cipher": "auto", "ws-opts": {"path": "/glweidf.sbs/linkws", "headers": {"Host": "snowy-river-f497.turkeys-radford.workers.dev"}}, "type": "vmess", "port": 2082, "network": "ws"}
-  - {"name": "sws-17071-2024-03-04_132341", "skip-cert-verify": true, "server": "ru.mjt000.com", "password": "fbf636af-83a6-4d43-aa50-c041041c10cc", "type": "trojan", "port": 443}
-  - {"name": "sws-19812-2024-03-22_163907", "skip-cert-verify": true, "server": "sg-full.privateip.net", "sni": "sg-full.privateip.net", "password": "e85bfecf-62f5-4e92-b974-31dd953d15bf", "type": "trojan", "port": 443}
 
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - DIRECT
-      - sws-243-2024-08-13_151628
-      - sws-648-2024-07-25_124150
-      - sws-1171-2024-08-30_184122
       - sws-1386-2024-08-13_151433
-      - sws-1426-2024-07-25_123539
       - sws-1729-2024-08-08_142443
-      - sws-2266-2024-07-25_122815
-      - sws-2625-2024-07-29_141314
-      - sws-2643-2024-08-18_154429
       - sws-2802-2024-07-11_164543
-      - sws-2932-2024-08-28_133907
-      - sws-6668-2024-06-03_141740
-      - sws-6735-2024-06-15_115011
-      - sws-7184-2024-07-04_161529
-      - sws-8090-2024-07-08_130734
-      - sws-9566-2024-06-03_142047
-      - sws-10103-2024-06-13_130745
       - sws-10220-2024-04-19_133055
-      - sws-10223-2024-04-19_133055
-      - sws-10231-2024-04-19_133055
-      - sws-10846-2024-04-22_135956
-      - sws-10862-2024-04-22_135956
-      - sws-13437-2024-04-18_132641
-      - sws-14785-2024-04-06_152727
-      - sws-17071-2024-03-04_132341
-      - sws-19812-2024-03-22_163907
 
   - name: ♻️ 自动选择
     type: url-test
