@@ -78,20 +78,28 @@ dns:
       - 0.0.0.0/32
 
 proxies:
+  - {"tls": true, "network": "ws", "name": "sws-601-2024-07-25_124150", "servername": "bnnm.azurewebsites.net", "server": "52.231.38.95", "ws-opts": {"path": "/", "headers": {"host": "bnnm.azurewebsites.net"}}, "type": "vless", "port": 443, "uuid": "6f995056-7802-4a1d-bff7-61678e626c3f"}
   - {"tls": true, "network": "ws", "name": "sws-1386-2024-08-13_151433", "servername": "dee33.azurewebsites.net", "server": "20.189.104.97", "ws-opts": {"path": "/", "headers": {"host": "dee33.azurewebsites.net"}}, "type": "vless", "port": 443, "uuid": "6f995056-7802-4a1d-bff7-61678e626c3f"}
   - {"tls": true, "network": "ws", "name": "sws-1729-2024-08-08_142443", "servername": "sdfee4.azurewebsites.net", "server": "20.42.228.160", "ws-opts": {"path": "/", "headers": {"host": "sdfee4.azurewebsites.net"}}, "type": "vless", "port": 443, "uuid": "6f995056-7802-4a1d-bff7-61678e626c3f"}
-  - {"udp": true, "name": "sws-2802-2024-07-11_164543", "skip-cert-verify": false, "server": "ca1.aaaa.gay", "sni": "ca1.aaaa.gay", "password": "7a49ebc8-6235-36b1-b7b4-0864b95bd90a", "type": "trojan", "port": 4586}
-  - {"name": "sws-10220-2024-04-19_133055", "skip-cert-verify": true, "server": "jp.mjt000.com", "sni": "jp.mjt000.com", "password": "c256d26f-2c01-4a98-91dc-194aa48e8dbb", "type": "trojan", "port": 443}
+  - {"name": "sws-12041-2024-04-13_131612", "server": "38.110.1.71", "cipher": "aes-256-gcm", "password": "XKFKl2rULjIp74", "type": "ss", "port": 8009}
+  - {"name": "sws-12067-2024-04-13_131612", "server": "38.110.1.105", "cipher": "aes-256-gcm", "password": "Y6R9pAtvxxzmGC", "type": "ss", "port": 5601}
+  - {"name": "sws-12125-2024-04-13_131612", "server": "38.110.1.105", "cipher": "aes-256-gcm", "password": "g5MeD6Ft3CWlJId", "type": "ss", "port": 5003}
+  - {"name": "sws-12157-2024-04-13_131612", "server": "38.110.1.105", "cipher": "aes-256-gcm", "password": "RexnBgU7EV5ADxG", "type": "ss", "port": 7001}
+  - {"name": "sws-12866-2024-04-13_131114", "server": "38.110.1.105", "cipher": "aes-256-gcm", "password": "cdBIDV42DCwnfIN", "type": "ss", "port": 8119}
 
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - DIRECT
+      - sws-601-2024-07-25_124150
       - sws-1386-2024-08-13_151433
       - sws-1729-2024-08-08_142443
-      - sws-2802-2024-07-11_164543
-      - sws-10220-2024-04-19_133055
+      - sws-12041-2024-04-13_131612
+      - sws-12067-2024-04-13_131612
+      - sws-12125-2024-04-13_131612
+      - sws-12157-2024-04-13_131612
+      - sws-12866-2024-04-13_131114
 
   - name: ♻️ 自动选择
     type: url-test
