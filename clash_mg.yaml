@@ -267,6 +267,182 @@ proxies:
   - {"tls": true, "tfo": false, "uuid": "7937d663-a3bf-4218-9295-edfa224b72c4", "skip-cert-verify": false, "servername": "fei.634676.xyz", "server": "104.21.238.2", "network": "ws", "ws-opts": {"path": "/?ed=2560", "headers": {"Host": "fei.634676.xyz"}}, "type": "vless", "port": 2096, "name": "s4976-2025-10-26_145036"}
   - {"tls": true, "client-fingerprint": "chrome", "tfo": false, "uuid": "99f47914-23d8-4367-81bc-b4b759eb7505", "skip-cert-verify": false, "servername": "zula.ir", "server": "45.83.22.118", "network": "ws", "ws-opts": {"path": "/ws", "headers": {"Host": "zula.ir"}}, "type": "vless", "port": 443, "name": "s5157-2025-10-26_145036"}
   - {"tls": true, "client-fingerprint": "chrome", "tfo": false, "reality-opts": {"short-id": "c0d304da0c4dcadc", "public-key": "vQxUlk2tCENv9crfrUAp5JdJOZTKhMH7XnoKLqbAYx0"}, "uuid": "77a33d77-7af9-4c33-9556-d6711becca04", "skip-cert-verify": false, "servername": "www.yahoo.com", "flow": "xtls-rprx-vision", "server": "212.129.5.242", "network": "tcp", "type": "vless", "port": 33009, "name": "s5187-2025-10-26_145036"}
+  - {"tls": true, "tfo": false, "uuid": "f61a4285-7264-4d07-9408-7b9ba1922c26", "skip-cert-verify": false, "servername": "gaosir.unfeeling.sbs", "server": "141.98.197.101", "network": "ws", "ws-opts": {"path": "/Telegram🇨🇳 @节点狂魔 /", "headers": {"Host": "gaosir.unfeeling.sbs"}}, "type": "vless", "port": 11665, "name": "s5359-2025-10-26_144856"}
+  - {"tls": true, "client-fingerprint": "chrome", "tfo": false, "reality-opts": {"public-key": "TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw"}, "uuid": "3e7f67de-648e-4871-b51a-a225214d41ee", "skip-cert-verify": false, "servername": "images-na.ssl-images-amazon.com", "server": "160.187.111.222", "network": "tcp", "type": "vless", "port": 443, "name": "s5508-2025-10-26_144856"}
+  - {"tls": true, "client-fingerprint": "chrome", "tfo": false, "reality-opts": {"short-id": "42f6af85", "public-key": "7f2tnm1f184LLqSmuzQ6vSbrtKzFSTRaRLQfemSfLXY"}, "uuid": "677615f7-87d5-5019-a44d-4fc3ff8d59d7", "skip-cert-verify": false, "servername": "nspk.ru", "flow": "xtls-rprx-vision", "server": "45.143.200.164", "network": "tcp", "type": "vless", "port": 443, "name": "s5654-2025-10-26_144545"}
+  - {"tls": false, "tfo": false, "uuid": "8a80687e-e66e-4a9e-8529-cf0ed2b96d4e", "skip-cert-verify": false, "server": "vip.ezrael.shop", "network": "http", "type": "vless", "port": 2089, "http-opts": {"path": ["/"], "method": "GET", "headers": {"Host": ["speedtest.net"]}}, "name": "s5831-2025-10-26_144545"}
+  - {"name": "s5863-2025-10-26_144407", "skip-cert-verify": false, "server": "58.152.53.136", "sni": "www.nintendogames.net", "password": "ea39fa94f1ee00999337ea1fd3318e69", "type": "trojan", "port": 443}
+  - {"tls": true, "tfo": false, "uuid": "f61a4285-7264-4d07-9408-7b9ba1922c26", "skip-cert-verify": false, "servername": "gaosir.unfeeling.sbs", "server": "59.22.88.168", "network": "ws", "ws-opts": {"path": "/Telegram@节点狂魔/?ed=2560", "headers": {"Host": "gaosir.unfeeling.sbs"}}, "type": "vless", "port": 50001, "name": "s5971-2025-10-26_144407"}
+  - {"tls": false, "tfo": false, "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012", "skip-cert-verify": false, "grpc-opts": {"grpc-mode": "gun", "grpc-service-name": "/"}, "server": "638969264971593315.abadan-blkaft-aaaw.info", "network": "grpc", "type": "vless", "port": 8880, "name": "s5993-2025-10-26_144407"}
+  - {"tls": true, "client-fingerprint": "chrome", "tfo": false, "reality-opts": {"short-id": "55e6af1a35e64a98", "public-key": "YVDo7U4O-AT2fa5H9E7hyYHKgfZd1vB6UdbAf2ggWQE"}, "uuid": "0e8a6896-ad90-4a3b-89a3-77d64aa409e2", "skip-cert-verify": false, "servername": "i2pd.website", "flow": "xtls-rprx-vision", "server": "ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz", "network": "tcp", "type": "vless", "port": 443, "name": "s5998-2025-10-26_144407"}
+  - {"tls": false, "tfo": false, "uuid": "422d5d99-b369-4ab1-9461-a76e2cc57689", "skip-cert-verify": false, "server": "172.66.156.81", "network": "ws", "ws-opts": {"path": "/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy", "headers": {"Host": "websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.store."}}, "type": "vless", "port": 80, "name": "s6000-2025-10-26_144407"}
+  - {"tls": true, "client-fingerprint": "firefox", "tfo": false, "reality-opts": {"short-id": "cf38b7bf1ab08fa4", "public-key": "rEHTPGOMI9UKT-W__dvCkITykQFNAh0SY2za-pa241Q"}, "uuid": "015c9cef-5936-4445-aca7-e846479992aa", "skip-cert-verify": false, "servername": "tgju.org", "flow": "xtls-rprx-vision", "server": "37.27.24.154.213.254.1ta8.online", "network": "tcp", "type": "vless", "port": 8080, "name": "s6001-2025-10-26_144407"}
+  - {"tls": false, "tfo": false, "uuid": "cf67d1b3-5104-411f-b212-dbe9bac73fbc", "skip-cert-verify": false, "server": "141.11.250.222", "network": "tcp", "type": "vless", "port": 24820, "name": "s6079-2025-10-26_144407"}
+  - {"tls": true, "tfo": false, "uuid": "f61a4285-7264-4d07-9408-7b9ba1922c26", "skip-cert-verify": false, "servername": "gaosir.unfeeling.sbs", "server": "222.96.197.31", "network": "ws", "ws-opts": {"path": "X@节点狂魔/?ed=2560", "headers": {"Host": "gaosir.unfeeling.sbs"}}, "type": "vless", "port": 50001, "name": "s6132-2025-10-25_155024"}
+  - {"tls": true, "tfo": false, "uuid": "f61a4285-7264-4d07-9408-7b9ba1922c26", "skip-cert-verify": false, "servername": "gaosir.unfeeling.sbs", "server": "222.114.57.191", "network": "ws", "ws-opts": {"path": "/X@节点狂魔/?ed=2560", "headers": {"Host": "gaosir.unfeeling.sbs"}}, "type": "vless", "port": 50001, "name": "s6141-2025-10-25_155024"}
+  - {"tls": true, "tfo": false, "uuid": "f61a4285-7264-4d07-9408-7b9ba1922c26", "skip-cert-verify": false, "servername": "gaosir.unfeeling.sbs", "server": "45.130.125.253", "network": "ws", "ws-opts": {"path": "/Telegram🇨🇳 @节点狂魔 /", "headers": {"Host": "gaosir.unfeeling.sbs"}}, "type": "vless", "port": 2096, "name": "s6175-2025-10-25_155024"}
+  - {"tls": true, "tfo": false, "uuid": "f61a4285-7264-4d07-9408-7b9ba1922c26", "skip-cert-verify": false, "servername": "gaosir.unfeeling.sbs", "server": "218.146.200.8", "network": "ws", "ws-opts": {"path": "/X@节点狂魔/", "headers": {"Host": "gaosir.unfeeling.sbs"}}, "type": "vless", "port": 50001, "name": "s6240-2025-10-25_155024"}
+  - {"tls": true, "tfo": false, "uuid": "f61a4285-7264-4d07-9408-7b9ba1922c26", "skip-cert-verify": false, "servername": "gaosir.unfeeling.sbs", "server": "203.243.63.166", "network": "ws", "ws-opts": {"path": "/Telegram🇨🇳 @节点狂魔 /", "headers": {"Host": "gaosir.unfeeling.sbs"}}, "type": "vless", "port": 27249, "name": "s6257-2025-10-25_155024"}
+  - {"tls": true, "tfo": false, "uuid": "f61a4285-7264-4d07-9408-7b9ba1922c26", "skip-cert-verify": false, "servername": "gaosir.unfeeling.sbs", "server": "27.100.229.147", "network": "ws", "ws-opts": {"path": "/Telegram@节点狂魔/?ed=2560", "headers": {"Host": "gaosir.unfeeling.sbs"}}, "type": "vless", "port": 50000, "name": "s6265-2025-10-25_155024"}
+  - {"tls": true, "tfo": false, "uuid": "f61a4285-7264-4d07-9408-7b9ba1922c26", "skip-cert-verify": false, "servername": "gaosir.unfeeling.sbs", "server": "27.100.229.147", "network": "ws", "ws-opts": {"path": "/Telegram🇨🇳+@节点狂魔+/?ed=2560", "headers": {"Host": "gaosir.unfeeling.sbs"}}, "type": "vless", "port": 50001, "name": "s6276-2025-10-25_155024"}
+  - {"name": "s6407-2025-10-25_154850", "skip-cert-verify": false, "server": "37.202.200.19", "sni": "jp02.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 15013}
+  - {"name": "s6590-2025-10-25_154850", "skip-cert-verify": false, "server": "naiu-hk.05vr9nyqg5.download", "sni": "cloudflare.node-ssl.cdn-alibaba.com", "password": "3c77ad6b-9c9c-4aff-beff-0a16e2cdea15", "type": "trojan", "port": 13008}
+  - {"tls": true, "tfo": false, "uuid": "f61a4285-7264-4d07-9408-7b9ba1922c26", "skip-cert-verify": false, "servername": "gaosir.unfeeling.sbs", "server": "220.118.109.204", "network": "ws", "ws-opts": {"path": "/", "headers": {"Host": "gaosir.unfeeling.sbs"}}, "type": "vless", "port": 12236, "name": "s6592-2025-10-25_154850"}
+  - {"tls": true, "client-fingerprint": "chrome", "tfo": false, "reality-opts": {"short-id": "a8237269c785d443", "public-key": "UpO0lV2YR0otf1jQKLHDp2bD623tyUIefqCLGm04a2Q"}, "uuid": "02bbbec4-8e6e-4ea8-982f-cdcac3541f09", "skip-cert-verify": false, "servername": "ya.ru", "flow": "xtls-rprx-vision", "server": "109.122.197.72", "network": "tcp", "type": "vless", "port": 443, "name": "s6669-2025-10-25_154719"}
+  - {"name": "s6778-2025-10-25_154719", "skip-cert-verify": false, "auth": "78c2bad7-f5f3-41f2-88cc-81de9d05040b", "sni": "xjp2.mangshe.xyz", "port": 2060, "password": "78c2bad7-f5f3-41f2-88cc-81de9d05040b", "type": "hysteria2", "server": "xjp2.mangshe.xyz"}
+  - {"name": "s7014-2025-10-25_154554", "skip-cert-verify": false, "server": "37.202.200.11", "sni": "wjp04.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 12412}
+  - {"tls": true, "tfo": false, "uuid": "f61a4285-7264-4d07-9408-7b9ba1922c26", "skip-cert-verify": false, "servername": "gaosir.unfeeling.sbs", "server": "112.170.255.67", "network": "ws", "ws-opts": {"path": "/X@节点狂魔/", "headers": {"Host": "gaosir.unfeeling.sbs"}}, "type": "vless", "port": 50001, "name": "s7147-2025-10-25_154554"}
+  - {"name": "s7242-2025-10-25_154408", "skip-cert-verify": false, "server": "jp02.weyaf9sdoh2h.space", "sni": "jp02.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 19018}
+  - {"name": "s7248-2025-10-25_154408", "skip-cert-verify": false, "server": "jp02.weyaf9sdoh2h.space", "sni": "TG.节点狂魔", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 19041}
+  - {"name": "s7249-2025-10-25_154408", "skip-cert-verify": false, "server": "jp02.weyaf9sdoh2h.space", "sni": "jp02.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 19092}
+  - {"tls": true, "tfo": false, "uuid": "f61a4285-7264-4d07-9408-7b9ba1922c26", "skip-cert-verify": false, "servername": "gaosir.unfeeling.sbs", "server": "39.123.97.116", "network": "ws", "ws-opts": {"path": "/Telegram🇨🇳 @节点狂魔 /", "headers": {"Host": "gaosir.unfeeling.sbs"}}, "type": "vless", "port": 50001, "name": "s7263-2025-10-25_154408"}
+  - {"name": "s7345-2025-10-25_154408", "skip-cert-verify": false, "server": "jp02.weyaf9sdoh2h.space", "sni": "jp02.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 19097}
+  - {"name": "s7418-2025-10-25_154408", "skip-cert-verify": false, "server": "jp02.weyaf9sdoh2h.space", "sni": "TG.节点狂魔", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 19053}
+  - {"name": "s7419-2025-10-25_154408", "skip-cert-verify": false, "server": "jp02.weyaf9sdoh2h.space", "sni": "TG.节点狂魔", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 19063}
+  - {"name": "s7420-2025-10-25_154408", "skip-cert-verify": false, "server": "jp02.weyaf9sdoh2h.space", "sni": "jp02.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 19016}
+  - {"name": "s7422-2025-10-25_154408", "skip-cert-verify": false, "server": "jp02.weyaf9sdoh2h.space", "sni": "TG.节点狂魔", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 19068}
+  - {"name": "s7442-2025-10-25_154408", "skip-cert-verify": false, "server": "jp02.weyaf9sdoh2h.space", "sni": "TG.节点狂魔", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 19019}
+  - {"name": "s7443-2025-10-25_154408", "skip-cert-verify": false, "server": "jp02.weyaf9sdoh2h.space", "sni": "TG.节点狂魔", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 19089}
+  - {"name": "s7448-2025-10-25_154408", "skip-cert-verify": false, "server": "jp02.weyaf9sdoh2h.space", "sni": "TG.节点狂魔", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 19062}
+  - {"name": "s7469-2025-10-25_154234", "skip-cert-verify": false, "auth": "4f23ef30-65d7-4a6e-a5be-5d16ac6cd9a6", "sni": "h.eans.top", "port": 7009, "password": "4f23ef30-65d7-4a6e-a5be-5d16ac6cd9a6", "type": "hysteria2", "server": "cn.eans.top"}
+  - {"name": "s7471-2025-10-25_154234", "skip-cert-verify": false, "server": "jp03.weyaf9sdoh2h.space", "sni": "TG.节点狂魔", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 17085}
+  - {"name": "s7475-2025-10-25_154234", "skip-cert-verify": false, "server": "jp03.weyaf9sdoh2h.space", "sni": "TG.节点狂魔", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 17073}
+  - {"name": "s7477-2025-10-25_154234", "skip-cert-verify": false, "server": "jp03.weyaf9sdoh2h.space", "sni": "TG.节点狂魔", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 17023}
+  - {"name": "s7483-2025-10-25_154234", "skip-cert-verify": false, "server": "jp03.weyaf9sdoh2h.space", "sni": "jp03.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 17066}
+  - {"tls": true, "client-fingerprint": "safari", "tfo": false, "reality-opts": {"short-id": "806ba558", "public-key": "Oj8-fhTWXtsuOkPJxRra_9gK3K_Jnxi-Ybek148Iixs"}, "uuid": "4625f2da-1eb5-4ad3-8c98-d7a08ae4ee2a", "skip-cert-verify": false, "servername": "addons.mozilla.org", "flow": "xtls-rprx-vision", "server": "cn.eans.top", "network": "tcp", "type": "vless", "port": 7008, "name": "s7485-2025-10-25_154234"}
+  - {"tls": false, "tfo": false, "uuid": "dfc99bc6-e896-48f2-a8db-528ed3c7577b", "skip-cert-verify": false, "server": "cloud499.persianv2cloud.ir", "network": "http", "type": "vless", "port": 21380, "http-opts": {"path": ["/"], "method": "GET", "headers": {"Host": ["ramzinet.com"]}}, "name": "s7563-2025-10-25_154234"}
+  - {"tls": false, "tfo": false, "uuid": "f2be2d79-54ba-46e6-99ee-5bfb662c0947", "skip-cert-verify": false, "grpc-opts": {"grpc-mode": "gun", "grpc-service-name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON"}, "server": "57.129.29.171", "network": "grpc", "type": "vless", "port": 443, "name": "s7685-2025-10-25_154234"}
+  - {"tls": false, "tfo": false, "uuid": "1434d645-eb56-474d-8450-465dbf7b9600", "skip-cert-verify": false, "server": "173.245.58.100", "network": "ws", "ws-opts": {"path": "/", "headers": {"Host": "dlvds127.pwteam.ir"}}, "type": "vless", "port": 80, "name": "s7709-2025-10-25_154234"}
+  - {"name": "s7720-2025-10-25_154234", "skip-cert-verify": false, "server": "jp03.weyaf9sdoh2h.space", "sni": "TG.节点狂魔", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 17056}
+  - {"name": "s7721-2025-10-25_154234", "skip-cert-verify": false, "server": "jp03.weyaf9sdoh2h.space", "sni": "TG.节点狂魔", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 17068}
+  - {"name": "s7752-2025-10-25_154042", "skip-cert-verify": false, "server": "jp01.weyaf9sdoh2h.space", "sni": "jp01.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 18077}
+  - {"name": "s7753-2025-10-25_154042", "skip-cert-verify": false, "server": "jp01.weyaf9sdoh2h.space", "sni": "TG.节点狂魔", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 18005}
+  - {"name": "s7754-2025-10-25_154042", "skip-cert-verify": false, "server": "jp01.weyaf9sdoh2h.space", "sni": "TG.节点狂魔", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 18038}
+  - {"name": "s7756-2025-10-25_154042", "skip-cert-verify": false, "server": "jp01.weyaf9sdoh2h.space", "sni": "TG.节点狂魔", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 18071}
+  - {"name": "s7757-2025-10-25_154042", "skip-cert-verify": false, "server": "jp01.weyaf9sdoh2h.space", "sni": "TG.节点狂魔", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 18056}
+  - {"name": "s7758-2025-10-25_154042", "skip-cert-verify": false, "server": "jp03.weyaf9sdoh2h.space", "sni": "jp03.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 17057}
+  - {"name": "s7759-2025-10-25_154042", "skip-cert-verify": false, "server": "jp01.weyaf9sdoh2h.space", "sni": "TG.节点狂魔", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 18001}
+  - {"name": "s7760-2025-10-25_154042", "skip-cert-verify": false, "server": "jp01.weyaf9sdoh2h.space", "sni": "TG.节点狂魔", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 18025}
+  - {"name": "s7761-2025-10-25_154042", "skip-cert-verify": false, "server": "jp01.weyaf9sdoh2h.space", "sni": "jp01.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 18096}
+  - {"name": "s7762-2025-10-25_154042", "skip-cert-verify": false, "server": "jp01.weyaf9sdoh2h.space", "sni": "jp01.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 18057}
+  - {"name": "s7763-2025-10-25_154042", "skip-cert-verify": false, "server": "jp01.weyaf9sdoh2h.space", "sni": "jp01.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 18094}
+  - {"name": "s7765-2025-10-25_154042", "skip-cert-verify": false, "server": "jp01.weyaf9sdoh2h.space", "sni": "jp01.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 18037}
+  - {"name": "s7766-2025-10-25_154042", "skip-cert-verify": false, "server": "jp03.weyaf9sdoh2h.space", "sni": "jp03.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 17063}
+  - {"name": "s7767-2025-10-25_154042", "skip-cert-verify": false, "server": "jp01.weyaf9sdoh2h.space", "sni": "jp01.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 18048}
+  - {"name": "s7768-2025-10-25_154042", "skip-cert-verify": false, "server": "jp01.weyaf9sdoh2h.space", "sni": "jp01.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 18003}
+  - {"name": "s7769-2025-10-25_154042", "skip-cert-verify": false, "server": "jp01.weyaf9sdoh2h.space", "sni": "jp01.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 18088}
+  - {"name": "s7770-2025-10-25_154042", "skip-cert-verify": false, "server": "jp01.weyaf9sdoh2h.space", "sni": "jp01.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 18033}
+  - {"name": "s7771-2025-10-25_154042", "skip-cert-verify": false, "server": "jp01.weyaf9sdoh2h.space", "sni": "TG.节点狂魔", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 18051}
+  - {"name": "s7773-2025-10-25_154042", "skip-cert-verify": false, "server": "jp03.weyaf9sdoh2h.space", "sni": "jp03.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 17081}
+  - {"name": "s7775-2025-10-25_154042", "skip-cert-verify": false, "server": "jp01.weyaf9sdoh2h.space", "sni": "jp01.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 18062}
+  - {"name": "s7776-2025-10-25_154042", "skip-cert-verify": false, "server": "jp01.weyaf9sdoh2h.space", "sni": "jp01.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 18099}
+  - {"name": "s7777-2025-10-25_154042", "skip-cert-verify": false, "server": "jp03.weyaf9sdoh2h.space", "sni": "TG.节点狂魔", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 17059}
+  - {"name": "s7778-2025-10-25_154042", "skip-cert-verify": false, "server": "jp01.weyaf9sdoh2h.space", "sni": "jp01.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 18044}
+  - {"name": "s7779-2025-10-25_154042", "skip-cert-verify": false, "server": "jp01.weyaf9sdoh2h.space", "sni": "jp01.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 18050}
+  - {"name": "s7781-2025-10-25_154042", "skip-cert-verify": false, "server": "jp01.weyaf9sdoh2h.space", "sni": "TG.节点狂魔", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 18078}
+  - {"name": "s7782-2025-10-25_154042", "skip-cert-verify": false, "server": "jp01.weyaf9sdoh2h.space", "sni": "TG.节点狂魔", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 18093}
+  - {"name": "s7783-2025-10-25_154042", "skip-cert-verify": false, "server": "jp01.weyaf9sdoh2h.space", "sni": "jp01.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 18023}
+  - {"name": "s7784-2025-10-25_154042", "skip-cert-verify": false, "server": "jp01.weyaf9sdoh2h.space", "sni": "TG.节点狂魔", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 18004}
+  - {"name": "s7785-2025-10-25_154042", "skip-cert-verify": false, "server": "jp01.weyaf9sdoh2h.space", "sni": "jp01.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 18047}
+  - {"name": "s7786-2025-10-25_154042", "skip-cert-verify": false, "server": "jp01.weyaf9sdoh2h.space", "sni": "TG.节点狂魔", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 18015}
+  - {"name": "s7787-2025-10-25_154042", "skip-cert-verify": false, "server": "jp01.weyaf9sdoh2h.space", "sni": "jp01.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 18045}
+  - {"name": "s7788-2025-10-25_154042", "skip-cert-verify": false, "server": "jp01.weyaf9sdoh2h.space", "sni": "jp01.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 18055}
+  - {"name": "s7789-2025-10-25_154042", "skip-cert-verify": false, "server": "jp01.weyaf9sdoh2h.space", "sni": "TG.节点狂魔", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 18092}
+  - {"name": "s7790-2025-10-25_154042", "skip-cert-verify": false, "server": "jp01.weyaf9sdoh2h.space", "sni": "TG.节点狂魔", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 18068}
+  - {"name": "s7791-2025-10-25_154042", "skip-cert-verify": false, "server": "jp01.weyaf9sdoh2h.space", "sni": "TG.节点狂魔", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 18087}
+  - {"name": "s7792-2025-10-25_154042", "skip-cert-verify": false, "server": "jp03.weyaf9sdoh2h.space", "sni": "TG.节点狂魔", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 17080}
+  - {"name": "s7793-2025-10-25_154042", "skip-cert-verify": false, "server": "jp03.weyaf9sdoh2h.space", "sni": "jp03.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 17027}
+  - {"name": "s7795-2025-10-25_154042", "skip-cert-verify": false, "server": "jp03.weyaf9sdoh2h.space", "sni": "TG.节点狂魔", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 17032}
+  - {"name": "s7796-2025-10-25_154042", "skip-cert-verify": false, "server": "jp01.weyaf9sdoh2h.space", "sni": "jp01.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 18065}
+  - {"name": "s7797-2025-10-25_154042", "skip-cert-verify": false, "server": "jp01.weyaf9sdoh2h.space", "sni": "TG.节点狂魔", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 18026}
+  - {"name": "s7799-2025-10-25_154042", "skip-cert-verify": false, "server": "jp03.weyaf9sdoh2h.space", "sni": "TG.节点狂魔", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 17019}
+  - {"name": "s7800-2025-10-25_154042", "skip-cert-verify": false, "server": "jp01.weyaf9sdoh2h.space", "sni": "TG.节点狂魔", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 18041}
+  - {"name": "s7802-2025-10-25_154042", "skip-cert-verify": false, "server": "jp03.weyaf9sdoh2h.space", "sni": "TG.节点狂魔", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 17094}
+  - {"name": "s7803-2025-10-25_154042", "skip-cert-verify": false, "server": "jp03.weyaf9sdoh2h.space", "sni": "jp03.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 17031}
+  - {"name": "s7804-2025-10-25_154042", "skip-cert-verify": false, "server": "jp03.weyaf9sdoh2h.space", "sni": "jp03.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 17040}
+  - {"name": "s7805-2025-10-25_154042", "skip-cert-verify": false, "server": "jp01.weyaf9sdoh2h.space", "sni": "TG.节点狂魔", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 18067}
+  - {"name": "s7806-2025-10-25_154042", "skip-cert-verify": false, "server": "jp01.weyaf9sdoh2h.space", "sni": "jp01.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 18024}
+  - {"name": "s7808-2025-10-25_154042", "skip-cert-verify": false, "server": "jp03.weyaf9sdoh2h.space", "sni": "TG.节点狂魔", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 17083}
+  - {"name": "s7809-2025-10-25_154042", "skip-cert-verify": false, "server": "jp01.weyaf9sdoh2h.space", "sni": "jp01.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 18058}
+  - {"name": "s7810-2025-10-25_154042", "skip-cert-verify": false, "server": "jp01.weyaf9sdoh2h.space", "sni": "jp01.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 18075}
+  - {"name": "s7811-2025-10-25_154042", "skip-cert-verify": false, "server": "jp03.weyaf9sdoh2h.space", "sni": "jp03.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 17072}
+  - {"name": "s7812-2025-10-25_154042", "skip-cert-verify": false, "server": "jp03.weyaf9sdoh2h.space", "sni": "jp03.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 17074}
+  - {"name": "s7813-2025-10-25_154042", "skip-cert-verify": false, "server": "jp01.weyaf9sdoh2h.space", "sni": "TG.节点狂魔", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 18082}
+  - {"name": "s7814-2025-10-25_154042", "skip-cert-verify": false, "server": "jp01.weyaf9sdoh2h.space", "sni": "jp01.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 18011}
+  - {"name": "s7815-2025-10-25_154042", "skip-cert-verify": false, "server": "jp01.weyaf9sdoh2h.space", "sni": "jp01.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 18043}
+  - {"name": "s7816-2025-10-25_154042", "skip-cert-verify": false, "server": "jp01.weyaf9sdoh2h.space", "sni": "jp01.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 18019}
+  - {"name": "s7817-2025-10-25_154042", "skip-cert-verify": false, "server": "jp03.weyaf9sdoh2h.space", "sni": "TG.节点狂魔", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 17060}
+  - {"name": "s7819-2025-10-25_154042", "skip-cert-verify": false, "server": "jp01.weyaf9sdoh2h.space", "sni": "TG.节点狂魔", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 18028}
+  - {"name": "s7820-2025-10-25_154042", "skip-cert-verify": false, "server": "jp03.weyaf9sdoh2h.space", "sni": "TG.节点狂魔", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 17091}
+  - {"name": "s7821-2025-10-25_154042", "skip-cert-verify": false, "server": "jp03.weyaf9sdoh2h.space", "sni": "jp03.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 17015}
+  - {"name": "s7823-2025-10-25_154042", "skip-cert-verify": false, "server": "jp03.weyaf9sdoh2h.space", "sni": "jp03.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 17093}
+  - {"name": "s7824-2025-10-25_154042", "skip-cert-verify": false, "server": "jp01.weyaf9sdoh2h.space", "sni": "jp01.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 18042}
+  - {"name": "s7825-2025-10-25_154042", "skip-cert-verify": false, "server": "jp03.weyaf9sdoh2h.space", "sni": "TG.节点狂魔", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 17084}
+  - {"name": "s7826-2025-10-25_154042", "skip-cert-verify": false, "server": "jp03.weyaf9sdoh2h.space", "sni": "jp03.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 17042}
+  - {"name": "s7827-2025-10-25_154042", "skip-cert-verify": false, "server": "jp03.weyaf9sdoh2h.space", "sni": "jp03.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 17053}
+  - {"name": "s7830-2025-10-25_154042", "skip-cert-verify": false, "server": "jp03.weyaf9sdoh2h.space", "sni": "TG.节点狂魔", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 17022}
+  - {"name": "s7832-2025-10-25_154042", "skip-cert-verify": false, "server": "jp03.weyaf9sdoh2h.space", "sni": "TG.节点狂魔", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 17054}
+  - {"name": "s7833-2025-10-25_154042", "skip-cert-verify": false, "server": "jp03.weyaf9sdoh2h.space", "sni": "TG.节点狂魔", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 17095}
+  - {"name": "s7834-2025-10-25_154042", "skip-cert-verify": false, "server": "jp03.weyaf9sdoh2h.space", "sni": "jp03.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 17088}
+  - {"name": "s7837-2025-10-25_154042", "skip-cert-verify": false, "server": "jp01.weyaf9sdoh2h.space", "sni": "TG.节点狂魔", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 18080}
+  - {"name": "s7839-2025-10-25_154042", "skip-cert-verify": false, "server": "jp03.weyaf9sdoh2h.space", "sni": "jp03.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 17051}
+  - {"name": "s7841-2025-10-25_154042", "skip-cert-verify": false, "server": "jp03.weyaf9sdoh2h.space", "sni": "jp03.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 17030}
+  - {"name": "s7842-2025-10-25_154042", "skip-cert-verify": false, "server": "jp03.weyaf9sdoh2h.space", "sni": "TG.节点狂魔", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 17005}
+  - {"name": "s7843-2025-10-25_154042", "skip-cert-verify": false, "server": "jp03.weyaf9sdoh2h.space", "sni": "jp03.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 17087}
+  - {"name": "s7844-2025-10-25_154042", "skip-cert-verify": false, "server": "jp01.weyaf9sdoh2h.space", "sni": "jp01.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 18039}
+  - {"name": "s7845-2025-10-25_154042", "skip-cert-verify": false, "server": "jp03.weyaf9sdoh2h.space", "sni": "jp03.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 17055}
+  - {"name": "s7846-2025-10-25_154042", "skip-cert-verify": false, "server": "jp03.weyaf9sdoh2h.space", "sni": "jp03.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 17007}
+  - {"name": "s7847-2025-10-25_154042", "skip-cert-verify": false, "server": "jp03.weyaf9sdoh2h.space", "sni": "jp03.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 17002}
+  - {"name": "s7848-2025-10-25_154042", "skip-cert-verify": false, "server": "jp03.weyaf9sdoh2h.space", "sni": "jp03.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 17018}
+  - {"name": "s7852-2025-10-25_154042", "skip-cert-verify": false, "server": "jp03.weyaf9sdoh2h.space", "sni": "jp03.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 17069}
+  - {"name": "s7853-2025-10-25_154042", "skip-cert-verify": false, "server": "jp01.weyaf9sdoh2h.space", "sni": "jp01.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 18086}
+  - {"name": "s7855-2025-10-25_154042", "skip-cert-verify": false, "server": "jp03.weyaf9sdoh2h.space", "sni": "jp03.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 17045}
+  - {"name": "s7859-2025-10-25_154042", "skip-cert-verify": false, "server": "jp03.weyaf9sdoh2h.space", "sni": "jp03.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 17011}
+  - {"name": "s7860-2025-10-25_154042", "skip-cert-verify": false, "server": "jp03.weyaf9sdoh2h.space", "sni": "TG.节点狂魔", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 17044}
+  - {"name": "s7861-2025-10-25_154042", "skip-cert-verify": false, "server": "jp03.weyaf9sdoh2h.space", "sni": "jp03.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 17038}
+  - {"name": "s7862-2025-10-25_154042", "skip-cert-verify": false, "server": "jp01.weyaf9sdoh2h.space", "sni": "TG.节点狂魔", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 18020}
+  - {"name": "s7864-2025-10-25_154042", "skip-cert-verify": false, "server": "jp01.weyaf9sdoh2h.space", "sni": "jp01.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 18069}
+  - {"name": "s7865-2025-10-25_154042", "skip-cert-verify": false, "server": "jp03.weyaf9sdoh2h.space", "sni": "jp03.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 17043}
+  - {"name": "s7866-2025-10-25_154042", "skip-cert-verify": false, "server": "jp03.weyaf9sdoh2h.space", "sni": "TG.节点狂魔", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 17082}
+  - {"name": "s7868-2025-10-25_154042", "skip-cert-verify": false, "server": "jp03.weyaf9sdoh2h.space", "sni": "TG.节点狂魔", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 17076}
+  - {"name": "s7872-2025-10-25_154042", "skip-cert-verify": false, "server": "jp03.weyaf9sdoh2h.space", "sni": "jp03.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 17006}
+  - {"name": "s7873-2025-10-25_154042", "skip-cert-verify": false, "server": "jp03.weyaf9sdoh2h.space", "sni": "jp03.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 17014}
+  - {"name": "s7875-2025-10-25_154042", "skip-cert-verify": false, "server": "jp03.weyaf9sdoh2h.space", "sni": "TG.节点狂魔", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 17010}
+  - {"name": "s7876-2025-10-25_154042", "skip-cert-verify": false, "server": "jp03.weyaf9sdoh2h.space", "sni": "TG.节点狂魔", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 17001}
+  - {"name": "s7877-2025-10-25_154042", "skip-cert-verify": false, "server": "jp03.weyaf9sdoh2h.space", "sni": "jp03.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 17017}
+  - {"name": "s7879-2025-10-25_154042", "skip-cert-verify": false, "server": "jp03.weyaf9sdoh2h.space", "sni": "jp03.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 17096}
+  - {"name": "s7881-2025-10-25_154042", "skip-cert-verify": false, "server": "jp03.weyaf9sdoh2h.space", "sni": "TG.节点狂魔", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 17071}
+  - {"name": "s7882-2025-10-25_154042", "skip-cert-verify": false, "server": "jp03.weyaf9sdoh2h.space", "sni": "jp03.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 17003}
+  - {"name": "s7884-2025-10-25_154042", "skip-cert-verify": false, "server": "jp03.weyaf9sdoh2h.space", "sni": "jp03.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 17013}
+  - {"name": "s7892-2025-10-25_154042", "skip-cert-verify": false, "server": "jp03.weyaf9sdoh2h.space", "sni": "TG.节点狂魔", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 17079}
+  - {"tls": true, "tfo": false, "uuid": "f61a4285-7264-4d07-9408-7b9ba1922c26", "skip-cert-verify": false, "servername": "gaosir.unfeeling.sbs", "server": "158.180.85.127", "network": "ws", "ws-opts": {"path": "/Telegram🇨🇳 @节点狂魔 /", "headers": {"Host": "gaosir.unfeeling.sbs"}}, "type": "vless", "port": 20721, "name": "s7914-2025-10-25_154042"}
+  - {"tls": true, "tfo": false, "uuid": "f61a4285-7264-4d07-9408-7b9ba1922c26", "skip-cert-verify": false, "servername": "gaosir.unfeeling.sbs", "server": "178.128.80.43", "network": "ws", "ws-opts": {"path": "/Telegram🇨🇳@节点狂魔/", "headers": {"Host": "gaosir.unfeeling.sbs"}}, "type": "vless", "port": 443, "name": "s7916-2025-10-25_154042"}
+  - {"name": "s7919-2025-10-25_154042", "skip-cert-verify": false, "server": "jp03.weyaf9sdoh2h.space", "sni": "TG.节点狂魔", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 17004}
+  - {"tls": true, "tfo": false, "uuid": "f61a4285-7264-4d07-9408-7b9ba1922c26", "skip-cert-verify": false, "servername": "gaosir.unfeeling.sbs", "server": "168.138.170.211", "network": "ws", "ws-opts": {"path": "/Telegram🇨🇳@节点狂魔/", "headers": {"Host": "gaosir.unfeeling.sbs"}}, "type": "vless", "port": 53702, "name": "s7920-2025-10-25_154042"}
+  - {"name": "s7932-2025-10-25_154042", "skip-cert-verify": false, "server": "jp01.weyaf9sdoh2h.space", "sni": "jp01.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 18012}
+  - {"name": "s7933-2025-10-25_154042", "skip-cert-verify": false, "server": "jp03.weyaf9sdoh2h.space", "sni": "jp03.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 17070}
+  - {"name": "s7936-2025-10-25_154042", "skip-cert-verify": false, "server": "jp03.weyaf9sdoh2h.space", "sni": "jp03.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 17012}
+  - {"name": "s7938-2025-10-25_154042", "skip-cert-verify": false, "server": "jp03.weyaf9sdoh2h.space", "sni": "TG.节点狂魔", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 17047}
+  - {"name": "s7939-2025-10-25_154042", "skip-cert-verify": false, "server": "jp01.weyaf9sdoh2h.space", "sni": "TG.节点狂魔", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 18052}
+  - {"name": "s7941-2025-10-25_154042", "skip-cert-verify": false, "server": "jp01.weyaf9sdoh2h.space", "sni": "jp01.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 18009}
+  - {"name": "s7942-2025-10-25_154042", "skip-cert-verify": false, "server": "jp01.weyaf9sdoh2h.space", "sni": "jp01.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 18031}
+  - {"name": "s7945-2025-10-25_154042", "skip-cert-verify": false, "server": "jp01.weyaf9sdoh2h.space", "sni": "jp01.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 18046}
+  - {"name": "s7949-2025-10-25_154042", "skip-cert-verify": false, "server": "jp03.weyaf9sdoh2h.space", "sni": "jp03.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 17024}
+  - {"name": "s7950-2025-10-25_154042", "skip-cert-verify": false, "server": "jp03.weyaf9sdoh2h.space", "sni": "jp03.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 17035}
+  - {"name": "s7951-2025-10-25_154042", "skip-cert-verify": false, "server": "jp01.weyaf9sdoh2h.space", "sni": "jp01.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 18032}
+  - {"name": "s7952-2025-10-25_154042", "skip-cert-verify": false, "server": "jp01.weyaf9sdoh2h.space", "sni": "TG.节点狂魔", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 18064}
+  - {"name": "s7953-2025-10-25_154042", "skip-cert-verify": false, "server": "jp01.weyaf9sdoh2h.space", "sni": "TG.节点狂魔", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 18017}
+  - {"name": "s7954-2025-10-25_154042", "skip-cert-verify": false, "server": "jp01.weyaf9sdoh2h.space", "sni": "TG.节点狂魔", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 18008}
+  - {"name": "s7956-2025-10-25_154042", "skip-cert-verify": false, "server": "jp01.weyaf9sdoh2h.space", "sni": "TG.节点狂魔", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 18072}
+  - {"name": "s7957-2025-10-25_154042", "skip-cert-verify": false, "server": "jp01.weyaf9sdoh2h.space", "sni": "TG.节点狂魔", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 18089}
+  - {"name": "s7958-2025-10-25_154042", "skip-cert-verify": false, "server": "jp01.weyaf9sdoh2h.space", "sni": "TG.节点狂魔", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 18074}
+  - {"name": "s7962-2025-10-25_154042", "skip-cert-verify": false, "server": "jp01.weyaf9sdoh2h.space", "sni": "jp01.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 18016}
+  - {"name": "s7963-2025-10-25_154042", "skip-cert-verify": false, "server": "jp01.weyaf9sdoh2h.space", "sni": "jp01.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 18095}
+  - {"name": "s7965-2025-10-25_154042", "skip-cert-verify": false, "server": "jp01.weyaf9sdoh2h.space", "sni": "TG.节点狂魔", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 18098}
+  - {"name": "s7969-2025-10-25_154042", "skip-cert-verify": false, "server": "jp01.weyaf9sdoh2h.space", "sni": "TG.节点狂魔", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 18097}
+  - {"name": "s7970-2025-10-25_154042", "skip-cert-verify": false, "server": "jp01.weyaf9sdoh2h.space", "sni": "TG.节点狂魔", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 18000}
+  - {"name": "s7971-2025-10-25_154042", "skip-cert-verify": false, "server": "jp01.weyaf9sdoh2h.space", "sni": "jp01.weyaf9sdoh2h.space", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 18007}
+  - {"name": "s7972-2025-10-25_154042", "skip-cert-verify": false, "server": "jp01.weyaf9sdoh2h.space", "sni": "TG.节点狂魔", "password": "898e1dca-14b2-4371-abc8-1b9f839bff6d", "type": "trojan", "port": 18027}
 
 
 proxy-groups:
@@ -524,6 +700,182 @@ proxy-groups:
       - s4976-2025-10-26_145036
       - s5157-2025-10-26_145036
       - s5187-2025-10-26_145036
+      - s5359-2025-10-26_144856
+      - s5508-2025-10-26_144856
+      - s5654-2025-10-26_144545
+      - s5831-2025-10-26_144545
+      - s5863-2025-10-26_144407
+      - s5971-2025-10-26_144407
+      - s5993-2025-10-26_144407
+      - s5998-2025-10-26_144407
+      - s6000-2025-10-26_144407
+      - s6001-2025-10-26_144407
+      - s6079-2025-10-26_144407
+      - s6132-2025-10-25_155024
+      - s6141-2025-10-25_155024
+      - s6175-2025-10-25_155024
+      - s6240-2025-10-25_155024
+      - s6257-2025-10-25_155024
+      - s6265-2025-10-25_155024
+      - s6276-2025-10-25_155024
+      - s6407-2025-10-25_154850
+      - s6590-2025-10-25_154850
+      - s6592-2025-10-25_154850
+      - s6669-2025-10-25_154719
+      - s6778-2025-10-25_154719
+      - s7014-2025-10-25_154554
+      - s7147-2025-10-25_154554
+      - s7242-2025-10-25_154408
+      - s7248-2025-10-25_154408
+      - s7249-2025-10-25_154408
+      - s7263-2025-10-25_154408
+      - s7345-2025-10-25_154408
+      - s7418-2025-10-25_154408
+      - s7419-2025-10-25_154408
+      - s7420-2025-10-25_154408
+      - s7422-2025-10-25_154408
+      - s7442-2025-10-25_154408
+      - s7443-2025-10-25_154408
+      - s7448-2025-10-25_154408
+      - s7469-2025-10-25_154234
+      - s7471-2025-10-25_154234
+      - s7475-2025-10-25_154234
+      - s7477-2025-10-25_154234
+      - s7483-2025-10-25_154234
+      - s7485-2025-10-25_154234
+      - s7563-2025-10-25_154234
+      - s7685-2025-10-25_154234
+      - s7709-2025-10-25_154234
+      - s7720-2025-10-25_154234
+      - s7721-2025-10-25_154234
+      - s7752-2025-10-25_154042
+      - s7753-2025-10-25_154042
+      - s7754-2025-10-25_154042
+      - s7756-2025-10-25_154042
+      - s7757-2025-10-25_154042
+      - s7758-2025-10-25_154042
+      - s7759-2025-10-25_154042
+      - s7760-2025-10-25_154042
+      - s7761-2025-10-25_154042
+      - s7762-2025-10-25_154042
+      - s7763-2025-10-25_154042
+      - s7765-2025-10-25_154042
+      - s7766-2025-10-25_154042
+      - s7767-2025-10-25_154042
+      - s7768-2025-10-25_154042
+      - s7769-2025-10-25_154042
+      - s7770-2025-10-25_154042
+      - s7771-2025-10-25_154042
+      - s7773-2025-10-25_154042
+      - s7775-2025-10-25_154042
+      - s7776-2025-10-25_154042
+      - s7777-2025-10-25_154042
+      - s7778-2025-10-25_154042
+      - s7779-2025-10-25_154042
+      - s7781-2025-10-25_154042
+      - s7782-2025-10-25_154042
+      - s7783-2025-10-25_154042
+      - s7784-2025-10-25_154042
+      - s7785-2025-10-25_154042
+      - s7786-2025-10-25_154042
+      - s7787-2025-10-25_154042
+      - s7788-2025-10-25_154042
+      - s7789-2025-10-25_154042
+      - s7790-2025-10-25_154042
+      - s7791-2025-10-25_154042
+      - s7792-2025-10-25_154042
+      - s7793-2025-10-25_154042
+      - s7795-2025-10-25_154042
+      - s7796-2025-10-25_154042
+      - s7797-2025-10-25_154042
+      - s7799-2025-10-25_154042
+      - s7800-2025-10-25_154042
+      - s7802-2025-10-25_154042
+      - s7803-2025-10-25_154042
+      - s7804-2025-10-25_154042
+      - s7805-2025-10-25_154042
+      - s7806-2025-10-25_154042
+      - s7808-2025-10-25_154042
+      - s7809-2025-10-25_154042
+      - s7810-2025-10-25_154042
+      - s7811-2025-10-25_154042
+      - s7812-2025-10-25_154042
+      - s7813-2025-10-25_154042
+      - s7814-2025-10-25_154042
+      - s7815-2025-10-25_154042
+      - s7816-2025-10-25_154042
+      - s7817-2025-10-25_154042
+      - s7819-2025-10-25_154042
+      - s7820-2025-10-25_154042
+      - s7821-2025-10-25_154042
+      - s7823-2025-10-25_154042
+      - s7824-2025-10-25_154042
+      - s7825-2025-10-25_154042
+      - s7826-2025-10-25_154042
+      - s7827-2025-10-25_154042
+      - s7830-2025-10-25_154042
+      - s7832-2025-10-25_154042
+      - s7833-2025-10-25_154042
+      - s7834-2025-10-25_154042
+      - s7837-2025-10-25_154042
+      - s7839-2025-10-25_154042
+      - s7841-2025-10-25_154042
+      - s7842-2025-10-25_154042
+      - s7843-2025-10-25_154042
+      - s7844-2025-10-25_154042
+      - s7845-2025-10-25_154042
+      - s7846-2025-10-25_154042
+      - s7847-2025-10-25_154042
+      - s7848-2025-10-25_154042
+      - s7852-2025-10-25_154042
+      - s7853-2025-10-25_154042
+      - s7855-2025-10-25_154042
+      - s7859-2025-10-25_154042
+      - s7860-2025-10-25_154042
+      - s7861-2025-10-25_154042
+      - s7862-2025-10-25_154042
+      - s7864-2025-10-25_154042
+      - s7865-2025-10-25_154042
+      - s7866-2025-10-25_154042
+      - s7868-2025-10-25_154042
+      - s7872-2025-10-25_154042
+      - s7873-2025-10-25_154042
+      - s7875-2025-10-25_154042
+      - s7876-2025-10-25_154042
+      - s7877-2025-10-25_154042
+      - s7879-2025-10-25_154042
+      - s7881-2025-10-25_154042
+      - s7882-2025-10-25_154042
+      - s7884-2025-10-25_154042
+      - s7892-2025-10-25_154042
+      - s7914-2025-10-25_154042
+      - s7916-2025-10-25_154042
+      - s7919-2025-10-25_154042
+      - s7920-2025-10-25_154042
+      - s7932-2025-10-25_154042
+      - s7933-2025-10-25_154042
+      - s7936-2025-10-25_154042
+      - s7938-2025-10-25_154042
+      - s7939-2025-10-25_154042
+      - s7941-2025-10-25_154042
+      - s7942-2025-10-25_154042
+      - s7945-2025-10-25_154042
+      - s7949-2025-10-25_154042
+      - s7950-2025-10-25_154042
+      - s7951-2025-10-25_154042
+      - s7952-2025-10-25_154042
+      - s7953-2025-10-25_154042
+      - s7954-2025-10-25_154042
+      - s7956-2025-10-25_154042
+      - s7957-2025-10-25_154042
+      - s7958-2025-10-25_154042
+      - s7962-2025-10-25_154042
+      - s7963-2025-10-25_154042
+      - s7965-2025-10-25_154042
+      - s7969-2025-10-25_154042
+      - s7970-2025-10-25_154042
+      - s7971-2025-10-25_154042
+      - s7972-2025-10-25_154042
 
 
 
